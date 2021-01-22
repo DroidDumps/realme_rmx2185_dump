@@ -1,0 +1,5 @@
+<!-- This file is used by Multimedia Daemon Service (YaJun.li).  DO NOT MODIFY. -->
+<permissions>
+    <feature name="oppo.dirac.support" />
+    <feature name="oppo.soundeffect.support" />
+</permissions>

@@ -1,0 +1,6 @@
+<permissions>
+    <!-- Zeke.Shi@RM.MM.Display.Feature,null,2019/11/13,add for rounder corner feature -->
+    <feature name="oppo.roundcorner.support" />
+    <feature name="com.oppo.feature.screen.heteromorphism" />
+    <feature name="cabc.level.dynamic.enable" />
+</permissions>
