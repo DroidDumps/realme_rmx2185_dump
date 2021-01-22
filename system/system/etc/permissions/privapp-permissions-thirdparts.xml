@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+
+    <privapp-permissions package="fr.bouyguestelecom.agent.custo">
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="de.telekom.tsc">
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.sfr.android.sfrjeux">
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.altice.android.myapps">
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+    </privapp-permissions>
+
+    <!--#ifdef VENDOR_EDIT-->
+    <!--Linggang.Tang@PSW.AD.BuildConfig, 2020/01/09, Add for SoftBank Preinstall APK -->
+    <privapp-permissions package="jp.softbank.mb.parentalcontrols">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+    <privapp-permissions package="jp.softbank.tether.entitlement">
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+    <!--#endif VENDOR_EDIT-->
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- #Haiping.Zhong@PSW.AD.CTS.2015859, 2019/05/09, Add for com.orange.aura.oobe -->
+    <privapp-permissions package="com.orange.aura.oobe">
+        <permission name="android.permission.INSTALL_PACKAGES" />
+        <permission name="android.permission.PACKAGE_USAGE_STATS" />
+    </privapp-permissions>
+    <!-- #endif -->
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- #Shoujie.Lin@PSW.AD.CommonSoft, 2020/02/17, Add for com.facebook  -->
+    <privapp-permissions package="com.facebook.system">
+        <permission name="android.permission.REAL_GET_TASKS"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.DELETE_PACKAGES"/>
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.facebook.services">
+        <permission name="android.permission.CHANGE_DEVICE_IDLE_TEMP_WHITELIST"/>
+    </privapp-permissions>
+    <!-- #endif -->
+
+    <!--#ifdef VENDOR_EDIT-->
+    <!-- Ruichang.Liang@PSW.AD.ThirdParts.2431532, 2019/10/21, add for PrivappPermissionsTest -->
+    <privapp-permissions package="com.telcel.contenedor">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.INSTALL_PACKAGES"/>
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.READ_PHONE_STATE"/>
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.CONNECTIVITY_INTERNAL"/>
+    </privapp-permissions>
+    <!--#endif  VENDOR_EDIT-->
+    <!--#ifdef VENDOR_EDIT-->
+    <!-- Ruichang.Liang@PSW.AD.ThirdParts.2431532, 2019/10/21, add for PrivappPermissionsTest -->
+    <privapp-permissions package="com.speedymovil.wire">
+        <permission name="android.permission.RECEIVE_SMS"/>
+        <permission name="android.permission.READ_PHONE_STATE"/>
+        <permission name="android.permission.PROCESS_OUTGOING_CALLS"/>
+        <permission name="android.permission.CALL_PHONE"/>
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.CALL_PRIVILEGED"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+    <!--#endif  VENDOR_EDIT-->
+    <!-- #ifdef VENDOR_EDIT -->
+    <!-- #Shoujie.Lin@PSW.AD.ThirdParts, 2020/02/27, Add for com.ironsource.appcloud.oobe.hutchison  -->
+    <privapp-permissions package="com.ironsource.appcloud.oobe.hutchison">
+       <permission name="android.permission.INSTALL_PACKAGES"/>
+       <permission name="android.permission.PACKAGE_USAGE_STATS"/>
+    </privapp-permissions>
+    <!-- #endif -->
+</permissions>

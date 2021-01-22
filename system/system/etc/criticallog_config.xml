@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='utf-8'?>
+<filter-conf>
+    <version>20180223</version>
+    <isOpen>1</isOpen>
+    <falling_monitor_switch>true</falling_monitor_switch>
+    <filter-name>criticallog_config</filter-name>
+
+    <AddToCritical state="true" />
+    <AddToDropBox state="true" />
+    <MiniDump state="true" />
+    <!-- Jiang.Li@TECH.BSP.Stability.PHOENIX_PROJECT, 2019/12/05, phoenix porting begin -->
+    <Phoenix main_on="1" recovery_method="2" reserve_use="321" kernel_time="240" android_time="250"/>
+    <!-- phoenix porting end -->
+    <!-- bright.zhang@TECH.BSP.Storage.OPPO_SHUTDOWN_DETECT, 2019/09/29, Add for shutdown detect rus-->
+    <Shutdown main_on="1" timeout_val="0x5AAA"/>
+    <chg_pwroff>true</chg_pwroff>
+    <LevelConfig>
+        <Level state="low" times="500"/>
+        <Level state="medium" times="1500"/>
+        <Level state="high" times="3000"/>
+    </LevelConfig>
+
+    <TypeLevelConfig>
+    <!-- Android begin -->
+    <Type index="21" level="high" isAddDropbox="false" desc="总重启次数"/>
+    <Type index="22" level="low" isAddDropbox="true" desc="system_server crash"/>
+    <Type index="23" level="low" isAddDropbox="true" desc="modem crash"/>
+    <!--
+    <Type index="24" level="low" isAddDropbox="false" desc="spmi"/>
+    -->
+    <Type index="26" level="low" isAddDropbox="true" desc="卡死system_server 重启"/>
+    <Type index="27" level="low" isAddDropbox="true" desc="卡死手机重启"/>
+    <Type index="37" level="high" isAddDropbox="true" desc="待机电流"/>
+    <Type index="40" level="high" isAddDropbox="false" desc="apk安装失败"/>
+    <Type index="41" level="low" isAddDropbox="true" desc="OTA升级失败"/>
+    <Type index="42" level="low" isAddDropbox="true" desc="未知原因底层重启"/>
+    <Type index="43" level="medium" isAddDropbox="true" desc="输入法不上屏"/>
+    <Type index="44" level="medium" isAddDropbox="true" desc="adsp子系统异常"/>
+    <Type index="45" level="medium" isAddDropbox="true" desc="venus子系统异常"/>
+    <Type index="46" level="medium" isAddDropbox="true" desc="wcn子系统异常"/>
+    <Type index="47" level="medium" isAddDropbox="true" desc="fp_die"/>
+    <Type index="48" level="medium" isAddDropbox="true" desc="fp_reset_byhm"/>
+    <Type index="49" level="medium" isAddDropbox="true" desc="fp_hw_error"/>
+    <Type index="50" level="medium" isAddDropbox="true" desc="wifi扫描耗电"/>
+    <Type index="51" level="medium" isAddDropbox="true" desc="路由器或手机断连频繁耗电"/>
+    <Type index="52" level="medium" isAddDropbox="true" desc="路由器配置致秘钥交互耗电"/>
+    <Type index="53" level="medium" isAddDropbox="true" desc="路由器配置致续租频繁耗电"/>
+    <Type index="54" level="medium" isAddDropbox="true" desc="网络断唤醒手机致耗电"/>
+    <Type index="55" level="medium" isAddDropbox="true" desc="位于无信号地段致耗电"/>
+    <Type index="56" level="medium" isAddDropbox="true" desc="位于无信号交叉地段致耗电"/>
+    <Type index="57" level="medium" isAddDropbox="true" desc="电信卡频繁短信致耗电"/>
+    <Type index="58" level="medium" isAddDropbox="true" desc="后台音乐播放导致待机耗电"/>
+    <Type index="59" level="medium" isAddDropbox="true" desc="后台大量下载导致待机耗电"/>
+    <Type index="60" level="medium" isAddDropbox="true" desc="wifi唤醒频繁导致耗电"/>
+    <Type index="61" level="medium" isAddDropbox="true" desc="modem唤醒频繁导致耗电"/>
+    <Type index="62" level="medium" isAddDropbox="true" desc="alarm唤醒频繁导致耗电"/>
+    <Type index="63" level="medium" isAddDropbox="true" desc="硬件或子系统耗电"/>
+    <Type index="64" level="medium" isAddDropbox="true" desc="其他耗电"/>
+    <Type index="70" level="high" isAddDropbox="false" desc="电池检测错误码"/>
+    <Type index="71" level="high" isAddDropbox="false" desc="电池检测停止充电标志"/>
+    <Type index="72" level="high" isAddDropbox="false" desc="电池检测电池循环次数"/>
+    <Type index="73" level="high" isAddDropbox="false" desc="电池检测错误码1"/>
+    <Type index="80" level="high" isAddDropbox="true" desc="摄像头升降次数"/>
+    <Type index="81" level="high" isAddDropbox="true" desc="摄像头上升超时次数"/>
+    <Type index="82" level="high" isAddDropbox="true" desc="摄像头下降超时次数"/>
+    <Type index="83" level="high" isAddDropbox="true" desc="摄像头卡主超时次数"/>
+    <Type index="99" level="low" isAddDropbox="true" desc="滑块卡住次数"/>
+    <Type index="100" level="medium" isAddDropbox="true" desc="电话本生活tab消失"/>
+    <Type index="101" level="low" isAddDropbox="true" desc="packagesXml文件异常"/>
+    <Type index="120" level="low" isAddDropbox="true" desc="HWT"/>
+    <Type index="121" level="low" isAddDropbox="true" desc="Hardware Reboot"/>
+    <Type index="122" level="low" isAddDropbox="true" desc="HANG"/>
+    <!-- Android end -->
+
+    <!-- Multimedia begin -->
+    <Type index="200" level="medium" isAddDropbox="true" desc="声音异常：声音卡顿"/>
+    <Type index="201" level="medium" isAddDropbox="true" desc="音视频录制异常：视频录制失败"/>
+    <Type index="202" level="medium" isAddDropbox="false" desc="音视频录制异常：声音录制失败"/>
+    <Type index="205" level="medium" isAddDropbox="true" desc="声音异常：视频卡顿"/>
+    <Type index="206" level="medium" isAddDropbox="true" desc="声音异常：AudioTrack创建失败"/>
+    <Type index="281" level="low" isAddDropbox="true" desc="setmode 守护生效"/>
+    <Type index="282" level="low" isAddDropbox="true" desc="音量调整类型 守护生效"/>
+    <Type index="283" level="low" isAddDropbox="true" desc="禁止操作speaker 守护生效"/>
+    <Type index="284" level="low" isAddDropbox="true" desc="录音通路占用提示 守护生效"/>
+    <Type index="285" level="low" isAddDropbox="true" desc="检测到音频系统流类型引用异常"/>
+    <Type index="286" level="low" isAddDropbox="true" desc="来电第3方声音异常输出"/>
+    <Type index="287" level="low" isAddDropbox="true" desc="挂断电话后第3方声音异常输出"/>
+    <Type index="288" level="low" isAddDropbox="true" desc="音频系统资源被第3方耗尽导致无声"/>
+    <Type index="300" level="low" isAddDropbox="true" desc="声音异常：声卡注册失败"/>
+    <Type index="301" level="low" isAddDropbox="true" desc="声音异常：ADSP加载失败"/>
+    <Type index="302" level="low" isAddDropbox="true" desc="声音异常：智能功放校准失败"/>
+    <Type index="305" level="high" isAddDropbox="true" desc="显示异常：驱动帧同步异常"/>
+    <Type index="306" level="high" isAddDropbox="true" desc="显示异常：静电检测异常"/>
+    <Type index="307" level="medium" isAddDropbox="true" desc="显示异常：GPU驱动异常"/>
+    <Type index="308" level="medium" isAddDropbox="false" desc="显示异常：内存映射出错"/>
+    <Type index="309" level="high" isAddDropbox="true" desc="显示异常：GPU跟MDSS同步异常"/>
+    <Type index="310" level="low" isAddDropbox="true" desc="显示异常：背光初始化异常"/>
+    <Type index="311" level="low" isAddDropbox="true" desc="声音异常：ADSP时钟打开失败"/>
+    <Type index="312" level="low" isAddDropbox="true" desc="声音异常：耳机i2c通信异常"/>
+    <Type index="313" level="low" isAddDropbox="true" desc="定屏: 重启系统"/>
+    <Type index="314" level="low" isAddDropbox="true" desc="定屏: 重启系统"/>
+    <Type index="315" level="low" isAddDropbox="true" desc="定屏：统计"/>
+    <Type index="316" level="low" isAddDropbox="true" desc="黑屏: 重启应用程序"/>
+    <Type index="317" level="low" isAddDropbox="true" desc="黑屏: 重启系统"/>
+    <Type index="318" level="low" isAddDropbox="true" desc="黑屏: 无网络"/>
+    <!-- Multimedia end -->
+
+    <!-- kernel begin -->
+    <Type index="600" level="medium" isAddDropbox="true" desc="kernel panic"/>
+    <Type index="601" level="medium" isAddDropbox="true" desc="用快充充电并玩游戏或大型应用"/>
+    <Type index="602" level="medium" isAddDropbox="true" desc="边充电边玩游戏或大型应用"/>
+    <Type index="603" level="medium" isAddDropbox="true" desc="大型游戏或应用致使cpu负载很大"/>
+    <Type index="604" level="high" isAddDropbox="false" desc="其它未知原因"/>
+    <Type index="605" level="medium" isAddDropbox="true" desc="充电并摄像或拍照导致发热"/>
+    <Type index="606" level="medium" isAddDropbox="true" desc="摄像或拍照导致发热"/>
+    <Type index="621" level="medium" isAddDropbox="true" desc="充电异常或者负载过大导致充电电流持续偏小"/>
+    <Type index="622" level="medium" isAddDropbox="true" desc="提示充电异常停止充电"/>
+    <Type index="623" level="medium" isAddDropbox="true" desc="闪充通信出现异常无法正常闪充"/>
+    <Type index="625" level="high" isAddDropbox="false" desc="插充电器"/>
+    <Type index="626" level="high" isAddDropbox="false" desc="拔充电器"/>
+    <Type index="700" level="high" isAddDropbox="false" desc="RTC"/>
+    <Type index="701" level="high" isAddDropbox="false" desc="RTC upload"/>
+
+    <!-- kernel end -->
+
+    <!-- connectivity begin -->
+    <Type index="800" level="high" isAddDropbox="true" desc="WiFi连接接失败"/>
+    <Type index="803" level="low" isAddDropbox="true" desc="WLAN打开失败，驱动加载所需符号表与本地符号表不匹配"/>
+    <Type index="804" level="low" isAddDropbox="true" desc="WLAN打开失败，芯片异常"/>
+    <!-- connectivity end -->
+    <!-- network begin -->
+    <Type index="401" level="medium" isAddDropbox="true" desc="MO失败未接通"/>
+    <Type index="402" level="medium" isAddDropbox="true" desc="MT失败_RACH FAIL"/>
+    <Type index="408" level="low" isAddDropbox="true" desc="MT失败_RLF"/>
+    <Type index="409" level="low" isAddDropbox="true" desc="MT失败_PCH FAIL"/>
+    <Type index="410" level="medium" isAddDropbox="true" desc="MT失败_CSFB FAIL"/>
+    <Type index="411" level="low" isAddDropbox="true" desc="MTMO失败_CSFB REJECT"/>
+    <Type index="412" level="medium" isAddDropbox="true" desc="MT失败_RRC"/>
+    <Type index="423" level="low" isAddDropbox="true" desc="滑动接不了电话/挂不断电话"/>
+    <Type index="424" level="medium" isAddDropbox="true" desc="来电显示未知"/>
+    <Type index="426" level="medium" isAddDropbox="true" desc="收到paging后未接通MT失败"/>
+    <Type index="427" level="low" isAddDropbox="true" desc="网络异常挂断电话_DISC"/>
+    <Type index="403" level="medium" isAddDropbox="true" desc="无4G服务_(RAW)AS FAIL"/>
+    <Type index="404" level="medium" isAddDropbox="true" desc="待机无服务_23G REJ"/>
+    <Type index="413" level="medium" isAddDropbox="true" desc="无4G服务_REJ"/>
+    <Type index="414" level="medium" isAddDropbox="true" desc="无4G服务_(CM delay)AS FAIL"/>
+    <Type index="415" level="medium" isAddDropbox="true" desc="待机无服务_23G AUTHEN REJ"/>
+    <Type index="416" level="medium" isAddDropbox="true" desc="待机无服务_23G AS FAIL"/>
+    <Type index="417" level="medium" isAddDropbox="true" desc="待机无服务_GSM_T3126_EXPIRED"/>
+    <Type index="418" level="medium" isAddDropbox="true" desc="MCFG_ICCID_FAILED"/>
+    <Type index="419" level="medium" isAddDropbox="true" desc="无4G服务_AUTHEN REJ"/>
+    <Type index="420" level="high" isAddDropbox="true" desc="无数据图标"/>
+    <Type index="421" level="medium" isAddDropbox="true" desc="无数据图标"/>
+    <Type index="425" level="high" isAddDropbox="true" desc="无法上网/数据下行箭头不亮"/>
+    <Type index="422" level="low" isAddDropbox="true" desc="掉卡"/>
+    <Type index="407" level="low" isAddDropbox="true" desc="硬件损坏"/>
+    <Type index="428" level="high" isAddDropbox="true" desc="伪基站"/>
+    <Type index="429" level="high" isAddDropbox="true" desc="只有伪基站，没有正常基站存在"/>
+    <Type index="430" level="low" isAddDropbox="true" desc="射频前端器件异常"/>
+    <Type index="431" level="medium" isAddDropbox="true" desc="掉话"/>
+    <Type index="432" level="high" isAddDropbox="true" desc="注册请求RAT"/>
+    <Type index="433" level="high" isAddDropbox="true" desc="注册请求MCC"/>
+    <Type index="434" level="high" isAddDropbox="true" desc="注册请求MNC"/>
+    <Type index="435" level="high" isAddDropbox="true" desc="注册成功"/>
+    <Type index="440" level="high" isAddDropbox="true" desc="BNB_Update开始"/>
+    <Type index="441" level="high" isAddDropbox="true" desc="BNB_Update成功"/>
+    <Type index="442" level="high" isAddDropbox="true" desc="BNB_Update失败"/>
+    <Type index="443" level="high" isAddDropbox="true" desc="游戏延迟"/>
+    <Type index="444" level="high" isAddDropbox="true" desc="信号统计"/>
+    <Type index="453" level="high" isAddDropbox="true" desc="无4G服务_integrity FAIL"/>
+    <Type index="445" level="high" isAddDropbox="true" desc="无4G服务_网络重定向到23G"/>
+    <Type index="446" level="high" isAddDropbox="true" desc="无4G服务_主卡网络模式关闭了4G"/>
+    <Type index="447" level="high" isAddDropbox="true" desc="4G forbidden tai opt"/>
+    <Type index="448" level="high" isAddDropbox="true" desc="4G bar fake or bad cell"/>
+    <Type index="449" level="high" isAddDropbox="true" desc="4G backoff plmn"/>
+    <Type index="450" level="high" isAddDropbox="true" desc="4G reg failed five times "/>
+    <Type index="451" level="high" isAddDropbox="true" desc="4G reg success after reject"/>
+    <Type index="452" level="high" isAddDropbox="true" desc="界面显示无服务"/>
+    <Type index="456" level="high" isAddDropbox="true" desc="功耗-搜网"/>
+    <Type index="458" level="high" isAddDropbox="true" desc="LTE数据业务被限速"/>
+    <Type index="459" level="high" isAddDropbox="true" desc="卡欠费"/>
+    <Type index="460" level="high" isAddDropbox="true" desc="cm serv rej"/>
+    <Type index="461" level="high" isAddDropbox="true" desc="1x注册MAP失败"/>
+    <Type index="462" level="high" isAddDropbox="true" desc="XO频偏"/>
+    <Type index="463" level="high" isAddDropbox="true" desc="4G的PA器件疑似损坏"/>
+    <Type index="464" level="high" isAddDropbox="true" desc="SRVCC切换成功"/>
+    <Type index="465" level="high" isAddDropbox="true" desc="SRVCC切换失败"/>
+    <Type index="466" level="high" isAddDropbox="true" desc="SRVCC切换取消"/>
+    <Type index="467" level="high" isAddDropbox="true" desc="SRVCC切换掉话"/>
+    <Type index="468" level="high" isAddDropbox="true" desc="VOLTE CALL挂断异常"/>
+    <Type index="469" level="high" isAddDropbox="true" desc="VOLTE MO CALL DROP"/>
+    <Type index="470" level="high" isAddDropbox="true" desc="VOLTE MT CALL DROP"/>
+    <Type index="471" level="high" isAddDropbox="true" desc="VOLTE CALL NORMAL"/>
+    <!-- ifdef VENDOR_EDIT -->
+    <!-- ifdef FEATURE_LTE_RRC_CONN_HOLD_OPT -->
+    <!-- Xingsui.Yang@PSW.NW.PWR.1799348, 2019/02/02 -->
+    <!-- add for LTE RRC Connection Hold Optimization feature to fix LTE NW doesn't release RRC connection issue -->
+    <Type index="472" level="high" isAddDropbox="true" desc="LTE_RRC持锁"/>
+    <!-- endif FEATURE_LTE_RRC_CONN_HOLD_OPT -->
+    <!-- endif VENDOR_EDIT -->
+    <Type index="480" level="high" isAddDropbox="true" desc="MO 接通后掉话"/>
+    <Type index="481" level="high" isAddDropbox="true" desc="MT 接通后掉话"/>
+    <Type index="482" level="high" isAddDropbox="true" desc="MOMT成功失败次数"/>
+    <!-- ifdef VENDOR_EDIT -->
+    <!-- Yunteng.Zhuang@PSW.TECH.REG.1601333,2018/12/20 -->
+    <Type index="483" level="high" isAddDropbox="true" desc="screen_on_nw_srch"/>
+    <Type index="484" level="high" isAddDropbox="true" desc="screen_on_trigger_nw_srch"/>
+    <!-- endif VENDOR_EDIT -->
+
+    <Type index="485" level="high" isAddDropbox="true" desc="开启关闭飞行模式次数"/>
+    <Type index="486" level="high" isAddDropbox="true" desc="开启关闭数据业务开关次数"/>
+    <Type index="487" level="high" isAddDropbox="true" desc="数据业务恢复成功次数"/>
+    <Type index="488" level="high" isAddDropbox="true" desc="PDN在线时长"/>
+    <Type index="489" level="high" isAddDropbox="true" desc="数据业务断开异常次数"/>
+    <Type index="490" level="high" isAddDropbox="true" desc="非APN错误拨号失败"/>
+    <Type index="491" level="high" isAddDropbox="true" desc="APN错误拨号失败"/>
+    <Type index="492" level="high" isAddDropbox="true" desc="亮屏持续时间"/>
+
+    <!-- ifdef VENDOR_EDIT -->
+    <!-- Bangxu.Li@PSW.NW.DATA, 2019/01/10, add for data collection system -->
+    <Type index="493" level="high" isAddDropbox="true" desc="Data Call返回错误"/>
+    <Type index="494" level="high" isAddDropbox="true" desc="Data Call无返回"/>
+    <!-- endif VENDOR_EDIT -->
+
+    <!-- ifdef VENDOR_EDIT -->
+    <!-- Yunteng.Zhuang@PSW.NW.REG.1748060,2018/12/20 -->
+    <Type index="495" level="high" isAddDropbox="true" desc="acq_cnt"/>
+    <Type index="496" level="high" isAddDropbox="true" desc="screen_off_acq_cnt"/>
+    <Type index="497" level="high" isAddDropbox="true" desc="skip_acq_cnt"/>
+    <Type index="498" level="high" isAddDropbox="true" desc="inactive_fullband_cnt"/>
+    <!-- endif VENDOR_EDIT -->
+    <Type index="509" level="high" isAddDropbox="true" desc="modem_crash_reason"/>
+    <Type index="501" level="high" isAddDropbox="true" desc="后置相机锁定下天线"/>
+    <!-- ifdef VENDOR_EDIT -->
+    <!--Baozhu.Yu@PSW.NW.REG.1456703, 2019/08/21 -->
+    <!--add load mbn fail key log beg-->
+    <Type index="502" level="high" isAddDropbox="true" desc="mcfg load失败"/>
+    <!--add load mbn fail key log end-->
+    <!-- endif VENDOR_EDIT -->
+
+    <Type index="530" level="high" isAddDropbox="true" desc="DATA_RLC_UL_RLF"/>
+    <Type index="531" level="high" isAddDropbox="true" desc="DATA_PDCP_UL_TIMEOUT"/>
+    <Type index="532" level="high" isAddDropbox="true" desc="DATA_PDCP_UL_OUT_OF_BUFFER"/>
+    <Type index="533" level="high" isAddDropbox="true" desc="DATA_PDCP_UL_ONE_WAY_PASS"/>
+    <Type index="534" level="high" isAddDropbox="true" desc="DATA_DL_HIGH_BLER"/>
+    <Type index="535" level="high" isAddDropbox="true" desc="LTE_NARROW_BW_MONITORING"/>
+    <Type index="536" level="high" isAddDropbox="true" desc="A2 trigger release cell"/>
+    <Type index="537" level="high" isAddDropbox="true" desc="PDP_ACT_ERROR"/>
+    <Type index="538" level="high" isAddDropbox="true" desc="SPEECH_GWL"/>
+    <Type index="539" level="high" isAddDropbox="true" desc="SPEECH_C2K"/>
+    <Type index="540" level="high" isAddDropbox="true" desc="无数据图标IA_APN_ERROR"/>
+    <Type index="541" level="high" isAddDropbox="true" desc="无数据图标PDP_DEACT_ERROR"/>
+    <Type index="542" level="high" isAddDropbox="true" desc="LTE TAU被拒"/>
+    <Type index="543" level="high" isAddDropbox="true" desc="LTE 异常DETACH"/>
+    <Type index="544" level="high" isAddDropbox="true" desc="LTE 服务被拒"/>
+    <Type index="545" level="high" isAddDropbox="true" desc="LTE_HANDOVER_FAILURE"/>
+    <Type index="546" level="high" isAddDropbox="true" desc="LTE_RRC_ABNORMAL_BAR"/>
+    <Type index="547" level="high" isAddDropbox="true" desc="LTE_RRC_ABNORMAL_TIMEOUT"/>
+    <Type index="548" level="high" isAddDropbox="true" desc="LTE PCI_MODE3_干扰"/>
+    <Type index="549" level="high" isAddDropbox="true" desc="LTE narrow bandwidth Scell"/>
+
+    <Type index="520" level="high" isAddDropbox="true" desc="IMS_Call_Drop_Q850"/>
+    <Type index="522" level="high" isAddDropbox="true" desc="IMS_MT_Call_Missed"/>
+    <Type index="570" level="high" isAddDropbox="true" desc="IMS通话切换失败"/>
+    <Type index="571" level="high" isAddDropbox="true" desc="IMS注册失败"/>
+
+   <!-- Guanglei.Si@PSW.NW.IMS.1959358,2019/04/01 -->
+   <Type index="473" level="high" isAddDropbox="true" desc="IMS通话挂断无反应"/>
+   <Type index="474" level="high" isAddDropbox="true" desc="IMS拨号无反应"/>
+   <Type index="475" level="high" isAddDropbox="true" desc="IMS通话接听无反应"/>
+   <Type index="550" level="high" isAddDropbox="true" desc="VOLTE注册失败"/>
+   <Type index="551" level="high" isAddDropbox="true" desc="IMS用户"/>
+   <Type index="552" level="high" isAddDropbox="true" desc="WFC注册失败"/>
+   <Type index="553" level="high" isAddDropbox="true" desc="IMS通话保持失败"/>
+   <Type index="554" level="high" isAddDropbox="true" desc="IMS通话恢复失败"/>
+   <Type index="555" level="high" isAddDropbox="true" desc="IMS电话会议合并失败"/>
+   <Type index="556" level="high" isAddDropbox="true" desc="IMS电话会议合并成功"/>
+   <Type index="557" level="high" isAddDropbox="true" desc="IMS视频通话"/>
+   <Type index="558" level="high" isAddDropbox="true" desc="IMS升级视频通话成功"/>
+   <Type index="559" level="high" isAddDropbox="true" desc="IMS升级视频通话失败"/>
+   <Type index="560" level="high" isAddDropbox="true" desc="IMS降级语音通话成功"/>
+   <Type index="561" level="high" isAddDropbox="true" desc="IMS降级语音通话失败"/>
+   <Type index="562" level="high" isAddDropbox="true" desc="IMS补充业务更新"/>
+   <Type index="563" level="high" isAddDropbox="true" desc="IMS补充业务查询"/>
+   <Type index="564" level="high" isAddDropbox="true" desc="IMS短信发送失败"/>
+   <Type index="565" level="high" isAddDropbox="true" desc="IMS短信接收失败"/>
+   <!-- Guanglei.Si@PSW.NW.IMS.1988838,2019/04/10 -->
+   <Type index="566" level="high" isAddDropbox="true" desc="IMS挂断失败恢复"/>
+   <Type index="567" level="high" isAddDropbox="true" desc="CT VOLTE不可用"/>
+   <!-- ifdef VENDOR_EDIT -->
+    <!-- network end -->
+
+    </TypeLevelConfig>
+
+</filter-conf>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<gs>
+<p att="com.baidu.BaiduMap"/>
+<p att="com.sogou.map.android.maps"/>
+<p att="com.autonavi.xmgd.navigator"/>
+<p att="com.tencent.mm"/>
+<p att="com.tencent.mobileqq"/>
+<p att="com.sina.weibo"/>
+<p att="jp.naver.line.android"/>
+<p att="com.oppo.wearable"/>
+<p att="com.oppo.ubeauty"/>
+<p att="com.nearme.note"/>
+<p att="com.bbm"/>
+<p att="com.facebook.katana"/>
+<p att="com.instagram.android"/>
+<p att="com.facebook.orca"/>
+<p att="com.path"/>
+<p att="com.skype.raider"/>
+<p att="com.snapchat.android"/>
+<p att="com.twitter.android"/>
+<p att="com.viber.voip"/>
+<p att="com.whatsapp"/>
+<p att="com.zing.zalo"/>
+<p att="com.bsb.hike"/>
+<p att="com.truecaller"/>
+<p att="com.imo.android.imoim"/>
+<p att="com.gojek.app"/>
+<p att="com.grabtaxi.driver2"/>
+<p att="com.ubercab.driver"/>
+<p att="com.jio.join"/>
+<p att="com.jiochat.jiochatapp"/>
+<p att="com.facebook.lite"/>
+<p att="com.mxtech.videoplayer.ad"/>
+<p att="org.videolan.vlc"/>
+<p att="com.olacabs.customer"/>
+<p att="com.gojek.driver.car"/>
+<p att="com.gojek.driver.bird"/>
+<p att="com.bluebird.driver"/>
+<p att="com.bukalapak.android"/>
+<p att="com.gojek.driver.bike"/>
+<p att="com.app.tokobagus.betterb"/>
+<p att="com.olacabs.android.operator"/>
+<p att="org.wundercar.android"/>
+<p att="com.flipkart.seller"/>
+<p att="com.amazone.sellermobile.android"/>
+<p att="com.olx.southasia"/>
+</gs>

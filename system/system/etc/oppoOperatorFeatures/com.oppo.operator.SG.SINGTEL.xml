@@ -1,0 +1,7 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.phone.hdvoice" />
+  <feature name="oppo.stk.show.operator" />
+  <feature name="oppo.phone.hide.2G.mode" />
+  <feature name="oppo.opposimsettings.traffic.not.remind" />
+</permissions>

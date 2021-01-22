@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<gs>
+    <!-- remove for the mobile internet 's require
+        <p att="com.nearme.ocloud"></p>
+        <p att="com.nearme.note"></p>
+        <p att="com.oppo.reader"></p>
+        <p att="com.oppo.community"></p>
+    -->
+</gs>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <!-- version time need accurate to hour -->
+    <version>2019090915</version>
+    <filter-name>sys_zoom_window_config</filter-name>
+
+    <!-- zoomwindow switch -->
+    <zoom_window_switch>true</zoom_window_switch>
+
+    <!-- support package list -->
+    <support_pkg_list>
+        <pkg>com.tencent.mm</pkg>
+        <pkg>com.tencent.mobileqq</pkg>
+        <pkg>com.android.mms</pkg>
+        <!-- filemanager-->
+        <pkg>com.coloros.filemanager</pkg>
+        <!-- WhatsApp-->
+        <pkg>com.whatsapp</pkg>
+        <!-- Line-->
+        <pkg>jp.naver.line.android</pkg>
+        <!-- zalo-->
+        <pkg>com.zing.zalo</pkg>
+    </support_pkg_list>
+
+    <!-- support reply package list -->
+    <support_reply_pkg_list>
+        <pkg>com.tencent.mm</pkg>
+        <pkg>com.tencent.mobileqq</pkg>
+        <pkg>com.android.mms</pkg>
+        <!-- WhatsApp-->
+        <pkg>com.whatsapp</pkg>
+        <!-- Line-->
+        <pkg>jp.naver.line.android</pkg>
+        <!-- zalo-->
+        <pkg>com.zing.zalo</pkg>
+    </support_reply_pkg_list>
+
+    <!-- unsupport component list -->
+    <unsupport_zoom_cpn_list>
+        <cpn>com.oppo.camera/.Camera</cpn>
+        <cpn>com.tencent.mm/com.tencent.kinda.framework.app.UIPageFragmentActivity</cpn>
+    </unsupport_zoom_cpn_list>
+</filter-conf>

@@ -1,0 +1,9 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.phonemanager.disable.clean" />
+  <feature name="oppo.launcher.drawer_mode.default" />
+  <feature name="coloros.customize.settings.hide_video_beauty" />
+  <feature name="oppo.softsim.exp.support" />
+  <feature name="oppo.contacts.support.card.recognize" />
+  <feature name="oppo.common_center.india.sos.special.function" />
+</permissions>

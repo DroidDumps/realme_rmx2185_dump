@@ -1,0 +1,32 @@
+##########################################################
+# Copyright (C), 2008-2018, OPPO Mobile Comm Corp., Ltd
+# VENDOR_EDIT
+# File: init.oppo.se.rc
+#
+# Description:
+#	Definitions for init.oppo.se.rc.
+#
+# Version: 1.0
+# Date created: 2019/07/25
+# Author: Yong.Chen@SE.Se
+#
+# --------------------------- Revision History: ------------------------------------
+# <version>		<date>		<author>		<desc>
+# Revision 1.0		2019/07/25	Yong.Chen@SE.Se	Created
+#######################################################
+
+# ifdef COLOROS_EDIT
+# Yong.Chen@SE.Se, 2018/12/08, Add for kernel hotfix
+on post-fs-data
+    mkdir /data/oppo/oae 0701  root root
+    mkdir /data/oppo/oae/s 0700  root root
+    mkdir /data/oppo/oae/c 0707  root root
+    mkdir /data/oppo/oae/d 0707  root root
+    restorecon_recursive /data/oppo/oae
+
+service oae /system/bin/oae_server -s
+    seclabel u:r:oae_server:s0
+    class late_start
+    user root
+    group root log
+# endif /* COLOROS_EDIT*/

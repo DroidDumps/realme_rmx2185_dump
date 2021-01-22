@@ -1,0 +1,9 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.drm.support" />
+  <feature name="oppo.mms.support.group.mms" />
+  <feature name="oppo.mms.create.mode" />
+  <feature name="oppo.mms.read.report" />
+  <feature name="oppo.mms.sms.deliver.report.open" />
+  <feature name="oppo.comm.simsettings.hide.smart.5g.switch" />
+</permissions>

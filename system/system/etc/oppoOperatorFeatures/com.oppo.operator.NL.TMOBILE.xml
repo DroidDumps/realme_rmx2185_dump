@@ -1,0 +1,7 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.wifiscan.available.def.on" />
+  <feature name="oppo.phone.forbid.edit.voicemail.number" />
+  <feature name="oppo.mms.sms.input.mode" />
+  <feature name="oppo.mms.sms.input.mode.show_text_counter" />
+</permissions>

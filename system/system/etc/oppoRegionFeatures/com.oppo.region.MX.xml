@@ -1,0 +1,6 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="coloros.customize.systemui.hide_data_when_disconnect" />
+    <feature name="oppo.launcher.drawer_mode.default" />
+  <feature name="oppo.phone.nodisplayrecord" />
+</permissions>

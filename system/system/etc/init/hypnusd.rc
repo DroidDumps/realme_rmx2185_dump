@@ -1,0 +1,22 @@
+service hypnusd /system/bin/hypnusd
+	class main
+	user system
+	group system readproc root
+	capabilities SYS_NICE
+	disabled
+
+on property:sys.boot_completed=1 && property:persist.sys.hypnus.daemon.enable=0
+	chown root root /sys/class/thermal/thermal_zone38/trip_point_0_temp
+	chown root root /sys/class/thermal/thermal_zone38/trip_point_1_temp
+	chown root root /sys/class/thermal/thermal_zone38/trip_point_2_temp
+	chown root root /sys/class/thermal/thermal_zone38/trip_point_3_temp
+	stop hypnusd
+
+on property:sys.boot_completed=1 && property:persist.sys.hypnus.daemon.enable=1
+	chown system system /sys/class/thermal/thermal_zone38/trip_point_0_temp
+	chown system system /sys/class/thermal/thermal_zone38/trip_point_1_temp
+	chown system system /sys/class/thermal/thermal_zone38/trip_point_2_temp
+	chown system system /sys/class/thermal/thermal_zone38/trip_point_3_temp
+	start hypnusd
+
+chown system system /dev/hypnus

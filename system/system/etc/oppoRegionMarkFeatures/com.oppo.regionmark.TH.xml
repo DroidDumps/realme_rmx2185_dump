@@ -1,0 +1,5 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.softsim.exp.support" />
+  <feature name="oppo.simsettings.hide.volte.and.wowifi" />
+</permissions>

@@ -1,0 +1,39 @@
+service media-resource-travel-fbe /system/bin/self-init-system travel_media_resource_fbe
+    user root
+    oneshot
+    disabled
+    seclabel u:r:rutilsdaemon:s0
+
+service set-channel-handler /system/bin/self-init-system deal_with_channle_property
+    user root
+    oneshot
+    disabled
+    seclabel u:r:rutilsdaemon:s0
+
+on property:ro.oppo.setchannel=1
+   start set-channel-handler
+
+on property:vold.fbe.decrypted=1
+   start media-resource-travel-fbe
+   start media-resource-reconciliation
+
+#ifdef COLOROS_EDIT
+#Wuchao.Huang@Rom.Framework, 2020/02/20, Modify for EAP mult-user adaption
+on post-fs-data
+   mkdir /data/oppo/coloros/eap 0770 system system
+   mkdir /data/oppo/coloros/eap_moa 0770 system system
+   mkdir /data/oppo/coloros/eap_moa/crash 0770 system system
+   mkdir /data/oppo/coloros/eap_moa/anr 0770 system system
+   mkdir /data/oppo/log/DCS/en/eap 0770 system system
+   mkdir /data/oppo/log/DCS/en/eap_moa 0770 system system
+   mkdir /data/oppo/log/DCS/en/eap_moa/crash 0770 system system
+   mkdir /data/oppo/log/DCS/en/eap_moa/anr 0770 system system
+   chmod 0770 /data/oppo/coloros/eap
+   chmod 0770 /data/oppo/coloros/eap_moa
+   chmod 0770 /data/oppo/coloros/eap_moa/crash
+   chmod 0770 /data/oppo/coloros/eap_moa/anr
+   chmod 0770 /data/oppo/log/DCS/en/eap
+   chmod 0770 /data/oppo/log/DCS/en/eap_moa
+   chmod 0770 /data/oppo/log/DCS/en/eap_moa/crash
+   chmod 0770 /data/oppo/log/DCS/en/eap_moa/anr
+#endif /* COLOROS_EDIT */

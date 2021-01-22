@@ -1,0 +1,27 @@
+##########################################################
+# Copyright (C), 2008-2018, OPPO Mobile Comm Corp., Ltd
+# VENDOR_EDIT
+# File: init.oppo.se.rc
+#
+# Description:
+#	Definitions for init.oppo.se.rc.
+#
+# Version: 1.0
+# Date created: 2019/07/25
+# Author: Yong.Chen@SE.Se
+#
+# --------------------------- Revision History: ------------------------------------
+# <version>		<date>		<author>		<desc>
+# Revision 1.0		2019/07/25	Yong.Chen@SE.Se	Created
+#######################################################
+
+#ifdef COLOROS_EDIT
+#Yong.Chen@SE.Se, 2018/12/08, Add for record to file of receiving kevent action
+on post-fs-data
+    mkdir /data/oppo/kevent 0775 system system
+
+service oppo_kevents /system/bin/oppo_kevent
+    class late_start
+    user system
+    group root system
+# endif /* COLOROS_EDIT */

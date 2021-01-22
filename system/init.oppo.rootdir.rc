@@ -1,0 +1,70 @@
+#/********************************************************************************
+# ** Copyright (C), 2018-2023, OPPO Mobile Comm Corp., Ltd
+# ** VENDOR_EDIT, All rights reserved.
+# **
+# ** File: - init.oppo.rootdir.rc
+# ** Description:
+# **     Euclid : oppo custumize for init.oppo.rootdir.rc
+# **
+# ** Version: 1.0
+# ** Date: 2019-06-05
+# ** Author: Xuefeng.Peng@PSW.AD
+# **
+# ** ------------------------------- Revision History: ----------------------------
+# ** <author>                        <data>       <version>   <desc>
+# ** ------------------------------------------------------------------------------
+#** Xuefeng.Peng@PSW.AD.0      2019-06-05   1.0         Create this moudle
+#********************************************************************************/
+
+on zygote-start && property:ro.crypto.state=encrypted && property:ro.crypto.type=file
+    #ifdef VENDOR_EDIT
+    #Xuefeng.Peng@PSW.AD.Storage.1596362, 2018/11/30, add for FBE
+    start bspFwUpdate
+    #endif/*VENDOR_EDIT*/
+
+on property:sys.boot_completed=1
+    #ifdef VENDOR_EDIT
+    #Xuefeng.Peng@PSW.AD.Usb.1410703, 2018/06/19, Add for support NDIS 5.0
+    write /config/usb_gadget/g1/functions/gsi.rndis/rndis_class_id 1
+    #endif /*VENDOR_EDIT*/
+
+on post-fs-data
+    #ifdef VENDOR__EDIT
+    #Jiemin.Zhu@PSW.Android.SELinux, 2017/12/12, create recycle for DCIM before restorecon
+    mkdir /data/.recycle 0770 media_rw media_rw
+    #Jiemin.Zhu@PSW.Android.SELinux, 2018/08/06, Add for skip /data/oppo_lib for chcon exec_type
+    mkdir /data/oppo_lib 0777 root root
+    #endif /* VENDOR_EDIT */
+
+    #ifdef COLOROS_EDIT
+    #SunYi@Rom.Framework, 2019/11/14, Modify for record temperature per hour
+    mkdir /data/oppo/log/DCS/de/trace_viewer 0764 system system
+    mkdir /data/oppo/log/DCS/en/trace_viewer 0777 system system
+    #endif /* COLOROS_EDIT */
+
+on init
+    #Jiemin.Zhu@PSW.Android.SdardFs, 2017/12/12, Add for sdcardfs delete dcim record
+    chown root system /proc/fs/sdcardfs/skipd_delete
+    chmod 0664 /proc/fs/sdcardfs/skipd_delete
+    chown root system /sys/module/sdcardfs/parameters/skipd_enable
+    chmod 0664 /sys/module/sdcardfs/parameters/skipd_enable
+    chown root system /sys/module/sdcardfs/parameters/extra_enable
+    chmod 0664 /sys/module/sdcardfs/parameters/extra_enable
+
+on boot
+    #ifdef VENDOR_EDIT
+    #Yilong.Wei@PSW.NW.RF.1178789, 2017/12/11
+    #add for Screen MIPI frequency interference GSM reception
+    chmod 0664  /sys/kernel/oppo_display/panel/dynamic_dsi_clock
+    chown radio root  /sys/kernel/oppo_display/panel/dynamic_dsi_clock
+    #endif
+
+#ifdef VENDOR_EDIT
+#Xuefeng.Peng@PSW.AD.Usb.Adb.0, 2019/07/25, Add for QT test enable adb after fastboot flash the device for FDE version
+on boot && property:ro.crypto.state=encrypted && property:ro.crypto.type=file
+    load_fastboot_adb_props
+
+on property:vold.decrypt=trigger_restart_framework
+    load_fastboot_adb_props
+#endif /* VENDOR_EDIT */
+

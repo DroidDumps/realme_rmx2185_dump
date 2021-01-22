@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*********************************************************************************
+ ** Copyright (C), 2008-2015, OPPO Mobile Comm Corp., Ltd
+ ** COLOROS_EDIT, All rights reserved.
+ **
+ ** File: - com.coloros.libraries.xml
+ ** Description:
+ **     This file is used to define the list of all the libraries available for
+ **     application code to link against.
+ **
+ ** Version: 1.0
+ ** Date: 2015-11-12
+ ** Author: JianHui.Yu@Plf.SDK
+ **
+ ** =============================== Revision History: ============================
+ ** <author>                        <date>       <version>   <desc>
+ ** ==============================================================================
+ ** JianHui.Yu@Plf.SDK              2015-11-12   1.0         Create this moudle
+ ********************************************************************************/
+-->
+<permissions>
+
+</permissions>

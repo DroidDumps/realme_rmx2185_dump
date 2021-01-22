@@ -1,0 +1,5 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.phone.play.busy.tone" />
+  <feature name="oppo.simsettings.disable.vowifi.when.airplaneon" />
+</permissions>

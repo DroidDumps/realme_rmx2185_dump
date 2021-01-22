@@ -1,0 +1,26 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.ota.specialneeds.movistar" />
+  <feature name="oppo.systemui.autoexpand.wifilist.movistar" />
+  <feature name="oppo.systemui.tile.order.movistar" />
+  <feature name="oppo.permission.movistar" />
+  <feature name="oppo.drm.support" />
+  <feature name="oppo.mms.max.size.500k" />
+  <feature name="oppo.mms.user.agent.movistar" />
+  <feature name="oppo.mms.support.group.mms" />
+  <feature name="oppo.mms.sms.center.edit.disable" />
+  <feature name="oppo.contacts.show.sdn.service.number" />
+  <feature name="oppo.phone.show.cf.toast" />
+  <feature name="oppo.phone.show.transfer.button" />
+  <feature name="oppo.contacts.operator.number" />
+  <feature name="oppo.mms.read.report" />
+  <feature name="oppo.mms.number.link" />
+  <feature name="oppo.simsettings.show.data.indicate.dialog" />
+  <feature name="oppo.commcenter.mms.remove.oppo.mms"/>
+  <feature name="oppo.mms.replace.google.mms"/>
+  <feature name="oppo.default.sms.application.google.messages"/>
+  <feature name="oppo.contacts.speeddial"/>
+  <feature name="oppo.contacts.wifi.calling.customize" />
+  <feature name="coloros.customize.mms.user_agent" />
+  <feature name="coloros.customize.contacts.preset_contacts_in_origin" />
+</permissions>

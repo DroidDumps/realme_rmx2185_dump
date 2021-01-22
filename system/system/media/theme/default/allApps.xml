@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iconinfo>
+    <icon name="ic_launcher_oppo_contacts.png"  package="com.android.contacts"/>
+    <icon name="ic_launcher_email.png"  package="com.android.email"/>
+    <icon name="ic_launcher_calcultor.png"  package="com.android.calculator2"/>
+    <icon name="ic_launcher_calcultor.png"  package="com.coloros.calculator"/>
+    <icon name="ic_launcher_dialer.png" package="com.android.dialer"/>
+    <icon name="ic_launcher_browser.png" package="com.android.browser"/>
+    <icon name="ic_launcher_browser.png" package="com.coloros.browser"/>
+    <icon name="ic_launcher_browser.png" package="com.nearme.browser"/>
+    <icon name="ic_launcher_browser.png" package="com.heytap.browser"/>
+    <icon name="ic_launcher_recorder.png" package="com.android.soundrecorder"/>
+    <icon name="ic_launcher_calender.png" package="com.android.calendar"/>
+    <icon name="ic_launcher_settings.png" package="com.android.settings"/>
+    <icon name="ic_launcher_findphone_client.png" package="com.coloros.findphone.client"/>
+    <icon name="ic_launcher_findphone_client.png" package="com.coloros.findphone.client2"/>
+    <icon name="ic_launcher_findphone_client.png" package="com.realme.findphone.client2"/>
+    <icon name="ic_launcher_smsmms.png" package="com.android.mms"/>
+
+    <icon name="ic_launcher_music.png"  package="com.oppo.music"/>
+    <icon name="ic_launcher_clock.png" package="com.coloros.alarmclock"/>
+    <icon name="ic_launcher_video.png" package="com.coloros.video"/>
+    <icon name="ic_launcher_camera.png" package="com.oppo.camera"/>
+    <icon name="ic_launcher_gallery3d.png" package="com.coloros.gallery3d"/>
+    <icon name="ic_launcher_locknow.png" package="com.oppo.LockNow"/>
+    <icon name="ic_launcher_locknow.png" package="com.android.systemui"/>
+    <icon name="ic_launcher_filemanager.png" package="com.coloros.filemanager"/>
+    <icon name="ic_launcher_recorder.png" package="com.coloros.soundrecorder"/>
+    <icon name="ic_launcher_flash_light.png" package="com.coloros.flashlight"/>
+    <icon name="ic_launcher_compass.png" package="com.coloros.compass"/>
+    <icon name="ic_launcher_compass.png" package="com.coloros.compass2"/>
+    <icon name="ic_launcher_dialer.png" package="com.android.phone"/>
+    <icon name="ic_launcher_roam_color.png" package="com.android.phone"/>
+    <icon name="ic_launcher_operation_manual.png" package="com.coloros.operationManual"/>
+    <icon name="ic_launcher_nearme_ota.png" package="com.coloros.ota"/>
+    <!-- 收音机 -->
+    <!-- FM Radio is maintained by Prd.，please don't cover the difference and another difference in icons directory -->
+    <!-- when merging ROM modification. Haizhan.Meng@Prd.AudioDriver. -->
+    <icon name="ic_launcher_radio.png"  package="com.caf.fmradio"/>
+    <icon name="ic_launcher_radio.png"  package="com.mediatek.FMRadio"/>
+    <icon name="ic_launcher_radio.png"  package="com.android.fmradio"/>
+    <icon name="ic_launcher_book_store.png"  package="com.oppo.book"/>
+    <icon name="ic_launcher_book_store.png" package="com.heytap.book" />
+    <icon name="ic_launcher_weather.png" package="com.coloros.weather"/>
+    <icon name="ic_launcher_weather.png" package="com.coloros.weather2"/>
+    <icon name="ic_launcher_nearme_note.png" package="com.nearme.note"/>
+    <icon name="ic_launcher_nearme_note.png" package="com.coloros.note"/>
+    <icon name="ic_launcher_speechassist.png" package="com.coloros.speechassist"/>
+    <icon name="ic_launcher_speechassist.png" package="com.coloros.speechassist.engine"/>
+    <icon name="ic_launcher_speechassist.png" package="com.heytap.speechassist"/>
+    <icon name="ic_launcher_speechassist.png" package="com.heytap.speechassist.engine"/>
+
+    <icon name="ic_launcher_widget_moodalbum.png" package="com.oppo.widget.moodalbum"/>
+    <icon name="ic_launcher_widget_musicpage.png" package="com.oppo.widget.musicpage"/>
+    <icon name="ic_launcher_download.png" package="com.android.providers.downloads"/>
+    <icon name="ic_launcher_home.png" package="com.oppo.launcher"/>
+    <icon name="ic_launcher_im.png" package="com.oppo.im"/>
+    <icon name="ic_launcher_standardar_service.png" package="com.standardar.service"/>
+    <icon name="ic_launcher_familyguard.png" package="com.coloros.familyguard"/>
+    <icon name="ic_launcher_aruler.png" package="com.coloros.aruler"/>
+    <icon name="ic_launcher_wallet.png" package="com.coloros.wallet" />
+    <icon name="ic_launcher_wallet.png" package="com.finshell.wallet" />
+    <icon name="ic_launcher_yoli.png" package="com.coloros.yoli" />
+    <icon name="ic_launcher_yoli.png" package="com.heytap.yoli" />
+    <icon name="ic_launcher_ohome.png" package="com.oppo.ohome"/>
+    <icon name="ic_launcher_ohome.png" package="com.heytap.smarthome"/>
+
+    <icon name="ic_launcher_nearme_market.png" package="com.oppo.market"/>
+    <icon name="ic_launcher_nearme_market.png" package="com.heytap.market"/>
+    <icon name="ic_launcher_nearme_cloudservice.png" package="com.nearme.ocloud"/>
+    <icon name="ic_launcher_nearme_ulikebeauty.png" package="com.oppo.ubeauty"/>
+
+    <icon name="ic_launcher_nearme_reader.png" package="com.oppo.reader"/>
+    <icon name="ic_launcher_nearme_reader.png" package="com.chaozh.xincao.reader"/>
+    <icon name="ic_launcher_nearme_reader.png" package="com.heytap.reader" />
+    <icon name="ic_launcher_nearme_usercenter.png" package="com.oppo.usercenter"/>
+    <icon name="ic_launcher_nearme_usercenter.png" package="com.heytap.usercenter"/>
+
+    <icon name="ic_launcher_nearme_gamecenter.png" package="com.nearme.gamecenter"/>
+    <icon name="ic_launcher_nearme_gamecenter.png" package="com.heytap.gamecenter"/>
+    <icon name="ic_launcher_nearme_play.png" package="com.nearme.play"/>
+    <icon name="ic_launcher_nearme_play.png" package="com.heytap.play"/>
+    <icon name="ic_launcher_themespace.png" package="com.nearme.themespace"/>
+    <icon name="ic_launcher_themespace.png" package="com.nearme.themestore"/>
+    <icon name="ic_launcher_themespace.png" package="com.heytap.themestore"/>
+
+    <icon name="ic_launcher_feedback.png" package="com.coloros.feedback"/>
+    <icon name="ic_launcher_nearme_oppotribune.png" package="com.oppo.community"/>
+    <icon name="ic_launcher_realme_comm.png" package="com.realmecomm.app"/>
+    <icon name="ic_launcher_realme_store.png" package="com.realmestore.app"/>
+    <icon name="ic_launcher_tencent_mobileqq.png" package="com.tencent.mobileqq" />
+    <icon name="ic_launcher_netease_cloudmusic.png" package="com.netease.cloudmusic" />
+    <icon name="ic_launcher_sina_weibo.png" package="com.sina.weibo" />
+    <icon name="ic_launcher_xmgd_navigator.png"  package="com.autonavi.xmgd.navigator.oppo" />
+    <icon name="ic_launcher_xmgd_navigator.png"  package="com.autonavi.xmgd.navigator" />
+    <icon name="ic_launcher_xmgd_navigator.png"  package="com.autonavi.xmgd.navigator.tob" />
+
+    <!--<icon name="ic_launcher_virusscan.png" package="com.oppo.safe" />-->
+    <icon name="ic_launcher_virusscan.png" package="com.oppo.virusdetect" />
+
+    <icon name="ic_launcher_privacyprotect.png" package="com.oppo.safe" />
+    <icon name="ic_launcher_purebackground.png" package="com.oppo.purebackground" />
+    <icon name="ic_launcher_pwrmgr.png" package="com.oppo.powermanager" />
+    <icon name="ic_launcher_visitormode.png" package="com.oppo.vistormode" />
+    <icon name="ic_launcher_holidaymode.png" package="com.oppo.holidaymode" />
+    <icon name="ic_launcher_traffic_monitor.png" package="com.oppo.trafficmonitor" />
+    <icon name="ic_launcher_permission.png" package="com.oppo.safe" />
+    <icon name="ic_launcher_app_forzen.png" package="com.coloros.safecenter" />
+    <!--2017/12/27, package name changed from com.coloros.safecenter to com.coloros.phonemanager-->
+    <icon name="ic_launcher_securesafe.png" package="com.coloros.phonemanager" />
+    <icon name="ic_launcher_drivemode.png" package="com.oppo.drivemode" />
+    <icon name="ic_launcher_backuprestore.png" package="com.coloros.backuprestore" />
+    <icon name="ic_launcher_tips.png"  package="com.coloros.operationtips"/>
+    <icon name="ic_launcher_onekeylockscreen.png"  package="com.coloros.onekeylockscreen"/>
+    <icon name="ic_launcher_ocrscanner.png"  package="com.coloros.ocrscanner"/>
+    <icon name="ic_launcher_flowmarket.png"  package="com.coloros.flowmarket"/>
+    <icon name="ic_launcher_gamespace.png"  package="com.coloros.gamespace"/>
+    <icon name="ic_launcher_gamespace.png"  package="com.coloros.gamespaceui"/>
+    <icon name="ic_launcher_musiclink.png"  package="com.coloros.musiclink"/>
+    <icon name="ic_launcher_bbs.png"  package="com.coloros.bbs"/>
+
+    <!--2019/12/25, add package for global theme start -->
+    <icon name="ic_launcher_videoeditor.png" package="com.coloros.videoeditor" />
+    <icon name="ic_launcher_health.png" package="com.heytap.health" />
+    <icon name="ic_launcher_shortcuts.png" package="com.coloros.shortcuts" />
+    <icon name="ic_launcher_findmyphone.png" package="com.coloros.findmyphone" />
+    <icon name="ic_launcher_encryptiont.png" package="com.coloros.encryptiont" />
+    <icon name="ic_launcher_store.png" package="com.oppo.store" />
+    <!--2019/12/25, add package end -->
+    <icon name="ic_launcher_stk.png"  package="com.android.stk"/>
+    <!-- Ovideo-->
+    <icon name="ic_launcher_hiscene_app_o_video.png" package="com.hiscene.app" />
+    <!--蓝牙小叮当2.0-->
+    <icon name="ic_launcher_oppo_ble_accessory.png" package="oppo.wearable.oclick2" />
+    <icon name="ic_launcher_oppo_ble_accessory.png" package="com.oppo.wearable.oclick2" />
+
+    <icon name="ic_launcher_coloros_ve.png" package="com.coloros.ve" />
+    <icon name="ic_launcher_nfc_tag.png" package="com.coloros.tag" />
+    <icon name="ic_launcher_bt_share.png" package="com.android.bluetooth" />
+
+    <icon name="ic_launcher_splitscreen.png" package="com.coloros.SplitScreenIntelligence" />
+
+    <!-- OPPO漫游 -->
+    <icon name="ic_launcher_redteamobile_roaming.png" package="com.redteamobile.roaming" />
+    <icon name="ic_launcher_redteamobile_roaming.png" package="com.redteamobile.oppo.roaming" />
+
+   <!-- 移动7App -->
+    <icon name="ic_launcher_notes.png" package="com.mediatek.notebook" />
+    <icon name="ic_launcher_task_manager.png" package="com.mediatek.taskmanager" />
+    <icon name="ic_launcher_cmcc_client.png" package="com.mediatek.cmcc" />
+    <icon name="ic_launcher_todo.png" package="com.mediatek.todos" />
+    <icon name="ic_launcher_my_favorite.png" package="com.mediatek.myfavorite" />
+    <icon name="ic_launcher_mobile_portal.png" package="com.mediatek.mobileportal" />
+    <icon name="ic_launcher_dp_elong.png" package="com.dp.android.elong" />
+
+    <!-- -->
+    <!-- 一淘火眼 -->
+    <icon name="ic_launcher_etao_kaka.png" package="com.etao.kaka" />
+    <!-- 网易云阅读 -->
+    <icon name="ic_launcher_netease_pris.png" package="com.netease.pris" />
+    <!-- 淘宝 -->
+    <icon name="ic_launcher_taobao.png" package="com.taobao.taobao" />
+    <icon name="ic_launcher_calender.png" package="com.oppo.widget.calendar"/>
+    <icon name="ic_launcher_clock.png" package="com.coloros.widget.smallweather"/>
+    <icon name="ic_launcher_clock.png" package="com.oppo.widget.digitalclock"/>
+
+    <icon name="ic_launcher_locknow.png" package="com.oppo.LockScreenWeather"/>
+    <icon name="ic_launcher_locknow.png" package="com.oppo.travel"/>
+    <icon name="ic_launcher_locknow.png" package="com.oppo.LockScreenGlassBoard"/>
+    <icon name="ic_launcher_locknow.png" package="com.oppo.card"/>
+
+    <icon name="ic_launcher_locknow.png" package="com.oppo.orignalunlock.jbtwo"/>
+
+    <!-- 招商银行 -->
+    <icon name="ic_launcher_cmb_pb.png" package="cmb.pb"/>
+
+    <!-- 携程旅行 -->
+    <icon name="ic_launcher_ctrip.png" package="ctrip.android.view"/>
+
+    <!-- 易信 -->
+    <icon name="ic_launcher_im_yixin.png" package="im.yixin"/>
+
+    <!-- 网易公开课 -->
+    <icon name="ic_launcher_netease_vopen.png" package="com.netease.vopen"/>
+
+    <!-- 百度团购 -->
+    <icon name="ic_launcher_baidulife.png" package="com.baidu.baidulife"/>
+
+    <!-- 骚扰拦截 -->
+    <icon name="ic_launcher_blacklist.png" package="com.oppo.blacklist"/>
+     <!-- 安全中心 -->
+     <icon name="ic_launcher_blacklist.png" package="com.oppo.safecenter"/>
+
+     <!-- 卡酷闪包 -->
+    <icon name="ic_launcher_nxp_wallet_oppo.png" package="com.nxp.wallet.oppo"/>
+
+    <!-- 原画影院 -->
+    <icon name="ic_launcher_sohu_ltevideo.png" package="com.sohu.ltevideo"/>
+
+    <!-- 遥控器 -->
+    <icon name="ic_launcher_remote.png" package="com.oppo.remotectrl"/>
+
+
+
+    <!--1-20-->
+    <!--                                                    01_20                begin                                                    -->
+    <!-- 微信 -->
+    <icon name="ic_launcher_tencent_mm.png" package="com.tencent.mm"/>
+
+    <!-- 酷狗音乐 -->
+    <icon name="ic_launcher_kugou.png" package="com.kugou.android"/>
+
+    <!-- 爱奇艺视频 -->
+    <icon name="ic_launcher_qiyi_video.png" package="com.qiyi.video"/>
+
+    <!-- 搜狗手机输入法 -->
+    <icon name="ic_launcher_inputmethod_sogou.png" package="com.sohu.inputmethod.sogou"/>
+
+    <!-- QQ空间 -->
+    <icon name="ic_launcher_qq_qzone.png" package="com.qzone"/>
+
+    <!-- 美图秀秀 -->
+    <icon name="ic_launcher_mt_mtxx.png" package="com.mt.mtxx.mtxx"/>
+
+    <!-- UC浏览器 -->
+    <icon name="ic_launcher_ucmobile.png" package="com.UCMobile"/>
+
+    <!-- 讯飞输入法手机版 -->
+    <icon name="ic_launcher_iflytek_inputmethod.png" package="com.iflytek.inputmethod"/>
+
+    <!-- 会说话的汤姆猫 -->
+    <icon name="ic_launcher_talkingtom2free.png" package="com.outfit7.talkingtom2free"/>
+
+    <!-- 捕鱼达人 -->
+    <icon name="ic_launcher_cocos2dx_fishgame.png" package="org.cocos2dx.FishGame"/>
+
+    <!-- PPS影音 -->
+    <icon name="ic_launcher_pps_mobile.png" package="tv.pps.mobile"/>
+
+    <!-- 酷我音乐播放器 -->
+    <icon name="ic_launcher_kuwo_player.png" package="cn.kuwo.player"/>
+
+    <!-- 水果忍者 -->
+    <icon name="ic_launcher_fruitninjafree.png" package="com.halfbrick.fruitninjafree"/>
+
+    <!-- 手机QQ音乐 -->
+    <icon name="ic_launcher_qqmusic.png" package="com.tencent.qqmusic"/>
+
+    <!-- 水果忍者 -->
+    <icon name="ic_launcher_fruitninja.png" package="com.halfbrick.fruitninja"/>
+
+    <!-- 优酷电影电视剧动漫音乐 -->
+    <icon name="ic_launcher_youku_phone.png" package="com.youku.phone"/>
+    <!--                                                    01_20                end                                                    -->
+
+
+
+
+    <!--21-40-->
+    <!--                                                    21_40                begin                                                     -->
+    <!-- 愤怒的小鸟 -->
+    <icon name="ic_launcher_angrybirds.png" package="com.rovio.angrybirds"/>
+
+    <!-- 植物大战僵尸 -->
+    <icon name="ic_launcher_popcap_pvz.png" package="com.popcap.pvz"/>
+
+    <!-- 单机斗地主 -->
+    <icon name="ic_launcher_philzhu_www_ddz.png" package="com.philzhu.www.ddz"/>
+
+    <!-- 开讯视频 -->
+    <icon name="ic_launcher_kascend_video.png" package="com.kascend.video"/>
+
+    <!-- 百度地图 -->
+    <icon name="ic_launcher_baidumap.png" package="com.baidu.BaiduMap"/>
+
+    <!-- 天天动听 -->
+    <icon name="ic_launcher_ttpod.png" package="com.sds.android.ttpod"/>
+
+    <!-- 搜狐视频 -->
+    <icon name="ic_launcher_sohuvideo.png" package="com.sohu.sohuvideo"/>
+
+    <!-- 消灭星星 -->
+    <icon name="ic_launcher_popstar.png" package="com.wpd.game.popstar"/>
+
+    <!-- 斗地主NearMe -->
+    <icon name="ic_launcher_lordland_nearme.png" package="com.boyaa.lordland.nearme.gamecenter"/>
+
+    <!-- 急速飙车 -->
+    <icon name="ic_launcher_game_ndk.png" package="Game.NDK"/>
+
+    <!-- 网易新闻 -->
+    <icon name="ic_launcher_netease_newsreader.png" package="com.netease.newsreader.activity"/>
+
+    <!-- poco美人相机 -->
+    <icon name="ic_launcher_my_beautycamera.png" package="my.beautyCamera"/>
+
+    <!-- 有道词典 -->
+    <icon name="ic_launcher_youdao_dict.png" package="com.youdao.dict"/>
+
+    <!-- 唱吧 -->
+    <icon name="ic_launcher_changba.png" package="com.changba"/>
+
+    <!-- 腾讯手机管家 -->
+    <icon name="ic_launcher_qqpimsecure.png" package="com.tencent.qqpimsecure"/>
+
+    <!-- Adobe Flash player -->
+    <icon name="ic_launcher_adobe_flashplayer.png" package="com.adobe.flashplayer"/>
+
+    <!-- 暴风影音 -->
+    <icon name="ic_launcher_storm_smart.png" package="com.storm.smart"/>
+
+    <!-- 陌陌 -->
+    <icon name="ic_launcher_momo.png" package="com.immomo.momo"/>
+    <!--                                                    21_40                end                                                    -->
+
+
+    <!--41-60-->
+    <!--                                                    41_60                begin                                                    -->
+    <!-- 支付宝 -->
+    <icon name="ic_launcher_alipaygphone.png" package="com.eg.android.AlipayGphone"/>
+
+    <!-- 安卓超级玛丽 -->
+    <icon name="ic_launcher_supermario.png" package="com.flyfish.supermario"/>
+
+    <!-- 雷霆赛车2 -->
+    <icon name="ic_launcher_rthunder2lite.png" package="com.polarbit.rthunder2lite"/>
+
+    <!-- 愤怒小鸟太空版 -->
+    <icon name="ic_launcher_angrybirdsspace_ads.png" package="com.rovio.angrybirdsspace.ads"/>
+
+    <!-- 安卓优化大师 -->
+    <icon name="ic_launcher_phonoalbumshoushou.png" package="cn.opda.a.phonoalbumshoushou"/>
+
+    <!-- 捕鱼达人2 -->
+    <icon name="ic_launcher_fishingjoy2.png" package="org.cocos2dx.FishingJoy2"/>
+
+    <!-- 手机电视 -->
+    <icon name="ic_launcher_loader.png" package="dopool.loader"/>
+
+    <!-- WPS office 移动版 -->
+    <icon name="ic_launcher_wps_moffice_eng.png" package="cn.wps.moffice_eng"/>
+
+    <!-- 百度影音 -->
+    <icon name="ic_launcher_baidu_video.png" package="com.baidu.video"/>
+
+    <!-- 腾讯视频 -->
+    <icon name="ic_launcher_tencent_qqlive.png" package="com.tencent.qqlive"/>
+
+    <!-- 图吧导航 -->
+    <icon name="ic_launcher_mapbarmap.png" package="com.mapbar.android.mapbarmap"/>
+
+    <!-- QQ浏览器 -->
+    <icon name="ic_launcher_tencent_mtt.png" package="com.tencent.mtt"/>
+
+    <!-- 大众点评网 -->
+    <icon name="ic_launcher_dianping_v1.png" package="com.dianping.v1"/>
+
+    <!-- 书旗免费小说 -->
+    <icon name="ic_launcher_shuqi_controller.png" package="com.shuqi.controller"/>
+
+    <!-- 相机360 -->
+    <icon name="ic_launcher_camera360.png" package="vStudio.Android.Camera360"/>
+
+    <!-- 找你妹 -->
+    <icon name="ic_launcher_findsomething_channel_91.png" package="org.funship.findsomething.channel_91"/>
+
+    <!-- 泡泡龙 -->
+    <icon name="ic_launcher_shootbubble_bubbledexlue.png" package="com.shootbubble.bubbledexlue"/>
+
+    <!-- 天猫 -->
+    <icon name="ic_launcher_tmall_wireless.png" package="com.tmall.wireless"/>
+
+    <!-- 忍者突袭 -->
+    <icon name="ic_launcher_feelingtouch_ninjarun.png" package="com.feelingtouch.NinjaRun"/>
+
+    <!-- 懒人听书 -->
+    <icon name="ic_launcher_bubei_tingshu.png" package="bubei.tingshu"/>
+    <!--                                                    41_60                end                                                    -->
+
+
+    <!--61_80_-->
+    <!--                                                    61_80                begin                                                    -->
+    <!-- 神庙逃亡:魔境仙踪 -->
+    <icon name="ic_launcher_disney_troz.png" package="com.disney.troz"/>
+
+    <!-- 安卓壁纸 -->
+    <icon name="ic_launcher_androidesk.png" package="com.androidesk"/>
+
+    <!-- 燃烧的蔬菜 -->
+    <icon name="ic_launcher_growaway_nearme.png" package="com.growaway.nearme.gamecenter"/>
+
+    <!-- 连连看水果 -->
+    <icon name="ic_launcher_whu_iss_sric.png" package="whu.iss.sric.android"/>
+
+    <!-- 中国象棋 -->
+    <icon name="ic_launcher_cnvcs_xiangqi.png" package="com.cnvcs.xiangqi"/>
+
+    <!-- 一笔画成 -->
+    <icon name="ic_launcher_ecapycsw_onetouchdrawing.png" package="com.ecapycsw.onetouchdrawing"/>
+
+    <!-- 飞信 -->
+    <icon name="ic_launcher_com_fetion.png" package="cn.com.fetion"/>
+
+    <!-- YY语音 -->
+    <icon name="ic_launcher_duowan_mobile.png" package="com.duowan.mobile"/>
+
+    <!-- 大侠萌传 -->
+    <icon name="ic_launcher_uuzu_mjhapk_gwan2.png" package="air.com.uuzu.mjhapk.gwan2"/>
+
+    <!-- 100层 -->
+    <icon name="ic_launcher_tobiapps_100fl.png" package="com.tobiapps.android_100fl"/>
+
+    <!-- 保卫萝卜 -->
+    <icon name="ic_launcher_carrot_carrotfantasy.png" package="com.carrot.carrotfantasy"/>
+
+    <!-- 乐视影视 -->
+    <icon name="ic_launcher_letv_client.png" package="com.letv.android.client"/>
+
+    <!-- 雷霆赛车 -->
+    <icon name="ic_launcher_polarbit_ragingthunder.png" package="com.polarbit.ragingthunder"/>
+
+    <!-- 小鸟爆破 -->
+    <icon name="ic_launcher_enfeel_birzzle.png" package="com.enfeel.birzzle"/>
+
+    <!-- 汤姆猫的情书 -->
+    <icon name="ic_launcher_outfit7_tomslovelettersfree.png" package="com.outfit7.tomslovelettersfree"/>
+
+    <!-- 快读免费小说 -->
+    <icon name="ic_launcher_htjyb_reader.png" package="cn.htjyb.reader"/>
+
+    <!-- 趣购时尚 -->
+    <icon name="ic_launcher_taobao_wireless_wht_a180.png" package="com.taobao.wireless.wht.a180"/>
+
+    <!-- 智能360 -->
+    <icon name="ic_launcher_voice_assistant_main.png" package="com.voice.assistant.main"/>
+
+    <!-- 安全管家 -->
+    <icon name="ic_launcher_anguanjia_safe.png" package="com.anguanjia.safe"/>
+    <!--                                                    61_80                end                                                    -->
+
+
+    <!--81-100-->
+    <!--                                                    81_100                begin                                                    -->
+    <!-- 赌神炸金花 -->
+    <icon name="ic_launcher_zjh_cmge.png" package="com.zjh.cmge"/>
+
+    <!-- 鳄鱼小顽皮爱洗澡 -->
+    <icon name="ic_launcher_disney_chukong_wmw.png" package="com.disney.chukong.WMW"/>
+
+    <!-- 地铁跑酷 -->
+    <icon name="ic_launcher_kiloo_subwaysurf.png" package="com.kiloo.subwaysurf"/>
+
+    <!-- 摇一摇手电筒 -->
+    <icon name="ic_launcher_mobile_shaketoflashlight.png" package="com.xy.mobile.shaketoflashlight"/>
+
+    <!-- 黄金矿工2 -->
+    <icon name="ic_launcher_flyfish_goldminers.png" package="com.rao.flyfish.goldminers"/>
+
+    <!-- 割绳子 -->
+    <icon name="ic_launcher_gamevil_ctr_paid.png" package="com.zeptolab.gamevil.ctr.paid"/>
+
+    <!-- 愤怒小鸟季节版 -->
+    <icon name="ic_launcher_rovio_angrybirdsseasons.png" package="com.rovio.angrybirdsseasons"/>
+
+    <!-- 百度魔图 -->
+    <icon name="ic_launcher_motu_photowonder.png" package="cn.jingling.motu.photowonder"/>
+
+    <!-- 省钱通网络电话 -->
+    <icon name="ic_launcher_sqt001_ipcall.png" package="com.sqt001.ipcall"/>
+
+    <!-- POCO相机 -->
+    <icon name="ic_launcher_my_pcamera.png" package="my.PCamera"/>
+
+    <!-- 饥饿的鲨鱼 -->
+    <icon name="ic_launcher_fgol_sharkfree.png" package="com.fgol.sharkfree"/>
+
+    <!-- 有信免费电话 -->
+    <icon name="ic_launcher_yx_free_mobile.png" package="com.yx"/>
+
+    <!-- 疯狂喷汽机 -->
+    <icon name="ic_launcher_jetpackjoyridefree.png" package="com.halfbrick.jetpackjoyridefree"/>
+
+    <!-- 水果连连看 -->
+    <icon name="ic_launcher_kk_fruit_link.png" package="kk.fruit_link"/>
+
+    <!-- 五子棋大师 -->
+    <icon name="ic_launcher_cnvcs_gomoku.png" package="com.cnvcs.gomoku"/>
+
+    <!-- 王者之剑 -->
+    <icon name="ic_launcher_lk_wzzj_nearme.png" package="com.lk.wzzj.nearme.gamecenter"/>
+
+    <!-- 激流快艇 -->
+    <icon name="ic_launcher_vectorunit_blueoppo.png" package="com.vectorunit.blueoppo"/>
+
+    <!-- 天龙八部OL -->
+    <icon name="ic_launcher_wx_wan5g2.png" package="com.wx.wan5g2"/>
+
+    <!-- 腾讯微博 -->
+    <icon name="ic_launcher_tencent_wblog.png" package="com.tencent.WBlog"/>
+    <!--                                                    81_100                end                                                    -->
+
+
+
+    <!--101_120-->
+    <!--                                                    101_120                begin                                                    -->
+    <!-- 荷塘月色动态壁纸锁屏 -->
+    <icon name="ic_launcher_mobi_livewallpaper_htys.png" package="com.mobi.livewallpaper.htys"/>
+
+    <!-- QQHD -->
+    <icon name="ic_launcher_tencent_minihd_qq.png" package="com.tencent.minihd.qq"/>
+
+    <!-- 蘑菇街 -->
+    <icon name="ic_launcher_mogujie.png" package="com.mogujie"/>
+
+    <!-- 齐天大圣 -->
+    <icon name="ic_launcher_kk_xyj_p37wan02.png" package="cn.kk.xyj.p37wan02"/>
+
+    <!-- 神庙逃亡2：魔境仙踪 -->
+
+
+    <!-- 安医生 -->
+    <icon name="ic_launcher_anyisheng_doctoran.png" package="com.anyisheng.doctoran"/>
+
+    <!-- 打地鼠 -->
+    <icon name="ic_launcher_sim_gerard_kickme.png" package="com.sim.gerard.kickme"/>
+
+    <!-- 春雨掌声医生 -->
+    <icon name="ic_launcher_chunyudoctorclassic.png" package="me.chunyu.ChunyuDoctorClassic"/>
+
+    <!-- 点心省电 -->
+    <icon name="ic_launcher_dianxinos_powermanager.png" package="com.dianxinos.powermanager"/>
+
+    <!-- 谷歌地图 -->
+
+
+    <!-- 快牙周年版 -->
+    <icon name="ic_launcher_dewmobile_kuaiya.png" package="com.dewmobile.kuaiya"/>
+
+    <!-- 台球 -->
+    <icon name="ic_launcher_forthblue_pool.png" package="com.forthblue.pool"/>
+
+    <!-- 超音速飞行 -->
+    <icon name="ic_launcher_osaris_turbofly.png" package="net.osaris.turbofly"/>
+
+    <!-- 知趣天气 -->
+    <icon name="ic_launcher_metek_zqweather.png" package="com.metek.zqWeather"/>
+
+    <!-- 夺命狂飙 -->
+    <icon name="ic_launcher_feelingtouch_racingcar.png" package="com.feelingtouch.racingcar"/>
+
+    <!-- 快拍二维码 -->
+    <icon name="ic_launcher_lingdong_client_android.png" package="com.lingdong.client.android"/>
+
+    <!-- 天朝小将OL -->
+    <icon name="ic_launcher_loong_fgwan1.png" package="com.joygame.loong.fgwan1"/>
+
+    <!-- 91桌面 -->
+    <icon name="ic_launcher_android_pandahome2.png" package="com.nd.android.pandahome2"/>
+
+    <!-- 纽约过山车 -->
+    <icon name="ic_launcher_digitalchocolate_rollnyfull.png" package="com.digitalchocolate.rollnyfull"/>
+
+    <!--                                                    101_120                end                                                    -->
+
+    <!--121_140-->
+    <!--                                                    121_140                bigin                                                    -->
+    <!-- 丑脸评分 -->
+
+
+    <!-- 百度 -->
+    <icon name="ic_launcher_baidu_searchbox.png" package="com.baidu.searchbox_oppo"/>
+    <icon name="ic_launcher_baidu_searchbox.png" package="com.baidu.searchbox"/>
+
+    <!-- 植物大战僵尸大头鸟版 -->
+
+
+    <!-- 你听音乐 -->
+    <icon name="ic_launcher_niting_app.png" package="com.niting.app"/>
+
+    <!-- 疯狂架子鼓 -->
+
+
+    <!-- 凯立德手机导航 -->
+    <icon name="ic_launcher_cld_navi_mainframe.png" package="cld.navi.mainframe"/>
+
+    <!-- 泡泡龙EX -->
+    <icon name="ic_launcher_appcup_bubble.png" package="com.appcup.bubble"/>
+
+    <!-- 屏客来电秀 -->
+
+
+    <!-- 俄罗斯方块 -->
+    <icon name="ic_launcher_yesiken_beyondtetris.png" package="com.yesiken.BeyondTetris"/>
+
+    <!-- 360省电王 -->
+    <icon name="ic_launcher_qihoo360_mobilesafe_opti_powerctl.png" package="com.qihoo360.mobilesafe.opti.powerctl"/>
+
+    <!-- 七彩祖玛 -->
+    <icon name="ic_launcher_ezjoynetwork.marbleblast2.png" package="com.ezjoynetwork.marbleblast2"/>
+
+    <!-- 重装炮手3D -->
+    <icon name="ic_launcher_com2us_hg.png" package="com.com2us.HG"/>
+
+    <!-- 七彩来显 -->
+    <icon name="ic_launcher_hongda_ccd.png" package="com.hongda.ccd"/>
+
+    <!-- 3D重力赛车 -->
+    <icon name="ic_launcher_mag3dlite_sf3d.png" package="Mag3DLite.SF3D"/>
+
+    <!-- Go桌面安全版 -->
+    <icon name="ic_launcher_gau_go_launcherex.png" package="com.gau.go.launcherex"/>
+
+    <!-- 搜狗地图 -->
+    <icon name="ic_launcher_sogou_map_android.png" package="com.sogou.map.android.maps"/>
+
+    <!-- 大家来找茬 -->
+    <icon name="ic_launcher_game_zhaocha1.png" package="com.xy.game.zhaocha1"/>
+
+    <!-- 打人转打脸 -->
+    <icon name="ic_launcher_appy_facefighter.png" package="com.appy.facefighter"/>
+
+    <!-- 墨迹天气 -->
+    <icon name="ic_launcher_moji_mjweather.png" package="com.moji.mjweather"/>
+
+    <!-- 小鸡快快跑 -->
+    <icon name="ic_launcher_bobgame_chickenrun2.png" package="com.bobgame.chickenrun2"/>
+    <!--                                                    121_140                end                                                    -->
+
+
+    <!--141_160-->
+    <!--                                                    141_160                bigin                                                    -->
+    <!-- android免费小说书城 -->
+    <icon name="ic_launcher_onion_reader.png" package="com.onion.reader"/>
+
+    <!-- Sniper狙击手 -->
+    <icon name="ic_launcher_roidgame_sniper.png" package="com.roidgame.sniper"/>
+
+    <!-- 金山背单词 -->
+    <icon name="ic_launcher_kingsoft_wordback.png" package="com.kingsoft.wordback"/>
+
+    <!-- QQ阅读 -->
+    <icon name="ic_launcher_qq_reader.png" package="com.qq.reader"/>
+
+    <!-- 百度输入法 -->
+    <icon name="ic_launcher_baidu_input.png" package="com.baidu.input"/>
+
+    <!-- 美丽说 -->
+    <icon name="ic_launcher_meilishuo.png" package="com.meilishuo"/>
+
+    <!-- 化妆宝典 -->
+    <icon name="ic_launcher_manle_makeup.png" package="com.manle.phone.android.makeup"/>
+
+    <!-- 导航犬 -->
+    <icon name="ic_launcher_tiros_android_navidog.png" package="cn.com.tiros.android.navidog"/>
+
+    <!-- 直升机空战 -->
+    <icon name="ic_launcher_skyjetinter_chaoslite.png" package="com.skyjetinter.chaoslite"/>
+
+    <!-- 捕鸟达人 -->
+    <icon name="ic_launcher_birdjoy.png" package="com.birdjoy"/>
+
+    <!-- 3D极限摩托 -->
+    <icon name="ic_launcher_galapagossoft_trial.png" package="com.galapagossoft.trial"/>
+
+    <!-- 挖财记账理财 -->
+    <icon name="ic_launcher_wacai365.png" package="com.wacai365"/>
+
+    <!-- 乐动舞指 -->
+    <icon name="ic_launcher_ledong_musicbox.png" package="com.ledong.musicbox"/>
+
+    <!-- 掌上百度 -->
+
+
+    <!-- 合金弹头 -->
+    <icon name="ic_launcher_kinglau_mslug.png" package="com.kinglau.mslug"/>
+
+    <!-- 时尚手电筒 -->
+    <icon name="ic_launcher_devuni_flashlight.png" package="com.devuni.flashlight"/>
+
+    <!-- 自由锦鲤动态壁纸 -->
+    <icon name="ic_launcher_fishnoodle_koipond.png" package="fishnoodle.koipond"/>
+
+    <!-- 拇指斗牛 -->
+    <icon name="ic_launcher_mzyou_mzgame_douniu_nearme.png" package="cn.mzyou.mzgame.douniu.nearme.gamecenter"/>
+
+    <!-- QQ怀旧版 -->
+    <icon name="ic_launcher_tencent_mobileqq_old.png" package="com.tencent.mobileqq.old"/>
+
+    <!-- 唯美手绘动态壁纸 -->
+    <icon name="ic_launcher_weimeishouhui146_appjoy.png" package="cn.bighead.livewallpaper.weimeishouhui146.appjoy"/>
+
+    <!--                                                    141_160                end                                                    -->
+
+
+    <!--                                                    161_180                bigin                                                    -->
+
+    <!-- 联众单机斗地主 -->
+    <icon name="ic_launcher_og_danjiddz.png" package="com.og.danjiddz"/>
+
+    <!-- 侠盗飞车3 -->
+    <icon name="ic_launcher_rockstar_gta3.png" package="com.rockstar.gta3"/>
+
+    <!-- 火车指挥员 -->
+    <icon name="ic_launcher_thevoxelagents_tc2.png" package="com.thevoxelagents.tc2.oppo"/>
+
+    <!-- 傲三国 -->
+    <icon name="ic_launcher_lying_maingamexinji.png" package="com.uqee.lying.maingamexinji"/>
+
+    <!-- 水果骑士 -->
+    <icon name="ic_launcher_droidhen_fruit.png" package="com.droidhen.fruit"/>
+
+    <!-- 8684公交 -->
+    <icon name="ic_launcher_chinabus_8684.png" package="cn.chinabus.main"/>
+
+    <!-- 公路赛车 -->
+    <icon name="ic_launcher_digimobistudio_roadfighter.png" package="com.digimobistudio.roadfighter"/>
+
+    <!-- 51信用卡管家 -->
+    <icon name="ic_launcher_zhangdan.png" package="com.zhangdan.app"/>
+
+    <!-- 帝国塔防 -->
+    <icon name="ic_launcher_gts8_td2_full_cn_nearme.png" package="com.gts8_td2_full_cn.nearme.gamecenter"/>
+
+    <!-- 疯狂连连看 -->
+
+
+    <!-- 最美高清动态壁纸锁屏 -->
+    <icon name="ic_launcher_mobi_livewallpaper_zwm5.png" package="com.mobi.livewallpaper.zwm5"/>
+
+    <!-- 萝莉-FUN主题解锁屏动态壁纸 -->
+    <icon name="ic_launcher_tpad_change_unlock_luo2li4.png" package="com.tpad.change.unlock.luo2li4"/>
+
+    <!-- 大姨吗—经期助手 -->
+    <icon name="ic_launcher_yoloho_dayima.png" package="com.yoloho.dayima"/>
+
+    <!-- 嘴巴写短信声控拨号 -->
+    <icon name="ic_launcher_shylisr.png" package="com.shylisr"/>
+
+    <!-- 疯狂猜图 -->
+    <icon name="ic_launcher_hortor_pictoword.png" package="com.hortor.pictoword"/>
+
+    <!-- 手机毒霸 -->
+    <icon name="ic_launcher_ijinshan_duba.png" package="com.ijinshan.duba"/>
+
+    <!-- 跳跃忍者 -->
+    <icon name="ic_launcher_gm_jumping.png" package="cn.gm.jumping"/>
+
+    <!-- 简单爱主题锁屏动态壁纸 -->
+    <icon name="ic_launcher_tpad_change_unlock_jian3dan1ai4.png" package="com.tpad.change.unlock.jian3dan1ai4"/>
+
+    <!-- Excel三国杀 -->
+    <icon name="ic_launcher_excel_sgs_nearme.png" package="excel.sgs.nearme"/>
+
+    <!--                                                    161_180                end                                                    -->
+
+
+    <!--                                                    181_200                begin                                                    -->
+
+    <!--  QQ输入法 -->
+    <icon name="ic_launcher_tencent_qqpinyin.png" package="com.tencent.qqpinyin"/>
+
+    <!--  失落之城中文版 -->
+    <icon name="ic_launcher_firemaplegames_thelostcity.png" package="com.firemaplegames.thelostcity"/>
+
+    <!--  四川麻将NearMe版 -->
+    <icon name="ic_launcher_boyaa_scmj_nearme.png" package="com.boyaa.scmj.nearme.gamecenter"/>
+
+    <!--  3D汤姆猫完美版 -->
+    <icon name="ic_launcher_gametalkingcat3.png" package="com.android.gametalkingcat3"/>
+
+    <!--  QQ安全中心手持版 -->
+    <icon name="ic_launcher_tencent_token.png" package="com.tencent.token"/>
+
+    <!--  3D休闲台球 -->
+    <icon name="ic_launcher_kb_carrom3dfull.png" package="com.kb.Carrom3DFull"/>
+
+    <!--  美团团购 -->
+    <icon name="ic_launcher_sankuai_meituan.png" package="com.sankuai.meituan"/>
+
+    <!--  91熊猫看书 -->
+    <icon name="ic_launcher_nd_android_pandareade.png" package="com.nd.android.pandareader"/>
+
+    <!--  夏日清新风景动态壁纸 -->
+    <icon name="ic_launcher_wallpaper_fengjing_summer.png" package="bighead.wallpaper.fengjing.summer"/>
+
+    <!--  恐怖庄园的秘密汉化版 -->
+    <icon name="ic_launcher_firemaplegames_games_thesecretofgrislymanor.png" package="com.firemaplegames.games.thesecretofgrislymanor"/>
+
+    <!--  手机阅读 -->
+    <icon name="ic_launcher_ophone_reader_ui.png" package="com.ophone.reader.ui"/>
+
+    <!--  仙侠来了 -->
+    <icon name="ic_launcher_pip_android_ss.png" package="com.pip.android.ss"/>
+
+    <!--  三剑之舞 -->
+    <icon name="ic_launcher_com2us_thirdblade_normal_freefull.png" package="com.com2us.thirdblade.normal.freefull.google.global.android.common"/>
+
+    <!--  跳跃忍者中文版 -->
+    <icon name="ic_launcher_bfs_kkgame_ninjump.png" package="com.bfs.kkgame.ninjump"/>
+
+    <!--  百度浏览器 -->
+    <icon name="ic_launcher_baidu_browser.png" package="com.baidu.browser.apps"/>
+
+    <!--  火线穿越 -->
+    <icon name="ic_launcher_of3d_cf_activitied_noadser.png" package="com.of3d.cf.Activitied_noadser"/>
+
+    <!--  京东 -->
+    <icon name="ic_launcher_jingdong_app_mall.png" package="com.jingdong.app.mall"/>
+
+    <!--  掌上药店 -->
+    <icon name="ic_launcher_manle_yaodian.png" package="com.manle.phone.android.yaodian"/>
+
+    <!--  屏幕碎裂 -->
+    <icon name="ic_launcher_zhang_game_papa.png" package="com.zhang.game.papa"/>
+
+    <!--  疯狂漂移 -->
+    <icon name="ic_launcher_ratrodstudio_driftmania.png" package="com.ratrodstudio.driftmania"/>
+
+    <!--                                                    181_200                end                                                    -->
+
+    <!--                                                    201_220                begin                                                    -->
+    <!-- 360手机卫士  -->
+    <icon name="ic_launcher_qihoo_mobilesafe.png" package="com.qihoo360.mobilesafe"/>
+
+    <!-- FUN主题趣味锁屏  -->
+    <icon name="ic_launcher_change_unlock.png" package="com.change.unlock"/>
+
+    <!-- love主题动态壁纸锁屏  -->
+    <icon name="ic_launcher_livewallpaper_love3.png" package="com.mobi.livewallpaper.love3"/>
+
+    <!-- QQ网购  -->
+    <icon name="ic_launcher_qq_buy.png" package="com.qq.buy"/>
+
+        <!-- WiFi万能钥匙  -->
+    <icon name="ic_launcher_snda_wifilocating.png" package="com.snda.wifilocating"/>
+
+    <!-- 爱壁纸HD  -->
+    <icon name="ic_launcher_lovebizhi_wallpaper.png" package="com.lovebizhi.wallpaper"/>
+
+    <!-- 百度音乐播放器  -->
+    <icon name="ic_launcher_ting_mp3.png" package="com.ting.mp3.android"/>
+
+    <!-- 冰块切割  -->
+    <icon name="ic_launcher_hyperkani_sliceice.png" package="com.hyperkani.sliceice"/>
+
+    <!-- 捕鱼之海底捞  -->
+    <icon name="ic_launcher_sg_android_fish.png" package="com.sg.android.fish"/>
+
+    <!-- 丑脸评分  -->
+    <icon name="ic_launcher_ugly_meter.png" package="com.content.ugly.meter"/>
+
+    <!-- 多米音乐  -->
+    <icon name="ic_launcher_duomi.png" package="com.duomi.android"/>
+
+    <!-- 疯狂泡泡龙  -->
+    <icon name="ic_launcher_rasoft_bubble.png" package="com.rasoft.bubble"/>
+
+    <!-- 高德地图（快捷免费版）  -->
+    <icon name="ic_launcher_autonavi_minimap.png" package="com.autonavi.minimap"/>
+
+    <!-- 滑雪大冒险  -->
+    <icon name="ic_launcher_yodo1tier1_skisafari.png" package="com.yodo1tier1.YY001.SkiSafari"/>
+
+    <!-- 会说话的汤姆猫3  -->
+    <icon name="ic_launcher_oooo3d_talkingtom.png" package="com.oooo3d.talkingtom"/>
+
+    <!-- 极限摩托  -->
+    <icon name="ic_launcher_droidhen_racingmoto.png" package="com.droidhen.game.racingmoto"/>
+
+    <!-- 驾考宝典  -->
+    <icon name="ic_launcher_handsgo_jiakao.png" package="com.handsgo.jiakao.android"/>
+
+    <!-- 简中综艺  -->
+    <icon name="ic_launcher_monotype_font_mjngaiprcmedium.png" package="com.monotype.android.font.mjngaiprcmedium"/>
+
+    <!-- 降魔神话  -->
+    <icon name="ic_launcher_qlwx_xmsh_cmge_c1wan.png" package="air.com.qlwx.xmsh.cmge.c1wan"/>
+
+    <!-- 金币推土机  -->
+    <icon name="ic_launcher_leftover_coindozer.png" package="com.leftover.CoinDozer"/>
+
+    <!--                                                    201_220                end                                                    -->
+
+    <!--                                                    221_240                begin                                                    -->
+
+  <!-- 可可桌面  -->
+  <icon name="ic_launcher_nearme_launcher.png" package="com.nearme.launcher"/>
+
+    <!-- 快播  -->
+  <icon name="ic_launcher_qvod_player.png" package="com.qvod.player"/>
+
+  <!-- 快乐斗地主  -->
+  <icon name="ic_launcher_coolplay_dsddz_cmge.png" package="com.coolplay.dsddz.cmge"/>
+
+    <!-- 雷霆战机2  -->
+  <icon name="ic_launcher_a5game_leidian2.png" package="a5game.leidian2"/>
+
+  <!-- 龙之召唤  -->
+  <icon name="ic_launcher_ruide_lzzh_cmge.png" package="com.ruide.lzzh.cmge"/>
+
+    <!-- 美柚-大姨妈月经助手  -->
+  <icon name="ic_launcher_lingan_seeyou.png" package="com.lingan.seeyou"/>
+
+  <!-- 密室逃生  -->
+  <icon name="ic_launcher_kuhakuworks_doors.png" package="com.kuhakuworks.DOOORS"/>
+
+    <!-- 魔漫相机  -->
+  <icon name="ic_launcher_manboker_headportrait.png" package="com.manboker.headportrait"/>
+
+  <!-- 汽车报价大全  -->
+  <icon name="ic_launcher_yiche_price.png" package="com.yiche.price"/>
+
+    <!-- 秦美人  -->
+  <icon name="ic_launcher_haowan123_nearme_gamecenter.png" package="com.haowan123.nearme.gamecenter"/>
+
+  <!-- 蜻蜓fm收音机  -->
+  <icon name="ic_launcher_fm_qingting_qtradio.png" package="fm.qingting.qtradio"/>
+
+    <!-- 糗事百科  -->
+  <icon name="ic_launcher_qsbk_app.png" package="qsbk.app"/>
+
+  <!-- 搜狐新闻  -->
+  <icon name="ic_launcher_sohu_newsclient.png" package="com.sohu.newsclient"/>
+
+    <!-- 随手记  -->
+  <icon name="ic_launcher_com_mymoney.png" package="com.mymoney"/>
+
+  <!-- 腾讯节奏大师  -->
+  <icon name="ic_launcher_tencent_game_rhythmmaster.png" package="com.tencent.game.rhythmmaster"/>
+
+    <!-- 天天酷跑  -->
+  <icon name="ic_launcher_tencent_pao.png" package="com.tencent.pao"/>
+
+  <!-- 天天连萌  -->
+  <icon name="ic_launcher_tencent_lian.png" package="com.tencent.lian"/>
+
+    <!-- 土豆视频播放器  -->
+  <icon name="ic_launcher_tudou_android.png" package="com.tudou.android"/>
+
+  <!-- 旺信  -->
+  <icon name="ic_launcher_alibaba_mobileim.png" package="com.alibaba.mobileim"/>
+
+    <!-- 我查查  -->
+  <icon name="ic_launcher_wochacha.png" package="com.wochacha"/>
+
+    <!--                                                    221_240                end                                                    -->
+
+    <!--                                                    241_260                begin                                                    -->
+
+    <!-- 武侠OL  -->
+  <icon name="ic_launcher_wxol_nearme_gamecenter.png" package="com.wxol.nearme.gamecenter"/>
+
+    <!-- 侠客行OL  -->
+  <icon name="ic_launcher_ydzs_cmge.png" package="com.ydzs.cmge"/>
+
+    <!-- 熊猫屁王  -->
+  <icon name="ic_launcher_camigomedia_mewantbamboo.png" package="com.camigomedia.mewantbamboo"/>
+
+    <!-- 薰衣草之恋  -->
+  <icon name="ic_launcher_unlock_content_xunyicaozhi1lian4.png" package="com.tpad.change.unlock.content.xunyicaozhi1lian4"/>
+
+    <!-- 迅雷看看  -->
+  <icon name="ic_launcher_xunlei_kankan.png" package="com.xunlei.kankan"/>
+
+    <!-- 悠悠导航  -->
+  <icon name="ic_launcher_uu_uunavi.png" package="com.uu.uunavi"/>
+
+    <!-- 屏客来电秀  -->
+    <icon name="ic_launcher_huimao_bobo.png" package="com.huimao.bobo"/>
+
+    <!-- 猎豹清理大师  -->
+    <icon name="ic_launcher_cleanmaster_mguard.png" package="com.cleanmaster.mguard_cn"/>
+
+    <!-- 腾讯同步助手  -->
+    <icon name="ic_launcher_tencent_qqpim.png" package="com.tencent.qqpim"/>
+
+    <!-- 天天爱消除  -->
+    <icon name="ic_launcher_tencent_peng.png" package="com.tencent.peng"/>
+
+    <!-- 腾讯新闻  -->
+    <icon name="ic_launcher_tencent_news.png" package="com.tencent.news"/>
+
+    <!-- 去哪儿  -->
+    <icon name="ic_launcher_qunar.png" package="com.Qunar"/>
+
+    <!-- 风行  -->
+    <icon name="ic_launcher_funshion_video.png" package="com.funshion.video.mobile"/>
+
+    <!-- 神庙逃亡2  -->
+    <icon name="ic_launcher_templerun2.png" package="com.imangi.templerun2"/>
+
+    <!-- 百度贴吧  -->
+    <icon name="ic_launcher_baidu_tieba.png" package="com.baidu.tieba"/>
+
+    <!-- PPTV  -->
+    <icon name="ic_launcher_pplive_androidphone.png" package="com.pplive.androidphone"/>
+
+    <!-- 搜狗巴士  -->
+    <icon name="ic_launcher_sogoubus.png" package="com.sogou.map.android.sogoubus"/>
+
+    <!-- 捕鸟达人让炮弹飞 -->
+    <icon name="ic_launcher_birdjoy.png" package="com.birdjoy"/>
+
+    <!-- 欢乐斗地主 -->
+    <icon name="ic_launcher_qqgame_hlddz.png" package="com.qqgame.hlddz"/>
+
+    <!-- 割绳子  -->
+    <icon name="ic_launcher_baidu_02.png" package="com.yodo1.ctr2.BAIDU_02"/>
+
+    <!-- 植物大战僵尸 -->
+    <icon name="ic_launcher_pvz2bddk.png" package="com.popcap.pvz2bddk"/>
+
+    <!-- 侠盗飞车 -->
+    <icon name="ic_launcher_dreamoe_freewayjumper.png" package="com.dreamoe.freewayjumper.android.HUAWEI"/>
+
+    <!-- 会说话的汤姆猫 -->
+    <icon name="ic_launcher_talkingtom.png" package="com.outfit7.talkingtom2"/>
+
+    <!-- 疯狂连连看 -->
+    <icon name="ic_launcher_rasoft_linker.png" package="com.rasoft.linker"/>
+
+    <!-- 三国杀 -->
+    <icon name="ic_launcher_sgshd.png" package="com.sgshd.nearme.gamecenter"/>
+
+    <!-- 招行手机支付钱包 -->
+    <icon name="ic_launcher_im_cmb_ui.png" package="com.cmb.ui" />
+
+    <!--联通运营商定制-->
+    <!--116114-->
+    <icon name="ic_launcher_wo116114" package="com.neusoft.td.android.wo116114" />
+
+    <!--手机营业厅-->
+    <icon name="ic_launcher_sinovatech_unicom_ui.png" package="com.sinovatech.unicom.ui" />
+
+    <!--沃门户-->
+    <icon name="ic_launcher_com_wo" package="cn.com.wo" />
+
+    <!--沃商店-->
+    <icon name="ic_launcher_wostore_ui.png" package="com.infinit.wostore.ui" />
+
+    <!--电信定制-->
+    <!--翼支付-->
+    <!--<icon name="ic_launcher_chinatelecom_bestpayclient.png" package="com.chinatelecom.bestpayclient" />-->
+
+    <!--爱看4G-->
+    <!--<icon name="ic_launcher_video_ikan4g.png" package="com.telecom.video.ikan4g" />-->
+
+    <!--电信营业厅-->
+    <!--<icon name="ic_launcher_ct_client.png" package="com.ct.client" />-->
+
+    <!--爱玩4G-->
+    <!--<icon name="ic_launcher_egame_terminal_client4g.png" package="cn.egame.terminal.client4g" />-->
+
+    <!--天翼WiFI-->
+    <!--<icon name="ic_launcher_akazam_wlandialer.png" package="com.akazam.android.wlandialer" />-->
+
+    <!--爱听4G-->
+    <!--<icon name="ic_launcher_imusic_iting.png" package="com.imusic.iting" />-->
+
+    <!--189邮箱-->
+    <icon name="ic_launcher_corp21cn_mail189.png" package="com.corp21cn.mail189" />
+
+    <!--天翼客服-->
+    <!--<icon name="ic_launcher_surfing_kefu.png" package="com.surfing.kefu" />-->
+
+    <!-- O-Band -->
+    <icon name="ic_launcher_oppo_wearable.png" package="com.oppo.wearable" />
+
+    <!--Add for the OTA upgrade,the new package and the old package can compatibility -->
+    <icon name="ic_launcher_clock.png" package="com.oppo.alarmclock"/>
+    <icon name="ic_launcher_video.png" package="com.oppo.video"/>
+    <icon name="ic_launcher_gallery3d.png" package="com.oppo.gallery3d"/>
+    <icon name="ic_launcher_filemanager.png" package="com.oppo.filemanager"/>
+    <icon name="ic_launcher_recorder.png" package="oppo.multimedia.soundrecorder"/>
+    <icon name="ic_launcher_flash_light.png" package="com.oppo.flashlight"/>
+    <icon name="ic_launcher_compass.png" package="com.oppo.compass"/>
+    <icon name="ic_launcher_operation_manual.png" package="com.oppo.operationManual"/>
+    <icon name="ic_launcher_nearme_ota.png" package="com.oppo.ota"/>
+    <icon name="ic_launcher_weather.png" package="com.oppo.weather"/>
+    <icon name="ic_launcher_speechassist.png" package="com.oppo.speechassist"/>
+    <icon name="ic_launcher_speechassist.png" package="com.oppo.speechassist.engine"/>
+    <icon name="ic_launcher_feedback.png" package="com.nearme.feedback"/>
+    <icon name="ic_launcher_securesafe.png" package="com.color.safecenter" />
+    <icon name="ic_launcher_backuprestore.png" package="com.oppo.backuprestore" />
+    <icon name="ic_launcher_nfc_tag.png" package="com.oppo.tag" />
+    <icon name="ic_launcher_weather.png" package="com.oppo.widget.smallweather"/>
+    <icon name="ic_launcher_video.png" package="com.tencent.tvoem"/>
+    <icon name="ic_launcher_news.png"  package="com.oppo.news"/>
+
+    <!--                                                    241_260                end                                                    -->
+</iconinfo>

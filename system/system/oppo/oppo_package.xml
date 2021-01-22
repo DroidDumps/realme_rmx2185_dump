@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oppo-package>
+
+    <PredexOptArray>com.android.contacts</PredexOptArray>
+    <PredexOptArray>com.adobe.flashplayer</PredexOptArray>
+
+    <TrustApkArray>com.nearme.gamecenter</TrustApkArray>
+
+    <ForceUnpackNativeLibArray>com.google.android.voicesearch</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.dianping.v1</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.sina.weibo</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.reader</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.ebook</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.compass</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.gesture</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.gestureguide.custom</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.iflytek.speechservice</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.iflytek.speech</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.iflytek.speechcloud</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.baidu.input_oppo</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.findmyphone</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.speechassist.engine</ForceUnpackNativeLibArray>
+	<ForceUnpackNativeLibArray>com.oppo.speechassist</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.socialhub</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.usercenter</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.nearme.im</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.safe</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.weather.locationservice</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.launcher</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.digitalclock</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.widget.music</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.widget.picture</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.globaltheme.proxydigitalclockwidget</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.LockScreenGlassBoard</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.LockScreenWeather</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.card</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.bubble</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.crystal</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.android.calendar</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.wallpaper</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.android.mms</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.android.gallery3d</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.gallery3d</ForceUnpackNativeLibArray>
+    <!--ForceUnpackNativeLibArray>oppo.multimedia.soundrecorder</ForceUnpackNativeLibArray-->
+    <ForceUnpackNativeLibArray>com.android.individuationSettings</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.launcher</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.launcherSystem</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.music</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.android.defcontainer</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.android.facelock</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.video</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.sohu.inputmethod.sogou</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.iflytek.inputmethod.oem</ForceUnpackNativeLibArray>
+	<ForceUnpackNativeLibArray>com.iflytek.inputmethod.oppo</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.sohu.inputmethod.sogouoem</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.market</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.tencent.mobileqq</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.baidu.BaiduMap</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.baidu.searchbox_oppo</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.qiyi.video</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.netease.newsreader.activity</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.tmall.wireless</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.taobao.taobao</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.kinect</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.baidu.map.location</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.android.systemui</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.blacklist</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.alarmclock</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.etao.kaka</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.etao.kaka.oppo</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.android.browser</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.facepreview</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.ubeauty</ForceUnpackNativeLibArray>
+<!-- #ifdef VENDOR_EDIT -->
+<!-- LiuLei@EXP.GeneralApp.IME, 2013/06/01, Add for IME -->
+    <ForceUnpackNativeLibArray>com.oppo.keyboard</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>kynam.ime.gotiengviet</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.google.android.inputmethod.latin</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.google.android.inputmethod.pinyin</ForceUnpackNativeLibArray>
+<!-- #endif //VENDOR_EDIT -->
+
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Lichen@Camera, 2013/09/28, Add for Camera -->
+    <ForceUnpackNativeLibArray>com.oppo.camera</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.maxxaudio</ForceUnpackNativeLibArray>
+<!-- #endif //VENDOR_EDIT -->
+
+    <ForceUnpackNativeLibArray>com.oppo.virusdetect</ForceUnpackNativeLibArray>
+<!-- #ifdef VENDOR_EDIT -->
+<!-- moqp, 2014/04/17, Add for trafficmonitor -->
+    <ForceUnpackNativeLibArray>com.oppo.trafficmonitor</ForceUnpackNativeLibArray>
+<!-- #endif //VENDOR_EDIT -->
+<!-- #ifdef VENDOR_EDIT -->
+
+<!-- YuCongcong@OnlineRD.framework.after-sale, 2013/01/14, Add for after-sale service, AllowUsbDebuggingCritically.apk -->
+    <ForceUnpackNativeLibArray>com.oppo.allowusbdebuggingcritically</ForceUnpackNativeLibArray>
+<!-- #endif //VENDOR_EDIT -->
+
+<!-- zhouwurun add -->
+    <ForceUnpackNativeLibArray>com.oppo.widget.calendar</ForceUnpackNativeLibArray>
+
+<!-- #ifdef COLOROS_EDIT -->
+<!-- ZhongMing@Plf.Graphics, 2014/3/5, Add for camera gesture -->
+    <ForceUnpackNativeLibArray>eyesight.service.service</ForceUnpackNativeLibArray>
+<!-- #endif //COLOROS_EDIT -->
+
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Jevons@OnLineRD.framework 2014-09-12, Add for Gesture -->
+<ForceUnpackNativeLibArray>com.oppo.oppogestureservice</ForceUnpackNativeLibArray>
+<!-- #endif //VENDOR_EDIT -->
+
+
+<!-- #ifdef VENDOR_EDIT -->
+<!-- lizx@OnlineRD.framework, 2014/03/08, Add for kaku.apk -->
+    <ForceUnpackNativeLibArray>com.nxp.wallet.oppo</ForceUnpackNativeLibArray>
+<!-- #endif //VENDOR_EDIT -->
+<!-- #ifdef VENDOR_EDIT -->
+<!-- Haiping.Zhong@swdp.android, 2014/08/25, Add for remotectrl  -->
+    <ForceUnpackNativeLibArray>com.honestar.irtest</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.uei.quicksetsdk.oppo</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.remotectrl.epg</ForceUnpackNativeLibArray>
+    <ForceUnpackNativeLibArray>com.oppo.remotectrl</ForceUnpackNativeLibArray>
+<!-- #endif //VENDOR_EDIT -->
+    <OppoShareUid>oppo.uid.launcher</OppoShareUid>
+
+<!-- #ifdef COLOROS_EDIT -->
+<!-- FengFei@Media.App, 2014/09/05, Add for o-video apk -->
+    <ForceUnpackNativeLibArray>com.hiscene.app</ForceUnpackNativeLibArray>
+<!-- #endif //COLOROS_EDIT -->
+<!-- fenggui.yan@Media.App, 2014/11/12, Add for PhotoEditor apk -->
+<ForceUnpackNativeLibArray>com.oppo.gallery3d.photoeditor</ForceUnpackNativeLibArray>
+ <!-- #endif //COLOROS_EDIT -->
+
+<!-- #ifdef COLOROS_EDIT -->
+<!-- WangBin@Phone.App, 2014/09/19, Add for phone apk ,auto flip camera-->
+    <ForceUnpackNativeLibArray>com.android.phone</ForceUnpackNativeLibArray>
+<!-- #endif //COLOROS_EDIT -->
+<!-- #ifdef COLOROS_EDIT -->
+<!-- HuangShiji@Prd.ToolApp.OppoFlashLight 2014/11/20, Add for flashlight apk ,auto flip camera-->
+    <ForceUnpackNativeLibArray>com.oppo.flashlight</ForceUnpackNativeLibArray>
+<!-- #endif //COLOROS_EDIT -->
+<!-- hehui, 2015/01/28, Add for OppoWeather.apk -->
+    <ForceUnpackNativeLibArray>com.oppo.weather</ForceUnpackNativeLibArray>
+<!-- #endif  -->
+<!-- LiTongxi@ROM.Framework, 2015/1/17, Add for -->
+    <ForceUnpackNativeLibArray>com.oppo.yellowpage</ForceUnpackNativeLibArray>
+<!-- #endif //COLOROS_EDIT -->
+</oppo-package>

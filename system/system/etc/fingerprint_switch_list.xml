@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20181020</version>
+    <isOpen>1</isOpen>
+    <filter-name>fingerprint_switch_list</filter-name>
+    <psensor>true</psensor>
+    <tpprotecet>true</tpprotecet>
+    <allowpackage>com.android.systemui</allowpackage>
+    <allowpackage>com.android.settings</allowpackage>
+    <allowpackage>com.android.cts.verifier</allowpackage>
+    <allowpackage>CtsVerifier</allowpackage>
+    <allowpackage>com.coloros.safecenter</allowpackage>
+    <allowpackage>com.coloros.encryption</allowpackage>
+    <allowpackage>com.coloros.childrenspace</allowpackage>
+    <allowpackage>com.oppo.fingerprints.fingerprintsensortest</allowpackage>
+    <allowpackage>android.accessibilityservice.cts</allowpackage>
+    <allowpackage>android.hardware.cts</allowpackage>
+    <allowpackage>com.coloros.phonemanager</allowpackage>
+</filter-conf>

@@ -1,0 +1,65 @@
+service oppo_face_sh /vendor/bin/sh /vendor/bin/init.oppo.face.sh
+    class late_start
+    user root
+    oneshot
+    disabled
+    seclabel u:r:rutilsdaemon:s0
+
+on post-fs-data
+    chown system system /dev/mx6300_tac
+    chmod 0770 /dev/mx6300_tac
+
+    chown system system /proc/ldmp_sn
+    chown system system /proc/oppo_face_common/face_ir_sensor_tempature
+    chown system system /proc/oppo_face_common/face_ldmp_power
+    chown system system /proc/oppo_face_common/face_ldmp_tempature
+    chown system system /proc/oppo_face_common/face_ntc_svc
+    chown system system /proc/oppo_face_common/face_temp_ir
+    chown system system /proc/oppo_face_common/face_temp_ldmp
+    chown system system /proc/lm3644_enable
+    chown system system /proc/lm3643_enable
+    chown system system /proc/ldmp_enable
+    chown system system /proc/flood_led_enable
+    chown system system /proc/lm3644_power
+    chown system system /proc/lm3644_lightpower
+    chown system system /proc/ldmp_wdt_test
+    chown system system /proc/ldmp_doe_security
+    chown system system /proc/ldmp_sn
+    rm /persist/camera/Tiger_181_calib.bin
+    chown system system /mnt/vendor/persist/camera/DepthParams.bin
+    chown system system /mnt/vendor/persist/camera/stereoParams.bin
+    chmod 0644 /mnt/vendor/persist/camera/DepthParams.bin
+    chmod 0644 /mnt/vendor/persist/camera/stereoParams.bin
+
+service face_calib_transfer /system/bin/mv /sdcard/.facedldata /data/vendor_de/0/
+    class core
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:rutilsdaemon:s0
+
+on property:sys.oppo.bsp.calib_transfer=1
+    start face_calib_transfer
+
+service face_auth_data /vendor/bin/sh /vendor/bin/init.oppo.face_calib.sh
+    class core
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:rutilsdaemon:s0
+
+on property:sys.oppo.bsp.auth_data=1
+    start face_auth_data
+
+service face_sign_data /system/bin/mv /sdcard/.faceauth/signdata.txt /data/vendor_de/0/.faceauth/
+    class core
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:rutilsdaemon:s0
+
+on property:sys.oppo.bsp.sign_data=1
+    start face_sign_data

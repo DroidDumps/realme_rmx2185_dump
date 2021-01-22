@@ -1,0 +1,6 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.commcenter.auto.switch.operator" />
+  <feature name="oppo.opposimsettings.traffic.not.remind" />
+  <feature name="oppo.simsettings.mobile.data.enable" />
+</permissions>
