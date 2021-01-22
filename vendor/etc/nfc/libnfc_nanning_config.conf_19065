@@ -1,0 +1,23 @@
+###############################################################################
+# Force P2P to only listen for the following technology(s).
+# The bits are defined as tNFA_TECHNOLOGY_MASK in nfa_api.h.
+# Default is NFA_TECHNOLOGY_MASK_A | NFA_TECHNOLOGY_MASK_F |
+#            NFA_TECHNOLOGY_MASK_A_ACTIVE | NFA_TECHNOLOGY_MASK_F_ACTIVE
+#
+# Notable bits:
+# NFA_TECHNOLOGY_MASK_A	            0x01    /* NFC Technology A             */
+# NFA_TECHNOLOGY_MASK_F	            0x04    /* NFC Technology F             */
+# NFA_TECHNOLOGY_MASK_A_ACTIVE      0x40    /* NFC Technology A active mode */
+# NFA_TECHNOLOGY_MASK_F_ACTIVE      0x80    /* NFC Technology F active mode */
+P2P_LISTEN_TECH_MASK=0xC0
+#//disable P2P F_passive_Listen(P2P A_passive_Listen for Mifare POS)
+
+#############################libnfc-nxp_RF.conf###################################
+NXP_RF_CONF_BLK_12={
+              20,   02,   2B,   05,
+	      A0,   0D,   03,   61,   09,   7F,
+	      A0,   0D,   06,   82,   82,   49,   80,   00,   00,
+	      A0,   0D,   06,   80,   82,   49,   80,   00,   00,
+	      A0,   0D,   06,   62,   32,   AE,   00,   7F,   00,
+              A0,   0D,   06,   67,   32,   AE,   00,   1F,   00
+}

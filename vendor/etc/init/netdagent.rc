@@ -1,0 +1,11 @@
+service netdagent /vendor/bin/netdagent
+    class late_start
+    #socket netdagent stream 0660 root system
+    user system
+    group net_admin net_raw system misc
+
+#ifdef VENDOR_EDIT
+#yilong.wei@NW.RF 2019/12/14.2677779 delete for blocking antutu test
+#on init
+#    setprop ro.vendor.net.upload.benchmark.default blocking
+#endif VENDOR_EDIT

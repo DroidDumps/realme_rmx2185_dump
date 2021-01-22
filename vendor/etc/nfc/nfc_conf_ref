@@ -1,0 +1,57 @@
+#############################################################
+## File: - nfc_conf_ref
+## VENDOR_EDIT
+## Copyright (C), 2008-2020, OPPO Mobile Comm Corp., Ltd
+##
+## Description : 1.0
+##           This is a common file
+##
+## Version: 1.0
+## Date created: 12:00, 2019/09/20
+## Author: Yukun.Wang@PSW.CONNECTIVITY.Nfc.Basic, 2345426
+## Format for every line:
+##   [target config]:[project name 1] [project name 2]...
+##   [project name] have four source:
+##     1. ro.separate.soft
+##     2. /proc/oppoVersion/prjName
+##     3. /proc/oppoVersion/prjVersion
+##     4. ro.build.product
+##   [target config] is the name of folder which contains real config
+## More over, we have some appendencies for other request:
+##   If you have a region concern, you can write in this format
+##     [target config]:[project name 1(REGION=TARGET1/TARGET2;FEATURE2=TARGET3/TARGET4)]...
+##   Like:
+##     19362_JP:19362(REGION=JP/TW;OPERATOR=VODAFONE)
+##   Then we will find config from 19362_JP in japen version and 19362 in other
+## ------------------ Revision History: ---------------------
+##      <author>         <date>                        <desc>
+##     Yukun.Wang  12:00, 2019/09/20  Change nfc config load & compile mechanism
+##     Yukun.Wang  15:00, 2019/12/25      Add new mechanism for region support
+#############################################################
+
+19065:19063 19065 19361 kona
+19066:19066 19067 19362 OP4A79
+19125:19125 19126
+19101:19101 19102
+19521:19521
+19501:19501
+19191:19191 19192
+19015:19015 19016
+19591:19591
+19525:19525 19528
+19165:19165 19166 PDCM00 PDCT00 oppo6885
+19081:19081
+19354:19354
+18073:18073 18075
+19742:19742
+19748:19748
+18593:18593
+19161:19161 19163
+19011:19011
+19305:19305
+19031:19031
+19362_JP:19362(REGION=JP)
+19331:19331
+19111:19111
+19040:19040
+206A7:206A7
