@@ -1,0 +1,25 @@
+# set up the global environment
+on early-init
+    export ANDROID_BOOTLOGO 1
+    export ANDROID_ROOT /system
+    export ANDROID_ASSETS /system/app
+    export ANDROID_DATA /data
+    export ANDROID_STORAGE /storage
+    export ANDROID_RUNTIME_ROOT /apex/com.android.runtime
+    export ANDROID_TZDATA_ROOT /apex/com.android.tzdata
+    export EXTERNAL_STORAGE /sdcard
+    export ASEC_MOUNTPOINT /mnt/asec
+    export BOOTCLASSPATH /apex/com.android.runtime/javalib/core-oj.jar:/apex/com.android.runtime/javalib/core-libart.jar:/apex/com.android.runtime/javalib/okhttp.jar:/apex/com.android.runtime/javalib/bouncycastle.jar:/apex/com.android.runtime/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/android.test.base.jar:/system/framework/mediatek-telephony-base.jar:/system/framework/mediatek-telephony-common.jar:/system/framework/mediatek-common.jar:/system/framework/mediatek-framework.jar:/system/framework/OPCommonTelephony.jar:/system/framework/mediatek-ims-common.jar:/system/framework/mediatek-ims-base.jar:/system/framework/mediatek-telecom-common.jar:/system/framework/oppo-framework.jar:/system/framework/coloros-framework.jar:/system/framework/coloros-support-wrapper.jar:/system/framework/ifaamanager.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.media/javalib/updatable-media.jar
+    export DEX2OATBOOTCLASSPATH /apex/com.android.runtime/javalib/core-oj.jar:/apex/com.android.runtime/javalib/core-libart.jar:/apex/com.android.runtime/javalib/okhttp.jar:/apex/com.android.runtime/javalib/bouncycastle.jar:/apex/com.android.runtime/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/android.test.base.jar:/system/framework/mediatek-telephony-base.jar:/system/framework/mediatek-telephony-common.jar:/system/framework/mediatek-common.jar:/system/framework/mediatek-framework.jar:/system/framework/OPCommonTelephony.jar:/system/framework/mediatek-ims-common.jar:/system/framework/mediatek-ims-base.jar:/system/framework/mediatek-telecom-common.jar:/system/framework/oppo-framework.jar:/system/framework/coloros-framework.jar:/system/framework/coloros-support-wrapper.jar:/system/framework/ifaamanager.jar
+    export SYSTEMSERVERCLASSPATH /system/framework/services.jar:/system/framework/ethernet-service.jar:/system/framework/wifi-service.jar:/system/framework/com.android.location.provider.jar:/system/framework/coloros-services.jar:/system/framework/oppo-services.jar
+    
+    
+    
+on early-init
+    export OPPO_CUSTOM_ROOT /oppo_custom
+    export OPPO_ENGINEER_ROOT /oppo_engineering
+    export OPPO_PRODUCT_ROOT /oppo_product
+    export OPPO_VERSION_ROOT /oppo_version
+    export OPPO_SPECIAL_PRELOAD_ROOT /special_preload
+    export OPPO_COMMON_PRELOAD_ROOT /common_preload
+    #END_EUCLID_PATH

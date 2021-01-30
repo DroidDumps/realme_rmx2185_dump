@@ -1,0 +1,33 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.ota.specialneeds.orange" />
+  <feature name="oppo.permission.orange" />
+  <feature name="oppo.securitykeyboard.orange" />
+  <feature name="systemui.statusbar.show.operator.name" />
+  <feature name="coloros.customize.systemui.airplanemode.confirm" />
+  <feature name="coloros.customize.systemui.vowifi.tile.first" />
+  <feature name="coloros.customize.systemui.hide_data_when_disconnect" />
+  <feature name="oppo.mms.max.size.1m" />
+  <feature name="oppo.mms.mms.http.timeout.1min" />
+  <feature name="oppo.mms.si.push.low.no.notify" />
+  <feature name="oppo.mms.no.need.send.notify.resp.ind" />
+  <feature name="oppo.mms.sms.validity.period" />
+  <feature name="oppo.mms.sms.input.mode" />
+  <feature name="oppo.default.sms.application.google.messages" />
+  <feature name="oppo.wirelesssettings.show.nfc.routing.table" />
+  <feature name="oppo.common_center.wifi.calling.customize" />
+  <feature name="oppo.phone.not.log.emergency.call" />
+  <feature name="oppo.stk.orange.test" />
+  <feature name="oppo.simsettings.show.sim.change.dialog.in.welcome" />
+  <feature name="oppo.wirelesssetting.show.toast.when.change.nfc.defpayapp" />
+  <feature name="oppo.simsettings.off.ims" />
+  <feature name="oppo.write.calllog.vowifi" />
+  <feature name="oppo.commcenter.mms.remove.oppo.mms"/>
+  <feature name="oppo.mms.replace.google.mms"/>
+  <feature name="oppo.phone.display.vowifi.icon" />
+  <feature name="oppo.phone.display.single.party.conference.call" />
+  <feature name="oppo.phone.show.google.emergencydialer"/>
+  <feature name="oppo.phone.hide.repeat.callsetting" />
+  <feature name="oppo.contacts.android.backup.restore.support"/>
+  <feature name="coloros.customize.simsettings.show_orange_volte_internet_string"/>
+</permissions>

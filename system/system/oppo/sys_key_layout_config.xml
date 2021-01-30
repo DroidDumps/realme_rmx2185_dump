@@ -1,0 +1,20 @@
+<filter-conf>
+    <version>20200120</version>
+    <filter-name>sys_key_layout_config</filter-name>
+
+    <!-- launch package for gimbal power key -->
+    <gimbal_launch_pkg>com.oppo.camera</gimbal_launch_pkg>
+
+    <!-- gimbal device -->
+    <!-- -1 means default config, for those devices without vid, pid -->
+    <device vendor_id="-1" product_id="-1" version_id="-1">
+        <key scancode="115" label="VOLUME_UP" />
+        <!-- New keycode will have keycode attribute, don't define these new keycodes repeatedly.  -->
+        <!-- For example, GIMBAL_SWITCH_CAMERA has defined here, so you should not define it in other places. -->
+        <key scancode="241" label="GIMBAL_SWITCH_CAMERA" keycode="706" />
+        <key scancode="380" label="GIMBAL_POWER" keycode="717"/>
+        <key scancode="418" label="ZOOM_IN" />
+        <key scancode="419" label="ZOOM_OUT" />
+    </device>
+
+</filter-conf>

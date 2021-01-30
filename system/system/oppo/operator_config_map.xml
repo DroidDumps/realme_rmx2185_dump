@@ -1,0 +1,196 @@
+﻿<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Operators>
+<Operator name="TMOBILE">
+<Bookmarks>
+<Bookmark country="DE" label="Telekom.de" url="https://www.telekom.de/?wt_mc=rs_z_preinstallationbookmark" folder="Telekom"/>
+<Bookmark country="DE" label="Puls Startseite" url="http://startde.tmo.net" folder="Telekom"/>
+<Bookmark country="DE" label="TopApps" url="http://app.telekom.de/0221/" folder="Telekom"/>
+<Bookmark country="DE" label="Hilfe &amp; Service" url="https://www.telekom.de/hilfe?wt_mc=prce_sz_001" folder="Telekom"/>
+<Bookmark country="DE" label="Telekom hilft Community" url="https://telekomhilft.telekom.de?wt_mc=prce_sz_001 " folder="Telekom"/>
+<Bookmark country="NL" label="Google-services voor mobiel" url="http://www.google.nl/m/products" folder="T-Mobile"/>
+<Bookmark country="NL" label="web´n´walk" url="http://www.t-mobile.nl/start" folder="T-Mobile"/>
+<Bookmark country="NL" label="KNMI" url="http://www.knmi.nl " folder="T-Mobile"/>
+<Bookmark country="NL" label="Marktplaats" url="http://app.telekom.de/0221/" folder="T-Mobile"/>
+<Bookmark country="NL" label="Flitser.mobi" url="http://flitsers.mobi" folder="T-Mobile"/>
+<Bookmark country="NL" label="Wikipedia" url="http://nl.wikipedia.org" folder="T-Mobile"/>
+<Bookmark country="NL" label="9292ov" url="http://www.9292ov.nl" folder="T-Mobile"/>
+<Bookmark country="NL" label="NU.nl" url="http://www.nu.nl" folder="T-Mobile"/>
+<Bookmark country="NL" label="Funda" url="http://www.funda.nl" folder="T-Mobile"/>
+<Bookmark country="NL" label="RTL" url="http://www.rtl.nl" folder="T-Mobile"/>
+<Bookmark country="NL" label="IENS" url="http://www.iens.nl" folder="T-Mobile"/>
+<Bookmark country="NL" label="Voetbal International" url="http://www.vi.nl" folder="T-Mobile"/>
+<Bookmark country="NL" label="NS Reisplanner" url="http://www.ns.nl" folder="T-Mobile"/>
+<Bookmark country="NL" label="Facebook" url="http://nl-nl.facebook.com/" folder="T-Mobile"/>
+<Bookmark country="NL" label="Toestelhulp" url="http://toestelhulp.t-mobile.nl/m/" folder="T-Mobile"/>
+<Bookmark country="PL" label="T-Mobile" url="http://www.t-mobile.pl" folder="T-Mobile"/>
+<Bookmark country="PL" label="Mój T-Mobile" url="https://i-boa.t-mobile.pl/iboa3/auth2/auth.html" folder="T-Mobile"/>
+<Bookmark country="PL" label="Mój T-Mobile Na Kartę" url="https://miboa.t-mobile.pl/sc" folder="T-Mobile"/>
+<Bookmark country="PL" label="T-Mobile Usługi Bankowe" url="https://www.facebook.com/tmobilebankowepl/?fref=ts" folder="T-Mobile"/>
+<Bookmark country="PL" label="Onet" url="http://www.onet.pl" folder="T-Mobile"/>
+<Bookmark country="PL" label="Allegro" url="http://www.allegro.pl" folder="T-Mobile"/>
+<Bookmark country="PL" label="Facebook" url="http://www.facebook.com " folder="T-Mobile"/>
+<Bookmark country="PL" label="Youtube" url="https://www.youtube.com/user/TMobilePL" folder="T-Mobile"/>
+<Bookmark country="RO" label="My SmartSpace" url="https://www.telekom.ro/smartspace" folder="TELEKOM.RO"/>
+<Bookmark country="RO" label="TELEKOM.RO" url="http://www.telekom.ro" folder="TELEKOM.RO"/>
+</Bookmarks>
+<Homepages>
+<Homepage country="DE" url="http://start-de.tmo.net" label="HomePage"/>
+<Homepage country="NL" url="http://www.t-mobile.nl/start" label="HomePage"/>
+<Homepage country="PL" url="http://m.t-mobile.pl/" label="HomePage"/>
+<Homepage country="RO" url="https://www.telekom.ro/smartspace" label="HomePage"/>
+</Homepages>
+<Signatures>
+<Signature country="DE" global_signature="Versendet mit Mobile E-Mail von T-Mobile"/>
+<Signature country="NL" global_signature="Verzonden met mobiele e-mail van T-Mobile"/>
+<Signature country="PL" global_signature="Wysłane za pomocą mobilnej wiadomości e-mail od T-Mobile"/>
+<Signature country="RO" global_signature="Trimis utilizând e-mail mobil de la T-Mobile"/>
+</Signatures>
+<Permissions>
+<Permission country="PL" level="dangerous" name="android.permission.SEND_SMS" packages="pl.tmobile.panel;de.telekom.mds.mbp" grant="preload" systemFixed="false" />
+</Permissions>
+<PermissionsGroups>
+<PermissionGroup country="PL" level="dangerous" name="android.permission-group.PHONE" packages="pl.tmobile.panel;de.telekom.tsc;de.telekom.mds.mbp" grant="preload" systemFixed="false" />
+<PermissionGroup country="PL" level="dangerous" name="android.permission-group.SMS" packages="pl.tmobile.panel;de.telekom.mds.mbp" grant="preload" systemFixed="false" />
+<PermissionGroup country="DE" level="dangerous" name="android.permission-group.PHONE" packages="de.telekom.mds.mbp;de.telekom.tsc" grant="preload" systemFixed="false" />
+<PermissionGroup country="DE" level="dangerous" name="android.permission-group.SMS" packages="de.telekom.mds.mbp" grant="preload" systemFixed="false" />
+<PermissionGroup country="RO" level="dangerous" name="android.permission-group.PHONE" packages="de.telekom.tsc" grant="preload" systemFixed="false" />
+<PermissionGroup country="NL" level="dangerous" name="android.permission-group.PHONE" packages="de.telekom.tsc" grant="preload" systemFixed="false" />
+</PermissionsGroups>
+<Packages>
+<Package country="DE" name="de.telekom.tsc" path="/system/priv-app/" reboot="true" removable="false" />
+</Packages>
+</Operator>
+<Operator name="CS">
+<Bookmarks>
+<Bookmark country="DE" label="congstar.de" url="https://www.congstar.de" folder="congstar"/>
+<Bookmark country="DE" label="Kundencenter" url="https://www.congstar.de/meincongstar/" folder="congstar"/>
+<Bookmark country="DE" label="congstar Forum" url="http://www.congstar-forum.de/" folder="congstar"/>
+</Bookmarks>
+<Homepages>
+<Homepage country="DE" url="https://www.congstar.de" label="HomePage"/>
+</Homepages>
+</Operator>
+<Operator name="TELE2">
+<Bookmarks>
+<Bookmark country="NL" label="" url="" folder="Open Market"/>
+</Bookmarks>
+<Homepages>
+<Homepage country="NL" url="https://www.tele2.nl" label="HomePage"/>
+</Homepages>
+</Operator>
+<Operator name="VODAFONE">
+<Bookmarks>
+<Bookmark country="DE" label="News" url="http://vflive.de/news"/>
+<Bookmark country="DE" label="MusicDownloads" url="http://vflive.de/music"/>
+<Bookmark country="DE" label="Spiele" url="http://vflive.de/games"/>
+<Bookmark country="DE" label="Logos &amp; Designs" url="http://vflive.de/picturedownload"/>
+<Bookmark country="DE" label="Vodafone Webseite" url="http://m.vodafone.de"/>
+<Bookmark country="IT" label="My Vodafone" url="http://my190.vodafone.it"/>
+<Bookmark country="IT" label="Apps" url="http://m.vodafone.it/pages/apps"/>
+<Bookmark country="IT" label="Vodafone" url="http://m.vodafone.it"/>
+<Bookmark country="PT" label="My Vodafone" url="https://my.vodafone.pt"/>
+<Bookmark country="PT" label="Vodafone Portugal" url="http://vodafone.pt"/>
+<Bookmark country="PT" label="Ofertas Vodafone" url="https://offers.vodafone.com/pt"/>
+<Bookmark country="PT" label="Vodafone Secure Net" url="http://securenet.vodafone.pt"/>
+<Bookmark country="PT" label="Vodafone My Web" url="http://myweb.vodafone.pt"/>
+<Bookmark country="ES" label="Mi Vodafone" url="https://m.vodafone.es"/>
+<Bookmark country="ES" label="Contenidos" url="http://offers.vodafone.com/es"/>
+<Bookmark country="ES" label="V by Vodafone" url="https://eshop.v.vodafone.com/es"/>
+<Bookmark country="GB" label="Vodafone" url="https://www.vodafone.co.uk"/>
+<Bookmark country="RO" label="Vodafone Start" url="https://www.vodafone.ro"/>
+<Bookmark country="RO" label="Stiri" url="http://live.vodafone.com/news"/>
+<Bookmark country="RO" label="Sport" url="http://live.vodafone.com/sport"/>
+<Bookmark country="RO" label="TV Mobil" url="http://live.vodafone.com/tv"/>
+<Bookmark country="RO" label="Jocuri" url="http://live.vodafone.com/games"/>
+<Bookmark country="RO" label="Muzica" url="http://live.vodafone.com/music"/>
+<Bookmark country="RO" label="My Vodafone" url="https://m.vodafone.ro/index.htm?cid=mob-ro-trafficgeneration-bookmarktelefoane-msite"/>
+<Bookmark country="RO" label="Reîncarcare cartelă" url="https://m.vodafone.ro/mobil/reincarcare?mob-ro-reincarcaremobil-cartela"/>
+<Bookmark country="RO" label="Aplicatii Vodafone" url="https://m.vodafone.ro/aplicatii-mobil"/>
+<Bookmark country="RO" label="Cinemagia" url="http://m.cinemagia.ro"/>
+<Bookmark country="RO" label="Meteo Romania" url="http://vremea.meteoromania.ro"/>
+<Bookmark country="RO" label="0Salvamont" url="http://m.0salvamont.org"/>
+</Bookmarks>
+<Homepages>
+<Homepage country="DE" url="http://live.vodafone.de/dr/cc" label="Vodafone live!"/>
+<Homepage country="IT" url="https://m.vodafone.it/pages/home" label="Homepage"/>
+<Homepage country="PT" url="http://myweb.vodafone.pt" label="Vodafone My Web"/>
+<Homepage country="ES" url="https://www.vodafone.es/c/start/" label="Welcome Vodafone"/>
+<Homepage country="GB" url="https://www.vodafone.co.uk" label="Vodafone Start"/>
+<Homepage country="RO" url="https://www.vodafone.ro" label="Vodafone Start"/>
+</Homepages>
+<Emails>
+<Email country="DE" id="Vodafone-EMail" label="Vodafone E-Mail" domain="vodafone.de" signature="German" incomingUriTemplate="gLegacyImap+ssl+://imap.vodafone.de:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.vodafone.de:465" outgoingUsernameTemplate="$email" />
+<Email country="IT" id="Vodafone-Gmail" label="Gmail" domain="gmail.com" signature="Italian" incomingUriTemplate="gLegacyImap+ssl+://imap.gmail.com:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.gmail.com:465" outgoingUsernameTemplate="$email" />
+<Email country="IT" id="Vodafone-GoogleMail" label="Google Mail" domain="gmail.com" signature="Italian" incomingUriTemplate="gLegacyImap+ssl+://imap.gmail.com:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.gmail.com:465" outgoingUsernameTemplate="$email" />
+<Email country="IT" id="Vodafone.it" label="Vodafone.it" domain="vodafone.it" signature="Italian" incomingUriTemplate="gLegacyImap+ssl+://imap.vodafone.it:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.vodafone.it:465" outgoingUsernameTemplate="$email" />
+<Email country="IT" id="Hotmail.com" label="Hotmail.com" domain="live.com" signature="Italian" incomingUriTemplate="gPop3+ssl+://pop3.live.com:995" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+tls+://smtp.live.com:587" outgoingUsernameTemplate="$email" />
+<Email country="IT" id="Hotmail.it" label="Hotmail.it" domain="live.com" signature="Italian" incomingUriTemplate="gPop3+ssl+://pop3.live.com:995" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+tls+://smtp.live.com:587" outgoingUsernameTemplate="$email" />
+<Email country="IT" id="Yahoo.it" label="Yahoo.it" domain="yahoo.it" signature="Italian" incomingUriTemplate="gPop3+ssl+://pop.mail.yahoo.it:995" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.mail.yahoo.it:465" outgoingUsernameTemplate="$email" />
+<Email country="IT" id="Yahoo.com" label="Yahoo.com" domain="yahoo.com" signature="Italian" incomingUriTemplate="gLegacyImap+ssl+://imap.mail.yahoo.com:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.mail.yahoo.com:465" outgoingUsernameTemplate="$email" />
+<Email country="IT" id="Email.it" label="Email.it" domain="email.it" signature="Italian" incomingUriTemplate="gLegacyImap+tls+://imapmail.email.it:143" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+tls+://smtp.email.it:587" outgoingUsernameTemplate="$email" />
+<Email country="PT" id="Vodafone-Gmail" label="Gmail" domain="gmail.com" signature="Portuguese" incomingUriTemplate="gLegacyImap+ssl+://imap.gmail.com:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.gmail.com:465" outgoingUsernameTemplate="$email" />
+<Email country="PT" id="Outlook" label="Outlook" domain="outlook.com" signature="Portuguese" incomingUriTemplate="gPop3+ssl++://pop-mail.outlook.com:995" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+tls+://smtp-mail.outlook.com:587" outgoingUsernameTemplate="$email" />
+<Email country="ES" id="Gmail" label="Gmail" domain="gmail.com" signature="" incomingUriTemplate="gLegacyImap+ssl+://imap.gmail.com:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.gmail.com:465" outgoingUsernameTemplate="$email" />
+<Email country="ES" id="Yahoo" label="Yahoo! Mail" domain="yahoo.com" signature="" incomingUriTemplate="gLegacyImap+ssl+://imap.mail.yahoo.com:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.mail.yahoo.com:465" outgoingUsernameTemplate="$email" />
+<Email country="ES" id="Hotmail" label="Hotmail" domain="outlook.com" signature="" incomingUriTemplate="gLegacyImap+ssl+://imap-mail.outlook.com:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+tls+://smtp-mail.outlook.com:587" outgoingUsernameTemplate="$email" />
+<Email country="GB" id="aol.co.uk" label="aol.co.uk" domain="aim.com" signature="English" incomingUriTemplate="gLegacyImap+ssl+://imap.aim.com:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.aim.com:465" outgoingUsernameTemplate="$email" />
+<Email country="GB" id="sky.com" label="sky.com" domain="sky.com" signature="English" incomingUriTemplate="gLegacyImap+ssl+://imap.tools.sky.com:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.tools.sky.com:465" outgoingUsernameTemplate="$email" />
+<Email country="GB" id="Gmail" label="Gmail" domain="gmail.com" signature="English" incomingUriTemplate="gLegacyImap+ssl+://imap.gmail.com:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.gmail.com:465" outgoingUsernameTemplate="$email" />
+<Email country="GB" id="aol.com" label="aol.com" domain="aol.com" signature="English" incomingUriTemplate="gLegacyImap+ssl+://imap.aol.com:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.aol.com:465" outgoingUsernameTemplate="$email" />
+<Email country="RO" id="Yahoo.ro" label="Yahoo! Mail" domain="yahoo.com" signature="Romanian" incomingUriTemplate="gPop3+ssl+://plus.pop.mail.yahoo.com:995" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://plus.smtp.mail.yahoo.com:465" outgoingUsernameTemplate="$email" />
+<Email country="RO" id="Gmail.ro" label="Gmail" domain="gmail.com" signature="Romanian" incomingUriTemplate="gPop3+ssl+://pop.gmail.com:995" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.gmail.com:465" outgoingUsernameTemplate="$email" />
+<Email country="RO" id="Hotmail.ro" label="Hotmail" domain="live.com" signature="Romanian" incomingUriTemplate="gPop3+ssl+://pop3.live.com:995" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+tls+://smtp.live.com:587" outgoingUsernameTemplate="$email" />
+</Emails>
+<Accounts>
+<Account country="DE" label="Vodafone E-Mail" logo=""/>
+<Account country="IT" label="Gmail" logo="gmail_logo"/>
+<Account country="IT" label="Google Mail" logo="google_logo"/>
+<Account country="IT" label="Vodafone.it" logo="vodafone_logo"/>
+<Account country="IT" label="Hotmail.com" logo="hotmail_logo"/>
+<Account country="IT" label="Hotmail.it" logo="hotmail_logo"/>
+<Account country="IT" label="Yahoo.it" logo="yahoo_logo"/>
+<Account country="IT" label="Yahoo.com" logo="yahoo_logo"/>
+<Account country="IT" label="Email.it" logo="vodafone_logo"/>
+<Account country="PT" label="Gmail" logo="gmail_logo"/>
+<Account country="PT" label="Outlook" logo="outlook_logo"/>
+<Account country="ES" label="Gmail" logo="gmail_logo"/>
+<Account country="ES" label="Yahoo! Mail" logo="yahoo_logo"/>
+<Account country="ES" label="Hotmail" logo="hotmail_logo"/>
+<Account country="GB" label="AOL.co.uk" logo="aol_logo"/>
+<Account country="GB" label="Sky" logo="sky_logo"/>
+<Account country="GB" label="Gmail" logo="gmail_logo"/>
+<Account country="GB" label="AOL.com" logo="aol_logo"/>
+<Account country="RO" label="Yahoo! Mail" logo="yahoo_logo"/>
+<Account country="RO" label="Gmail" logo="gmail_logo"/>
+<Account country="RO" label="Hotmail" logo="hotmail_logo"/>
+</Accounts>
+<Signatures>
+<Signature country="DE" global_signature="German"/>
+<Signature country="IT" global_signature="Italian"/>
+<Signature country="PT" global_signature="Portuguese"/>
+<Signature country="RO" global_signature="Romanian"/>
+<Signature country="ES" global_signature=""/>
+<Signature country="GB" global_signature="English"/>
+</Signatures>
+</Operator>
+<Operator name="SFR">
+<Emails>
+<Email country="FR" id="Sfr-Mail" label="Sfr Mail" domain="sfr.fr" signature="English" incomingUriTemplate="gLegacyImap+ssl+://imap.sfr.fr:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.sfr.fr:465" outgoingUsernameTemplate="$email" />
+<Email country="FR" id="Neuf-Mail" label="Neuf Mail" domain="neuf.fr" signature="English" incomingUriTemplate="gLegacyImap+ssl+://imap.sfr.fr:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.sfr.fr:465" outgoingUsernameTemplate="$email" />
+<Email country="FR" id="Club-Internet-Mail" label="Club-Internet Mail" domain="club-internet.fr" signature="English" incomingUriTemplate="gLegacyImap+ssl+://imap.sfr.fr:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.sfr.fr:465" outgoingUsernameTemplate="$email" />
+<Email country="FR" id="Cegetel-Mail" label="Cegetel Mail" domain="cegetel.net" signature="English" incomingUriTemplate="gLegacyImap+ssl+://imap.sfr.fr:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.sfr.fr:465" outgoingUsernameTemplate="$email" />
+<Email country="FR" id="Laposte-Mail" label="Laposte Mail" domain="laposte.net" signature="English" incomingUriTemplate="gLegacyImap+tls+://imap.laposte.net:993" incomingUsernameTemplate="$email" outgoingUriTemplate="smtp+ssl+://smtp.sfr.fr:465" outgoingUsernameTemplate="$email" />
+</Emails>
+<Accounts>
+<Account country="FR" label="Sfr Mail" logo=""/>
+<Account country="FR" label="Neuf Mail" logo=""/>
+<Account country="FR" label="Club-Internet Mail" logo=""/>
+<Account country="FR" label="Cegetel Mail" logo=""/>
+<Account country="FR" label="Laposte Mail" logo=""/>
+</Accounts>
+<Packages>
+<Package country="FR" name="com.sfr.android.sfrjeux" path="/system/priv-app/" reboot="true" removable="false" />
+<Package country="FR" name="com.altice.android.myapps" path="/system/priv-app/" reboot="true" removable="false" />
+</Packages>
+</Operator>
+</Operators>

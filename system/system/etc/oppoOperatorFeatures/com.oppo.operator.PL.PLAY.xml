@@ -1,0 +1,6 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.mms.read.report" />
+  <feature name="oppo_mms_operator_custom_max_threshold_sms_convert_mms" />
+  <feature name="oppo.contacts.dialpad.show.wifi.icon" />
+</permissions>

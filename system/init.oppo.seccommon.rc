@@ -1,0 +1,22 @@
+on boot
+    mkdir /mnt/vendor/persist/rpmb_status/
+    chmod 0777 /mnt/vendor/persist/rpmb_status/
+    chown system system /mnt/vendor/persist/rpmb_status/
+    chown system system /proc/oppo_secure_common/secureType
+
+on post-fs-data
+    mkdir /data/vendor_de/rpmb_status/
+    chmod 0777 /data/vendor_de/rpmb_status/
+    chown system system /data/vendor_de/rpmb_status/
+
+service key_transfer /system/bin/mv /sdcard/.lii /data/vendor_de/rpmb_status/
+    class core
+    user root
+    group root
+    disabled
+    oneshot
+    seclabel u:r:rutilsdaemon:s0
+
+on property:sys.oppo.bsp.key_transfer=1
+    start key_transfer
+

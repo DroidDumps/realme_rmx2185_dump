@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+        <version>20170623</version>
+        <filter-name>sys_purebkg_config</filter-name>
+
+        <!-- Recent task numbers -->
+        <recentNum>3</recentNum>
+        <!-- Recent task store -->
+        <recentStore>9</recentStore>
+
+        <!-- recordSwitch -->
+        <recordSwitch>false</recordSwitch>
+        <!-- check time -->
+        <screenOnCheckTime>60000</screenOnCheckTime>
+        <screenOffCheckTime>60000</screenOffCheckTime>
+        <!-- blackBrdAction -->
+        <blackBrdAction>android.intent.action.USER_PRESENT</blackBrdAction>
+
+        <!-- StrictModeSwitch -->
+        <strictModeSwitch>true</strictModeSwitch>
+        <!-- strictModeEnterTime -->
+        <strictModeEnterTime>60000</strictModeEnterTime>
+        <!-- payModeEnterTime -->
+        <payModeEnterTime>5000</payModeEnterTime>
+
+        <!-- strictModeWhitePkg -->
+        <strictModeWhitePkg>com.alibaba.android.rimet</strictModeWhitePkg>
+        <strictModeWhitePkg>com.tencent.mm</strictModeWhitePkg>
+        <strictModeWhitePkg>com.tencent.mobileqq</strictModeWhitePkg>
+        <strictModeWhitePkg>com.immomo.momo</strictModeWhitePkg>
+        <strictModeWhitePkg>jp.naver.line.android</strictModeWhitePkg>
+        <!-- for exp version -->
+        <strictModeWhitePkg>com.zing.zalo</strictModeWhitePkg>
+        <strictModeWhitePkg>com.facebook.orca</strictModeWhitePkg>
+        <strictModeWhitePkg>com.facebook.katana</strictModeWhitePkg>
+        <strictModeWhitePkg>com.instagram.android</strictModeWhitePkg>
+        <strictModeWhitePkg>jp.naver.line.android</strictModeWhitePkg>
+        <strictModeWhitePkg>com.whatsapp</strictModeWhitePkg>
+        <strictModeWhitePkg>com.bbm</strictModeWhitePkg>
+        <strictModeWhitePkg>com.skype.raider</strictModeWhitePkg>
+        <strictModeWhitePkg>com.viber.voip</strictModeWhitePkg>
+        <strictModeWhitePkg>com.path</strictModeWhitePkg>
+        <strictModeWhitePkg>com.facebook.lite</strictModeWhitePkg>
+        <strictModeWhitePkg>com.truecaller</strictModeWhitePkg>
+        <strictModeWhitePkg>com.bsb.hike</strictModeWhitePkg>
+        <strictModeWhitePkg>com.snapchat.android</strictModeWhitePkg>
+        <strictModeWhitePkg>com.twitter.android</strictModeWhitePkg>
+        <strictModeWhitePkg>com.imo.android.imoim</strictModeWhitePkg>
+        <strictModeWhitePkg>com.google.android.gm</strictModeWhitePkg>
+
+        <!-- paySafeSwitch -->
+        <paySafeSwitch>true</paySafeSwitch>
+
+</filter-conf>

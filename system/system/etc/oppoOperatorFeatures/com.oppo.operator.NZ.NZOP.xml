@@ -1,0 +1,5 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.commcenter.auto.switch.operator" />
+  <feature name="oppo.wirelesssetting.wifi.default.off" />
+</permissions>

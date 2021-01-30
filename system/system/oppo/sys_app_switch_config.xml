@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filter-conf>
+    <version>20190815</version>
+    <filter-name>sys_app_switch_config</filter-name>
+
+    <!-- monitor all package change notification start -->
+    <matchAppDefault>com.coloros.appswitch.all</matchAppDefault>
+    <matchAppDefault>com.coloros.athena</matchAppDefault>
+    <matchAppDefault>com.nearme.statistics.rom</matchAppDefault>
+    <matchAppDefault>com.coloros.deepthinker</matchAppDefault>
+    <matchAppDefault>com.coloros.safecenter</matchAppDefault>
+    <matchAppDefault>com.coloros.colorfilestand</matchAppDefault>
+    <matchAppDefault>com.coloros.oppoguardelf</matchAppDefault>
+    <matchAppDefault>com.oppo.autotest.themismonitor</matchAppDefault>
+    <matchAppDefault>com.oppo.autotest.memleakmonitor</matchAppDefault>
+    <matchAppDefault>com.oppo.autotest.performance</matchAppDefault>
+    <matchAppDefault>com.coloros.exserviceui</matchAppDefault>
+    <matchAppDefault>com.coloros.securitypermission</matchAppDefault>
+    <!-- monitor all package change notification end -->
+
+
+    <!-- monitor all Activity change notification start -->
+    <matchActivityDefault>com.coloros.appswitch.all</matchActivityDefault>
+    <!-- monitor all Activity change notification end -->
+
+    <!-- Broadcast notification start-->
+    <rule>
+        <pkg>com.coloros.osecret</pkg>
+         <config>
+            <type>2</type>
+                <name>com.android.packageinstaller</name>
+                <name>com.coloros.gamespace</name>
+                <name>com.coloros.backuprestore</name>
+                <name>com.google.android.packageinstaller</name>
+                <name>com.nearme.gamecenter</name>
+                <name>com.oppo.market</name>
+        </config>
+    </rule>
+    <!-- Broadcast notification end-->
+</filter-conf>

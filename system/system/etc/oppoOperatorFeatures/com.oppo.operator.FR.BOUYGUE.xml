@@ -1,0 +1,5 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+    <feature name="oppo.contacts.support.bouygues.voicemail" />
+    <feature name="coloros.customize.simsettings.grant_location_for_vowifi" />
+</permissions>

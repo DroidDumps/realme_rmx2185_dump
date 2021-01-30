@@ -1,0 +1,6 @@
+<!-- This file is used by NX rom.  DO NOT MODIFY. -->
+
+<permissions>
+  <!-- Xiangfu.Li@AD.Framework, 2020/03/03, add for RSA3.0 -->
+  <feature name="com.google.android.feature.PREMIER_TIER" />
+</permissions>

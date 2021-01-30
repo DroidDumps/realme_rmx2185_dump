@@ -1,0 +1,7 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.phone.nodisplayrecord" />
+  <feature name="oppo.comm.show.lte.replace.4g" />
+  <feature name="oppo.mms.sms.input.mode" />
+  <feature name="oppo.phone.show.cf.toast" />
+</permissions>

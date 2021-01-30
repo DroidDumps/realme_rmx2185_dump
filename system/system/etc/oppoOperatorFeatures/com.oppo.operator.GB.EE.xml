@@ -1,0 +1,10 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+    <feature name="oppo.default.browser.chrome" />
+  <feature name="oppo.contacts.operator.number" />
+  <feature name="oppo.mms.replace.google.mms"/>
+  <feature name="oppo.default.sms.application.google.messages"/>
+  <feature name="oppo.commcenter.mms.remove.oppo.mms"/>
+  <feature name="coloros.customize.contacts.preset_contacts_in_origin" />
+  <feature name="com.oppo.android.feature.PAI" />
+</permissions>

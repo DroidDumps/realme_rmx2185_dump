@@ -1,0 +1,12 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.mms.max.size.600k" />
+  <feature name="oppo.contacts.show.sdn.service.number" />
+  <feature name="oppo.wirelesssetting.wifi.default.off" />
+  <feature name="oppo.cellbroadcast.emergency.alert.grey"/>
+  <feature name="oppo.phone.nodisplayrecord"/>
+  <feature name="oppo.phone.video.call.hold"/>
+  <feature name="coloros.customize.cellbroadcast.set_alert_speech_default_false"/>
+  <feature name="coloros.customize.cellbroadcast.set_vibrate_in_call"/>
+  <feature name="coloros.customize.cellbroadcast.vibrate_five_seconds_in_call"/>
+</permissions>

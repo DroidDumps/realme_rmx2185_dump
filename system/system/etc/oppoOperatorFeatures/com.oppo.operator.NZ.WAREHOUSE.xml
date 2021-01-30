@@ -1,0 +1,5 @@
+<!-- This file is used by Exp operator: NZ.WAREHOUSE.  DO NOT MODIFY. -->
+
+<permissions>
+  <feature name="oppo.null.NZ.WAREHOUSE" />
+</permissions>

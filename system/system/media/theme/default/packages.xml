@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packages>
+    <!--相册-->
+    <package oldName="com.oppo.gallery3d/com.oppo.gallery3d.app.Gallery"  newName="com.coloros.gallery3d/com.oppo.gallery3d.app.Gallery"/>
+    <!--电子邮件-->
+    <package oldName="com.android.email/com.android.email.activity.Welcome"  newName="com.android.email/com.kingsoft.email.activity.Welcome"/>
+    <!--拨号1-->
+    <package oldName="com.android.dialer/com.android.dialer.DialtactsActivity"  newName="com.android.contacts/com.android.contacts.PeopleActivityAlias"/>
+    <!--拨号2-->
+    <package oldName="com.android.contacts/com.android.contacts.activities.DialtactsActivity"  newName="com.android.contacts/com.android.contacts.DialtactsActivityAlias"/>
+    <!--手电筒-->
+    <package oldName="com.oppo.flashlight/com.oppo.flashlight.FlashLightActivity" newAction="oppo.intent.action.START_LOCK_FLASHLIGHT"/>
+    <!--联系人-->
+    <package oldName="com.android.contacts/com.oppo.contacts.action.LIST_ALL_CONTACTS"  newName="com.android.contacts/com.android.contacts.PeopleActivityAlias"/>
+    <!--天气-->
+    <package oldName="com.oppo.weather/com.oppo.weather.OppoMainActivity" newAction="com.oppo.action.oppoWeather"/>
+</packages>

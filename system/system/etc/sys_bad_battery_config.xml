@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+   <version>2018011917</version>
+   <isOpen>1</isOpen>
+   <filter-name>sys_bad_battery_config</filter-name>
+   <!-- stable battery check threshold -->
+   <stable_voltage>4350</stable_voltage>
+   <stable_current>300</stable_current>
+   <charge_loop_count>500</charge_loop_count>
+   <!-- 3H=10800s -->
+   <cv_time>5400</cv_time>
+   <!-- 5M=300S -->
+   <full_timer5>300</full_timer5>
+   <!-- 25M=1500S -->
+   <full_timer2>1500</full_timer2>
+   <cool_temp_rbatt>600</cool_temp_rbatt>
+   <little_cool_temp_rbatt>450</little_cool_temp_rbatt>
+   <normal_temp_rbatt>300</normal_temp_rbatt>
+   <!-- the count over 20ma -->
+   <current_over_count1>20</current_over_count1>
+   <!-- the count continuity over 50ma -->
+   <current_over_count2>3</current_over_count2>
+   <!-- the count continuity over 10ma -->
+   <current_over_count3>10</current_over_count3>
+   <current_over_threshold1>20</current_over_threshold1>
+   <current_over_threshold2>50</current_over_threshold2>
+   <current_over_threshold3>10</current_over_threshold3>
+   <screen_on_timeout>20</screen_on_timeout>
+   <mobile_download_time>10</mobile_download_time>
+   <mobile_download_speed>10</mobile_download_speed>
+   <err2_voltage_reduce>8</err2_voltage_reduce>
+   <err3_voltage_reduce>14</err3_voltage_reduce>
+   <err4_vol_delt>4</err4_vol_delt>
+   <err5_vol_delt>8</err5_vol_delt>
+   <shut_voltage_reduce>9999</shut_voltage_reduce>
+   <shut_min_time>9999</shut_min_time>
+   <shut_max_time>9999</shut_max_time>
+   <sleep_min_time>9999</sleep_min_time>
+   <sleep_voltage_reduce>9999</sleep_voltage_reduce>
+   <usb_liquid_detect_switch>0</usb_liquid_detect_switch>
+   <need_warn>0</need_warn>
+   <stop_charge>0</stop_charge>
+   <test_stage>1</test_stage>
+   <upload_check_process>1</upload_check_process>
+   <history_validate_hold_time>30</history_validate_hold_time>
+   <sms_number>1069003220051,1069032922333</sms_number>
+   <sms_ver>20171109</sms_ver>
+   <sms_sign>31634b291639aa0147aac25f4a9b79c1</sms_sign>
+   <close_engneer_ui>1</close_engneer_ui>
+   <feature_enable>1</feature_enable>
+   <need_warn_err1>0</need_warn_err1>
+   <need_warn_err2>0</need_warn_err2>
+   <need_warn_err3>0</need_warn_err3>
+   <need_warn_err4>0</need_warn_err4>
+   <need_warn_err5>0</need_warn_err5>
+   <need_warn_hw_err>0</need_warn_hw_err>
+   <eng_warn_word>-1</eng_warn_word>
+   <chn_warn_word>-1</chn_warn_word>
+   <err_call_to_oppo>0</err_call_to_oppo>
+   <hw_stop_charge>0</hw_stop_charge>
+</filter-conf>

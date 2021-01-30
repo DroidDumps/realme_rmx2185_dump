@@ -1,0 +1,5 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.ota.specialneeds.orange" />
+  <feature name="oppo.permission.orange" />
+</permissions>

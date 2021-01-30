@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20170925</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_face_switch_list</filter-name>
+    <!-- hande raise support -->
+    <handRaise_support>true</handRaise_support>
+    <threshold_hackerness>0.95</threshold_hackerness>
+</filter-conf>

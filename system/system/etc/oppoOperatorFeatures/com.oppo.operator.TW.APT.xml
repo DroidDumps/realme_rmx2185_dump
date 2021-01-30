@@ -1,0 +1,13 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.mms.copy.move.to.sim" />
+  <feature name="oppo.mms.read.report" />
+  <feature name="oppo.mms.google.location" />
+  <feature name="oppo.mms.vcard" />
+  <feature name="oppo.contacts.dualsim.changepin" />
+  <feature name="oppo.phone.hide.unknow.number" />
+  <feature name="oppo.mms.hide.unknow.number" />
+  <feature name="oppo.opposimsettings.traffic.not.remind" />
+  <feature name="oppo.mms.video.size.type" />
+  <feature name="oppo.contacts.dialpad.show.wifi.icon" />
+</permissions>

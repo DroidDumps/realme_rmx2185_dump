@@ -1,0 +1,2 @@
+on post-fs-data
+   export XKIT /system/xbin/xkit_10

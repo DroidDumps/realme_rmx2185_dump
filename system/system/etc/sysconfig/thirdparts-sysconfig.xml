@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- These are configurations that must exist on all GMS devices. -->
+<config>
+    <!-- These are the standard packages that are white-listed to always have internet
+         access while in power save mode, even if they aren't in the foreground. -->
+    <!--#ifdef VENDOR_EDIT-->
+    <!-- Xiangfu.Li@PSW.AD.PMS.00,2019/07/31,Add for orange selector -->
+    <app-link package="com.orange.update" />
+    <!-- Ruichang.Liang@AD.CommonSoft, 2020/02/01, Add for sfr doze mode -->
+    <allow-in-power-save package="com.altice.android.myapps" />
+    <!--#endif  VENDOR_EDIT-->
+    <allow-in-power-save package="com.facebook.services" />
+    <allow-in-power-save-except-idle package="com.facebook.appmanager"/>
+</config>

@@ -1,0 +1,404 @@
+<filter-conf>
+<version>20190924</version>
+<isOpen>1</isOpen>
+<filter-name>sys_startupmanager_config_list</filter-name>
+<!--  start  -->
+<sevicecpn>com.igexin.sdk.PushService</sevicecpn>
+<sevicecpn>com.igexin.sdk.PushServiceUser</sevicecpn>
+<sevicecpn>com.igexin.download.DownloadService</sevicecpn>
+<sevicecpn>com.igexin.getuiext.service.GetuiExtService</sevicecpn>
+<sevicecpn>com.tencent.android.tpush.service.XGPushService</sevicecpn>
+<sevicecpn>com.tencent.android.tpush.rpc.XGRemoteService</sevicecpn>
+<sevicecpn>com.xiaomi.push.service.XMPushService</sevicecpn>
+<sevicecpn>com.xiaomi.mipush.sdk.PushMessageHandler</sevicecpn>
+<sevicecpn>com.xiaomi.mipush.sdk.MessageHandleService</sevicecpn>
+<sevicecpn>com.baidu.android.pushservice.PushService</sevicecpn>
+<sevicecpn>com.baidu.android.pushservice.CommandService</sevicecpn>
+<sevicecpn>com.baidu.android.moplus.MoPlusService</sevicecpn>
+<sevicecpn>cn.jpush.android.service.PushService</sevicecpn>
+<sevicecpn>cn.jpush.android.service.DaemonService</sevicecpn>
+<sevicecpn>com.huawei.android.pushagent.PushService</sevicecpn>
+<sevicecpn>com.joboevan.push.service.PushService</sevicecpn>
+<sevicecpn>com.umeng.message.UmengService</sevicecpn>
+<sevicecpn>com.umeng.message.UmengIntentService</sevicecpn>
+<sevicecpn>
+com.umeng.message.UmengMessageIntentReceiverService
+</sevicecpn>
+<sevicecpn>
+com.umeng.message.UmengMessageCallbackHandlerService
+</sevicecpn>
+<sevicecpn>com.umeng.message.UmengDownloadResourceService</sevicecpn>
+<sevicecpn>
+com.umeng.message.local.UmengLocalNotificationService
+</sevicecpn>
+<sevicecpn>org.android.agoo.service.ElectionService</sevicecpn>
+<sevicecpn>com.umeng.update.net.DownloadingService</sevicecpn>
+<sevicecpn>cn.jpush.android.service.DownloadService</sevicecpn>
+<sevicecpn>com.arrownock.push.PushService</sevicecpn>
+<sevicecpn>com.taobao.accs.ChannelService</sevicecpn>
+<sevicecpn>com.taobao.accs.data.MsgDistributeService</sevicecpn>
+<sevicecpn>com.taobao.accs.ChannelService$KernelService</sevicecpn>
+<sevicecpn>org.android.agoo.accs.AgooService</sevicecpn>
+<sevicecpn>com.umeng.message.UmengIntentService</sevicecpn>
+<sevicecpn>com.umeng.message.XiaomiIntentService</sevicecpn>
+<sevicecpn>com.tencent.android.tpush.service.XGPushServiceV3</sevicecpn>
+<sevicecpn>com.tencent.android.tpush.service.XGDaemonService</sevicecpn>
+<sevicecpn>com.alibaba.sdk.android.push.MsgService</sevicecpn>
+<sevicecpn>com.alibaba.sdk.android.push.AliyunPushIntentService</sevicecpn>
+<sevicecpn>com.alibaba.sdk.android.push.channel.TaobaoRecvService</sevicecpn>
+<sevicecpn>com.alibaba.sdk.android.push.channel.CheckService</sevicecpn>
+<sevicecpn>com.xiaomi.push.service.XMJobService</sevicecpn>
+<sevicecpn>com.minicooper.notification.MLPushService</sevicecpn>
+<sevicecpn>com.ss.android.message.NotifyService</sevicecpn>
+<sevicecpn>com.sina.weibo.push.PushServiceProxy</sevicecpn>
+<sevicecpn>com.sogou.udp.push.PushService</sevicecpn>
+<sevicecpn>com.sina.weibo.push.PushServiceProxy</sevicecpn>
+<sevicecpn>com.avos.avoscloud.PushService</sevicecpn>
+<sevicecpn>com.amap.api.service.AMapService</sevicecpn>
+<sevicecpn>com.kingsoft.service.GeTuiPushService</sevicecpn>
+<sevicecpn>fm.qingting.qtradio.pushmessage.DaemonService</sevicecpn>
+<sevicecpn>com.netease.nr.biz.push.wakeup.MyWakeUpService</sevicecpn>
+<sevicecpn>com.netease.nr.biz.push.newpush.service.PushGTCoreService</sevicecpn>
+<sevicecpn>com.netease.cloudmusic.service.LogicService</sevicecpn>
+<sevicecpn>com.dianping.base.push.pushservice.dp.DPPushService</sevicecpn>
+<sevicecpn>com.elong.mobile.countly.support.OpenUDID_service</sevicecpn>
+<sevicecpn>com.youku.pushsdk.service.PushService</sevicecpn>
+<sevicecpn>com.achievo.vipshop.commons.push.MqttService</sevicecpn>
+<sevicecpn>com.letv.android.client.push.LetvPushService</sevicecpn>
+<sevicecpn>com.getui.gis.sdk.GInsightService</sevicecpn>
+<sevicecpn>com.mrocker.push.service.PushService</sevicecpn>
+<sevicecpn>com.sogou.udp.push.SGPushMessageService</sevicecpn>
+<sevicecpn>com.ixintui.push.PushService</sevicecpn>
+<sevicecpn>com.ixintui.push.MediateService</sevicecpn>
+<sevicecpn>com.cmcc.aoe.push.AOEService</sevicecpn>
+<sevicecpn>com.cmcc.aoe.AoeService</sevicecpn>
+<sevicecpn>com.getui.gis.sdk.GInsightService</sevicecpn>
+<!--  360 jiagubao  -->
+<sevicecpn>com.qihoo.util.CommonService</sevicecpn>
+<sevicecpn>com.stub.stub02.Stub02</sevicecpn>
+
+<!--  bind  -->
+<sevicecpn>com.baidu.sapi2.share.ShareService</sevicecpn>
+<!--  broadcast  -->
+<receiver>com.baidu.sapi2.share.ShareReceiver</receiver>
+<receiver>com.igexin.sdk.PushReceiver</receiver>
+<receiver>com.igexin.sdk.PushManagerReceiver</receiver>
+<receiver>com.igexin.download.DownloadReceiver</receiver>
+<receiver>com.igexin.getuiext.service.PayloadReceiver</receiver>
+<receiver>com.tencent.android.tpush.XGPushReceiver</receiver>
+<receiver>com.tencent.xgpushdemo.CustomPushReceiver</receiver>
+<receiver>com.xiaomi.mipush.sdk.PushServiceReceiver</receiver>
+<receiver>com.xiaomi.push.service.receivers.NetworkStatusReceiver</receiver>
+<receiver>com.xiaomi.push.service.receivers.PingReceiver</receiver>
+<receiver>com.baidu.android.pushservice.PushServiceReceiver</receiver>
+<receiver>com.baidu.android.pushservice.RegistrationReceiver</receiver>
+<receiver>cn.jpush.android.service.PushReceiver</receiver>
+<receiver>cn.jpush.android.service.AlarmReceiver</receiver>
+<receiver>com.huawei.pushtest.receiver.MyReceiver</receiver>
+<receiver>com.huawei.android.pushagent.PushBootReceiver</receiver>
+<receiver>com.huawei.android.pushagent.PushEventReceiver</receiver>
+<receiver>com.zypush.activity.PushRecevier</receiver>
+<receiver>com.joboevan.push.receiver.CheckConnectRecevier</receiver>
+<receiver>com.umeng.message.NotificationProxyBroadcastReceiver</receiver>
+<receiver>com.umeng.message.SystemReceiver</receiver>
+<receiver>com.umeng.message.MessageReceiver</receiver>
+<receiver>com.umeng.message.ElectionReceiver</receiver>
+<receiver>com.umeng.message.UmengMessageBootReceiver</receiver>
+<receiver>com.umeng.message.UmengBroadcastReceiver</receiver>
+<receiver>com.umeng.message.RegistrationReceiver</receiver>
+<receiver>com.arrownock.push.SignalReceiver</receiver>
+<receiver>com.arrownock.push.PushBroadcastReceiver</receiver>
+<receiver>com.taobao.accs.EventReceiver</receiver>
+<receiver>com.taobao.accs.ServiceReceiver</receiver>
+<receiver>com.taobao.agoo.AgooCommondReceiver</receiver>
+<receiver>com.xiaomi.mipushdemo.DemoMessageReceiver</receiver>
+<receiver>com.baidu.weakup.PushServiceReceiver</receiver>
+<receiver>com.baidu.android.pushservice.RegistratonReceiver</receiver>
+<!--  360 jiagubao  -->
+<receiver>com.qihoo.util.CommonReceiver</receiver>
+
+<!--  broadcast action  -->
+<receiverAction>com.baidu.android.pushservice.action.METHOD</receiverAction>
+<receiverAction>com.tencent.android.tpush.action.SDK</receiverAction>
+<receiverAction>com.tencent.android.tpush.action.FEEDBACK</receiverAction>
+<receiverAction>com.igexin.sdk.action.pushmanager</receiverAction>
+<receiverAction>com.huawei.android.push.intent.REGISTER</receiverAction>
+<receiverAction>com.huawei.intent.action.PUSH</receiverAction>
+<receiverAction>com.huawei.android.push.intent.REGISTRATION</receiverAction>
+<receiverAction>com.dianping.action.PUSH_START</receiverAction>
+<receiverAction>org.agoo.android.intent.action.RECEIVE</receiverAction>
+
+<!--  provider  -->
+<provider>com.igexin.download.DownloadProvider</provider>
+<provider>com.baidu.android.pushservice.PushInfoProvider</provider>
+<provider>com.umeng.message.provider.MessageProvider</provider>
+<provider>com.tencent.android.tpush.XGPushProvider</provider>
+<provider>com.tencent.android.tpush.SettingsContentProvider</provider>
+<provider>com.tencent.mid.api.MidProvider</provider>
+<provider>com.meituan.android.common.unionid.UnionIdProvider</provider>
+<provider>com.baidu.location.OfflineLocationV1Provider</provider>
+<provider>com.meituan.android.common.unionid.UnionIdProvider</provider>
+<!--  360 jiagubao  -->
+<provider>com.qihoo.util.CommonProvider</provider>
+<provider>com.stub.stub02.Stub04</provider>
+
+<!--  activity  -->
+<activity>com.igexin.sdk.GActivity</activity>
+<activity>com.igexin.sdk.MActivity</activity>
+<activity>com.igexin.sdk.PushActivity</activity>
+<activity>com.igexin.getuiext.activity.GetuiExtActivity</activity>
+<activity>com.tencent.android.tpush.XGPushActivity</activity>
+<activity>com.baidu.android.pushservice.PushKeepAlive</activity>
+<activity>
+com.huawei.android.pushselfshow.richpush.RichPushActivity
+</activity>
+<activity>
+com.huawei.android.pushselfshow.permission.RequestPermissionsActivity
+</activity>
+<activity>cn.jpush.android.ui.PushActivity</activity>
+<activity>com.umeng.update.UpdateDialogActivity</activity>
+<activity>com.qihoo.util.CommonActivity</activity>
+<!-- service action  -->
+<action>com.baidu.android.pushservice.action.PUSH_SERVICE</action>
+<action>com.igexin.sdk.action.pushmanager</action>
+<action>org.android.agoo.client.MessageReceiverService</action>
+<action>org.android.agoo.client.ElectionReceiverService</action>
+<action>org.agoo.android.intent.action.ELECTION_V2</action>
+<action>com.umeng.messge.registercallback.action</action>
+<action>com.umeng.message.unregistercallback.action</action>
+<action>com.umeng.message.message.handler.action</action>
+<action>com.umeng.message.autoupdate.handler.action</action>
+<action>cn.jpush.android.intent.PUSH_TIME</action>
+<action>cn.jpush.android.intent.PushService</action>
+<action>cn.jpush.android.intent.REPORT</action>
+<action>cn.jpush.android.intent.REGISTER</action>
+<action>cn.jpush.android.intent.DaemonService</action>
+<action>com.taobao.accs.intent.action.SERVICE</action>
+<action>com.taobao.accs.intent.action.ELECTION</action>
+<action>org.agoo.android.intent.action.RECEIVE</action>
+<action>com.jingdong.app.mall.service.WatchDogService</action>
+<action>com.dianping.action.PUSHSERVICE</action>
+<action>com.igexin.sdk.action.service.message</action>
+
+<!--  blackguard  -->
+<!--
+ Pending
+    <blackguard>com.dianxinos.optimizer.action.PAYSECURITY</blackguard>
+-->
+<!--  activityInterceptSwitch  -->
+<activityInterceptSwitch>true</activityInterceptSwitch>
+<!--  browserInterceptUpdateSwitch  -->
+<browserInterceptUploadSwitch>true</browserInterceptUploadSwitch>
+
+<!--  blackguardActivity  -->
+<blackguardActivity>com.richinfo.system.main.TransparentActivity</blackguardActivity>
+<!--OnePixel Keep Alive Activity-->
+<blackguardActivity>com.p1.mobile.putong.api.push.keep.OnePixelActivity</blackguardActivity>
+<blackguardActivity>com.youloft.core.report.OnePixActivity</blackguardActivity>
+<blackguardActivity>com.mqunar.qutui.KActivity</blackguardActivity>
+<blackguardActivity>com.gf.mobile.control.webview.PreloadCordovaActivity</blackguardActivity>
+<blackguardActivity>moai.daemon.DaemonActivity</blackguardActivity>
+<blackguardActivity>com.wpengapp.support.ProtectProcessHelper</blackguardActivity>
+<blackguardActivity>com.cleanmaster.daemon.onePxForLive.OnepxActivity</blackguardActivity>
+<blackguardActivity>com.henrik.keeplive.onepx.KeepLiveActivity</blackguardActivity>
+<blackguardActivity>com.vqs.iphoneassess.activity.InstallActivity</blackguardActivity>
+<blackguardActivity>com.alibaba.sdk.android.push.keeplive.PushExtActivity</blackguardActivity>
+<blackguardActivity>com.prcgrd.others.onepx.ClearActivity</blackguardActivity>
+<blackguardActivity>com.zxsoufun.zxchat.activity.LockActivity</blackguardActivity>
+<blackguardActivity>com.netease.nr.biz.push.newpush.activity.PushGTActivity</blackguardActivity>
+<blackguardActivity>com.cleanmaster.security.accessibilitysuper.accessibilityopen.ToastTransparentActivity</blackguardActivity>
+<blackguardActivity>com.cn21.flowcon.activity.main.OnePixelActivity</blackguardActivity>
+<blackguardActivity>com.syezon.wifi.keep_alive.OnePixelAty</blackguardActivity>
+<blackguardActivity>com.aia.china.YoubangHealth.activity.activitytask.KeepLiveActy</blackguardActivity>
+<blackguardActivity>com.baidu.mbaby.activity.tst.KeepActivity</blackguardActivity>
+<blackguardActivity>com.qihoo.browser.keepalive.LiveActivity</blackguardActivity>
+<blackguardActivity>com.tshang.peipei.keeplive.onepx.KeepLiveActivity</blackguardActivity>
+<blackguardActivity>com.common.cliplib.activity.KeepAliveActivity</blackguardActivity>
+<blackguardActivity>com.marsdaemon.DaemonActivity</blackguardActivity>
+<blackguardActivity>com.cleanmaster.daemon.onePxForLive.OnepxActivity1</blackguardActivity>
+<blackguardActivity>com.marswin89.others.onepx.ClearActivity</blackguardActivity>
+<blackguardActivity>com.sohu.push.alive.one_pixel.OnePixelActivity</blackguardActivity>
+<blackguardActivity>com.yscall.kulaidian.service.guardian.OnePixelActivity</blackguardActivity>
+<!--  360 jiagubao  -->
+<blackguardActivity>com.qihoo.util.CommonActivity</blackguardActivity>
+<blackguardActivity>com.stub.stub02.Stub01</blackguardActivity>
+<blackguardActivity>com.stub.stub01.Stub02</blackguardActivity>
+<blackguardActivity>com.stub.stub05.Stub01</blackguardActivity>
+<!--  interceptIntervalTime  -->
+<interceptIntervalTime>3600000</interceptIntervalTime>
+
+<!-- bindSerivceWhiteList -->
+<bindServiceCpn>com.alipay.android.app.MspService</bindServiceCpn> <!-- alipay -->
+<bindServiceCpn>com.sina.weibo.business.RemoteSSOService</bindServiceCpn> <!-- weibo -->
+<bindServiceCpn>com.iflytek.speechcloud.binder.BinderService</bindServiceCpn> <!-- iflytek -->
+<bindServiceCpn>com.iflytek.vflynote.binder.BinderService</bindServiceCpn> <!-- iflytek -->
+<bindServiceCpn>com.iflytek.speechsuite.binder.SuiteBinderService</bindServiceCpn> <!-- iflytek -->
+<bindServiceCpn>com.amazon.venezia.service.command.CommandServiceImpl</bindServiceCpn> <!-- amazon appstore -->
+<bindServiceCpn>com.tenpay.android.service.TenpayService</bindServiceCpn> <!--tencent pay-->
+<bindServiceCpn>com.xiaomi.gamecenter.sdk.Service4SDK</bindServiceCpn> <!-- xiaomi game assistant-->
+<bindServiceCpn>com.baidu.netdisk.open.service.OpenService</bindServiceCpn> <!--baidu netdisk-->
+<bindServiceCpn>com.ustcinfo.ict.platform.service.PluginServiceImp</bindServiceCpn>
+<bindServiceCpn>droid.app.hp.api.share.ShareService</bindServiceCpn>
+<bindServiceCpn>com.turntochild.tpysx.TurnToChildAppService</bindServiceCpn>
+<bindServiceCpn>com.turntochild.sxcb.turnToChildAppService</bindServiceCpn>
+<bindServiceCpn>com.turntochild.i09.TurnToChildService</bindServiceCpn>
+<bindServiceCpn>com.turntochild.bxgj.turnToChildAppService</bindServiceCpn>
+<bindServiceCpn>com.turntochild.cxcxsy.turnToChildAppService</bindServiceCpn>
+<bindServiceCpn>com.unionpay.tsmservice.service.UPServiceTsm</bindServiceCpn>
+<bindServiceCpn>com.unionpay.tsmservice.service.UPNewServiceTsm</bindServiceCpn>
+<bindServiceCpn>com.huawei.hihealthservice.HiHealthService</bindServiceCpn><!--2201236-->
+<bindServiceCpn>com.huawei.health.hwhealthlinkage.wearsdk.CallbackService</bindServiceCpn><!--2201236-->
+
+<!-- ContentProviderWhiteList -->
+<providerCpn>com.tencent.mm.plugin.base.stub.MMPluginProvider</providerCpn> <!-- tencent mm pay -->
+<providerCpn>com.tencent.mm.plugin.base.stub.WXCommProvider</providerCpn>  <!-- mm pay by systemui-->
+<providerCpn>com.sina.weibo.provider.SinaWeiboSdkProvider</providerCpn><!-- weibo share -->
+<providerCpn>com.immomo.momo.sdk.support.MomoSdkSupportProvider</providerCpn> <!--momo share-->
+<providerCpn>com.huawei.hwid.fingerprint.provider.HwIDProvider</providerCpn> <!--huawei game loginID-->
+<providerCpn>com.facebook.messenger.app.MessengerLoggedInUserProvider</providerCpn> <!--facebook messenger login accounts-->
+<providerCpn>android.support.v4.content.FileProvider</providerCpn> <!--package upgrade packageinstaller get the file -->
+<providerCpn>com.moshu.phonelive.magiccore.upadteapk.MNUpdateApkFileProvider</providerCpn>
+<providerCpn>com.tencent.gcloud.ApolloProvider</providerCpn>
+<providerCpn>com.coloros.shortcuts.framework.db.AppDataProvider</providerCpn>
+<!-- AssociateStart ProtectWhiteList -->
+<protectPkg>com.alipay.security.mobile.authenticator</protectPkg> <!-- alipay authenticator -->
+<protectPkg>com.google.android.gms</protectPkg>
+<protectPkg>com.google.android.gmss.name</protectPkg>
+<protectPkg>com.google.android.gsf</protectPkg>
+<protectPkg>com.android.vending</protectPkg>
+<broadcastPkg>com.idothing.zz</broadcastPkg>
+<protectPkg>com.vanke.wyguide</protectPkg>
+<protectPkg>com.nearme.note</protectPkg>
+<protectPkg>com.coloros.colorfilestand</protectPkg>
+<!-- CheckCount -->
+<checkCount>2</checkCount>
+
+<!-- data collection switch status-->
+<switchStatus>false</switchStatus>
+
+<!-- AssociateStart Default WhiteList -->
+<associateStartWhitePkg>com.tencent.mm</associateStartWhitePkg>
+<associateStartWhitePkg>com.eg.android.AlipayGphone</associateStartWhitePkg>
+<associateStartWhitePkg>com.tencent.mobileqq</associateStartWhitePkg>
+<associateStartWhitePkg>com.tencent.tim</associateStartWhitePkg>
+<associateStartWhitePkg>com.facebook.katana</associateStartWhitePkg> <!-- facebook -->
+<associateStartWhitePkg>com.alibaba.android.rimet</associateStartWhitePkg> <!--alibaba dingding -->
+<associateStartWhitePkg>com.xtc.watch</associateStartWhitePkg>
+<associateStartWhitePkg>com.redteamobile.roaming</associateStartWhitePkg>
+<associateStartWhitePkg>com.redteamobile.oppo.roaming</associateStartWhitePkg>
+<associateStartWhitePkg>com.nearme.gamecenter</associateStartWhitePkg>
+<associateStartWhitePkg>com.heytap.gamecenter</associateStartWhitePkg>
+<associateStartWhitePkg>com.nearme.note</associateStartWhitePkg>
+<associateStartWhitePkg>com.coloros.screenrecorder</associateStartWhitePkg>
+<associateStartWhitePkg>com.google.android.marvin.talkback</associateStartWhitePkg>
+<associateStartWhitePkg>com.coloros.colorfilestand</associateStartWhitePkg>
+<associateStartWhitePkg>com.coloros.wallet</associateStartWhitePkg>
+<associateStartWhitePkg>com.finshell.wallet</associateStartWhitePkg>
+<associateStartWhitePkg>com.coloros.flashnote</associateStartWhitePkg>
+<associateStartWhitePkg>com.coloros.favorite</associateStartWhitePkg>
+<associateStartWhitePkg>com.oppo.community</associateStartWhitePkg>
+<associateStartWhitePkg>com.coloros.oppopods</associateStartWhitePkg>
+<associateStartWhitePkg>com.coloros.note</associateStartWhitePkg>
+<associateStartWhitePkg>com.oppo.reader</associateStartWhitePkg>
+<associateStartWhitePkg>com.heytap.reader</associateStartWhitePkg>
+<associateStartWhitePkg>com.oppo.book</associateStartWhitePkg>
+<associateStartWhitePkg>com.heytap.book</associateStartWhitePkg>
+<associateStartWhitePkg>com.oneplus.market</associateStartWhitePkg>
+<associateStartWhitePkg>com.coloros.lives</associateStartWhitePkg>
+<associateStartWhitePkg>com.standardar.service</associateStartWhitePkg>
+<associateStartWhitePkg>com.coloros.digitalwellbeing</associateStartWhitePkg>
+<associateStartWhitePkg>com.oppo.ohome</associateStartWhitePkg>
+<associateStartWhitePkg>com.heytap.smarthome</associateStartWhitePkg>
+<associateStartWhitePkg>com.coloros.personalassistant</associateStartWhitePkg>
+<associateStartWhitePkg>com.coloros.securityguard</associateStartWhitePkg>
+<associateStartWhitePkg>com.coloros.soundrecorder</associateStartWhitePkg>
+<associateStartWhitePkg>com.coloros.apprecover</associateStartWhitePkg>
+<associateStartWhitePkg>com.coloros.familyguard</associateStartWhitePkg>
+<associateStartWhitePkg>com.coloros.yoli</associateStartWhitePkg>
+<associateStartWhitePkg>com.heytap.yoli</associateStartWhitePkg>
+<associateStartWhitePkg>com.oppo.store</associateStartWhitePkg>
+
+<!-- caller white list for app restricted in background -->
+<serviceCallerPkgAction callerPkg="com.coloros.mcs" action="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE" mask="011" />
+<serviceCallerPkgAction callerPkg="com.heytap.mcs" action="com.heytap.mcs.action.RECEIVE_MCS_MESSAGE" mask="011" />
+
+<authorizeCpnName>com.tencent.open.agent.AgentActivity</authorizeCpnName>
+<authorizeCpnName>com.tencent.open.agent.AuthorityActivity</authorizeCpnName>
+<authorizeCpnName>com.tencent.qqconnect.wtlogin.Login</authorizeCpnName>
+<authorizeCpnName>com.sina.weibo.SSOActivity</authorizeCpnName>
+<authorizeCpnName>com.sina.weibo.SSOAuthorizeActivity</authorizeCpnName>
+<authorizeCpnName>com.android.packageinstaller.permission.ui.GrantPermissionsActivity</authorizeCpnName>
+<authorizeCpnName>com.coloros.safecenter.privacy.view.password.AppUnlockComplexActivity</authorizeCpnName>
+<authorizeCpnName>com.coloros.safecenter.privacy.view.password.AppUnlockComplexWhiteBgActivity</authorizeCpnName>
+<authorizeCpnName>com.coloros.safecenter.privacy.view.password.AppUnlockPasswordActivity</authorizeCpnName>
+<authorizeCpnName>com.coloros.safecenter.privacy.view.password.AppUnlockPasswordWhiteBgActivity</authorizeCpnName>
+<authorizeCpnName>com.coloros.safecenter.privacy.view.password.AppUnlockPatternActivity</authorizeCpnName>
+<authorizeCpnName>com.coloros.safecenter.privacy.view.password.AppUnlockPatternWhiteBgActivity</authorizeCpnName>
+<authorizeCpnName>com.coloros.safecenter.privacy.view.password.AppUnlockComplexForMoveTaskActivity</authorizeCpnName>
+<authorizeCpnName>com.coloros.safecenter.privacy.view.password.AppUnlockPasswordForMoveTaskActivity</authorizeCpnName>
+<authorizeCpnName>com.coloros.safecenter.privacy.view.password.AppUnlockPatternForMoveTaskActivity</authorizeCpnName>
+
+<payCpn>com.nearme.plugin.pay.activity.MainChargeActivity</payCpn>
+<payCpn>com.tencent.mm.plugin.base.stub.WXPayEntryActivity</payCpn>
+<payCpn>com.alipay.android.app.TransProcessPayActivity</payCpn>
+<payCpn>com.tencent.mm.plugin.base.stub.WXCustomSchemeEntryActivity</payCpn>
+
+<!--Q activity white config list -->
+<activityCallerPkgWhite>com.coloros.shortcuts</activityCallerPkgWhite>
+<activityCallerPkgWhite>com.nearme.instant.platform</activityCallerPkgWhite>
+<activitySelfCallPkgWhite>com.finshell.wallet</activitySelfCallPkgWhite>
+<activitySelfCallPkgWhite>com.coloros.oppopods</activitySelfCallPkgWhite>
+<activitySelfCallPkgWhite>com.nearme.gamecenter</activitySelfCallPkgWhite>
+
+<sp pkg="com.coloros.oppopods" mask="0010"/>
+<sp pkg="com.coloros.digitalwellbeing" mask="0010"/>
+<sp pkg="com.coloros.securityguard" mask="0010"/>
+<sp pkg="com.coloros.familyguard" mask="0010"/>
+<sp pkg="com.oppo.reader" mask="1000"/>
+<sp pkg="com.heytap.reader" mask="0010"/>
+<sp pkg="com.oppo.book" mask="1000"/>
+<sp pkg="com.heytap.book" mask="1000"/>
+<sp pkg="com.coloros.yoli" mask="1000"/>
+<sp pkg="com.coloros.backuprestore" mask="1000"/>
+<sp pkg="com.coloros.wirelesssettings" mask="1000"/>
+<sp pkg="com.heytap.pictorial" mask="1000"/>
+<sp pkg="com.coloros.healthcheck" mask="1000"/>
+<sp pkg="com.coloros.providers.downloads.ui" mask="1000"/>
+<sp pkg="com.coloros.blacklist" mask="1000"/>
+<sp pkg="com.coloros.focusmode" mask="1000"/>
+<sp pkg="com.heytap.speechassist" mask="1000"/>
+<sp pkg="com.coloros.backuprestore.remoteservice" mask="1000"/>
+<sp pkg="com.coloros.smartlock" mask="1000"/>
+<sp pkg="com.coloros.wallpapers" mask="1000"/>
+<sp pkg="com.color.uiengine" mask="1000"/>
+<sp pkg="com.coloros.widget.smallweather" mask="1000"/>
+<sp pkg="com.oppo.camera" mask="1000"/>
+<sp pkg="com.coloros.phonemanager" mask="1000"/>
+<sp pkg="com.heytap.browser" mask="1000"/>
+<sp pkg="com.heytap.quicksearchbox" mask="1000"/>
+<sp pkg="com.coloros.video" mask="1000"/>
+<sp pkg="com.coloros.safesdkproxy" mask="1000"/>
+<sp pkg="com.coloros.mapcom.frame" mask="1000"/>
+<sp pkg="com.coloros.childrenspace" mask="1000"/>
+<sp pkg="com.coloros.remoteguardservice" mask="1000"/>
+<sp pkg="com.oppo.lfeh" mask="1000"/>
+<sp pkg="com.coloros.thirdsupport" mask="1000"/>
+<sp pkg="com.coloros.smartdrive" mask="1000"/>
+<sp pkg="com.coloros.translate.engine" mask="1000"/>
+<sp pkg="com.coloros.prome.service" mask="1000"/>
+<sp pkg="com.coloros.ocrscanner" mask="1000"/>
+<sp pkg="com.coloros.ocrservice" mask="1000"/>
+<sp pkg="com.coloros.aruler" mask="1000"/>
+<sp pkg="com.coloros.shortcuts" mask="0010"/>
+<sp pkg="com.coloros.colorfilestand" mask="1000"/>
+<sp pkg="com.coloros.soundrecorder" mask="0010"/>
+<sp pkg="com.coloros.weather.service" mask="1000"/>
+<sp pkg="com.coloros.filemanager" mask="1000"/>
+<sp pkg="com.coloros.operationManual" mask="1000"/>
+<sp pkg="com.coloros.lives" mask="1000"/>
+<sp pkg="com.coloros.simsettings" mask="1000"/>
+<sp pkg="com.heytap.market" mask="1000"/>
+<sp pkg="com.oppo.market" mask="1000"/>
+<sp pkg="com.nearme.gamecenter" mask="1000"/>
+<sp pkg="com.heytap.gamecenter" mask="1000"/>
+</filter-conf>

@@ -1,0 +1,6 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.phone.nodisplayrecord" />
+  <feature name="oppo.phone.play.busy.tone" />
+  <feature name="oppo.phone.forbid.edit.voicemail.number" />
+</permissions>

@@ -1,0 +1,89 @@
+on boot
+    # Allow bugreports access to eMMC 5.0 stats
+    chown root mount /sys/kernel/debug/mmc0/mmc0:0001/ext_csd
+    chmod 0440 /sys/kernel/debug/mmc0/mmc0:0001/ext_csd
+
+service dumpstate /system/bin/dumpstate -s
+    class main
+    socket dumpstate stream 0660 shell log
+    disabled
+    oneshot
+
+# dumpstatez generates a zipped bugreport but also uses a socket to print the file location once
+# it is finished.
+service dumpstatez /system/bin/dumpstate -S -d -z \
+        -o /data/user_de/0/com.android.shell/files/bugreports/bugreport
+    socket dumpstate stream 0660 shell log
+    class main
+    disabled
+    oneshot
+
+# bugreportd starts dumpstate binder service and makes it wait for a listener to connect.
+service bugreportd /system/bin/dumpstate -w
+    class main
+    disabled
+    oneshot
+
+#ifdef VENDOR_EDIT
+#Yadong.Hu@PSW.CN.WiFi.Connect.associated.1065680, 2017/08/15,
+#add for key log
+service dumpwifiscreen /system/bin/dumpstate -d -B -p -z -W \
+        -O /data/user_de/0/com.android.shell/files/bugreports/NET_LOG \
+        -Z  /data/oppo/coloros/dcs/netlog/NET_LOG
+    class main
+    disabled
+    oneshot
+
+service dumpwifiscreen-euex /system/bin/dumpstate -d -B -p -z -W \
+        -O /data/user_de/0/com.android.shell/files/bugreports/NET_LOG \
+        -Z /data/oppo/log/DCS/network_logs/NET_LOG/NET_LOG
+    class main
+    disabled
+    oneshot
+
+service dumpwifi /system/bin/dumpstate -d -B -z -W \
+        -O /data/user_de/0/com.android.shell/files/bugreports/NET_LOG \
+        -Z  /data/oppo/coloros/dcs/netlog/NET_LOG
+    class main
+    disabled
+    oneshot
+
+service dumpwifi-euex /system/bin/dumpstate -d -B -z -W \
+        -O /data/user_de/0/com.android.shell/files/bugreports/NET_LOG \
+        -Z /data/oppo/log/DCS/network_logs/NET_LOG/NET_LOG
+    class main
+    disabled
+    oneshot
+#endif /* VENDOR_EDIT */
+
+#ifdef VENDOR_EDIT
+#Deliang.Peng@PSW.MM.Display.SF.Feature, 2018/01/22, add for euclid::OIDisplayService
+service dumpstate_ncallstack /system/bin/dumpstate -n
+    class main
+    disabled
+    oneshot
+#endif
+
+#ifdef VENDOR_EDIT
+#Deliang.Peng@PSW.MM.Display.SF.Feature, 2018/06/06, add for euclid::OIDisplayService
+service dumpstate_nperf /system/bin/dumpstate -N
+    class main
+    disabled
+    oneshot
+#endif
+
+#ifdef VENDOR_EDIT
+#Deliang.Peng@PSW.MM.Display.SF.Feature, 2018/06/06, add for euclid::OIDisplayService
+service dumpstate_hecate /system/bin/dumpstate -k
+    class main
+    disabled
+    oneshot
+#endif
+
+#ifdef VENDOR_EDIT
+#Deliang.Peng@PSW.MM.Display.SF.Feature, 2018/06/06, add for euclid::OIDisplayService
+service dumpstate_net /system/bin/dumpstate -K
+    class main
+    disabled
+    oneshot
+#endif

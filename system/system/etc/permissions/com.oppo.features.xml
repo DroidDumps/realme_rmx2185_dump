@@ -1,0 +1,110 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<!-- COLOR_EDIT.  add oppo.screen.hovering.support ;remove oppo.narrow.frame -->
+<permissions>
+    <feature name="oppo.hw.manufacturer.mtk" />
+    <feature name="mtk.gemini.support" />
+
+    <feature name="oppo.inexact.alarm" />
+    <feature name="oppo.filtrated.app" />
+    <feature name="oppo.memory.auto.deep.clean" />
+    <feature name="oppo.memory.auto.clean" />
+    <feature name="oppo.screen.hovering.support" />
+    <feature name="oppo.black.gesture.proximitysensor.support" />
+    <feature name="oppo.brightness.mode.automatic" />
+    <!--<feature name="oppo.breath.light.support" />-->
+    <!-- #ifdef VENDOR_EDIT-->
+    <!-- PengNan@CHG.BSP 2016/1/14, recover feature -->
+    <feature name="oppo.otg.connection.menu.support" />
+    <!-- #endif VENDOR_EDIT-->
+    <feature name="android.hardware.usb.host" />
+    <feature name="oppo.app2sd.disabled" />
+    <feature name="oppo.guard.elf.support" />
+    <!-- #ifndef VENDOR_EDIT -->
+    <!-- Jinshui.Liu@Camera 20160630 remove quick shot feature -->
+    <!-- feature name="oppo.quick.shot.support" -->
+    <!-- #endif VENDOR_EDIT -->
+    <feature name="oppo.support.single.partition" />
+    <!--<feature name="oppo.volte.support" />-->
+    <!--<feature name="oppo.fingerprint.sensor.front" />-->
+    <!-- #ifdef VENDOR_EDIT-->
+    <!-- Wei.Wang@Swdp.Android.BuildConfig.BaseConfig, 2015/12/15, Add feature -->
+    <feature name="oppo.fulldiskencryption.unsupported" />
+    <!--<feature name="oppo.button.light.support" />-->
+    <feature name="oppo.battery.notify.new" />
+    <!-- #endif VENDOR_EDIT-->
+    <!-- jizhengkang@Plf.Framework, 2016/04/15, Add feature -->
+    <feature name="oppo.disable.small.window.leather" />
+    <feature name="oppo.sw.solution.rom" />
+    <feature name="oppo.package.encrypt.support.only" />
+    <!-- #endif COLOROS_EDIT-->
+    <!-- Runsheng.Pei@Swdp.Android.Ams.Broadcast.Optimize, 2016/02/01, add for oppo broadcast optimize: -->
+    <feature name="oppo.ams.broadcast.oppobt" />
+    <!-- Changwei.Li@SDK, 2016/03/29, Add for tp limit support -->
+    <feature name="oppo.tp.limit.support" />
+    <!-- Xiaori.Yuan@Mobile Phone Software Dept.Driver, 2016/05/05  Add autobacklight  -->
+    <feature name="oppo.autobrightctl.animation.support" />
+    <!-- Runsheng.Pei@Swdp.Android.Ams.Broadcast.Optimize, 2016/07/20, add for oppo broadcast optimize: -->
+    <feature name="oppo.ams.broadcast.jumpqueue" />
+    <feature name="oppo.ams.broadcast.adjust.pbrecque" />
+    <feature name="oppo.ams.broadcast.adjust.obrecque" />
+    <feature name="oppo.ams.broadcast.filter.power" />
+    <!-- Yinqi.Xiong@Swdp.Android.BuildConfig, 2016/08/05, add for recognizing oppo device: -->
+    <feature name="oppo.sw.solution.device"  />
+    <!-- Jun.Zhang@Plf.Framework, 2016/08/08, add for oppo multi app -->
+    <feature name="oppo.multiapp.support" />
+    <!-- Yinqi.Xiong@Swdp.Android.Power.PowerMonitor, 2016/12/05, add for net wake up control: -->
+    <feature name="oppo.performance.power.netwake"  />
+    <!-- #ifndef VENDOR_EDIT -->
+    <!-- feature name="oppo.high.brightness.support" -->
+    <!-- #endif VENDOR_EDIT -->
+    <!-- Yongxing.Chen@PSW.MM.Display.Service, 2018/03/02, no one use opencabc anymore -->
+    <!-- <feature name="oppo.gallery.opencabc" -->
+    <!-- chaochun.Shuai@Plf.Framework, 2016/02/17, add for oppo security pay -->
+    <feature name="oppo.securitypay.support" />
+    <!-- Yinqi.Xiong@Swdp.Android.Performance.Power, 2016/09/07, add for net wake up control: -->
+    <feature name="oppo.performance.power.netwake"  />
+    <!-- GuoDong.Huang@plf.Framework, 2016/07/28, add for OppoAlarmAlignment -->
+    <feature name="oppo.Align.alarm.support"  />
+    <!-- Bin.Wang@Plf.Framework, 2017/01/02, add for schedule oppo jobs -->
+    <feature name="oppo.jobscheduler.support" />
+    <!-- zhangweijie@Plf.Framework, 2017/02/16, add for child space -->
+    <feature name="oppo.childspace.support" />
+    <!-- gaoliang@Plf.LauncherCenter, 2017/03/14, add for launcher show the progress of downloading app from gamecenter and app store-->
+    <!--<feature name="oppo.launcher.download.progress.support" />-->
+    <!-- Runsheng.Pei@Swdp.Android.Ams, 2017/05/15, add for control unnormal activity start frequecy.-->
+    <feature name="oppo.ams.act.freqcontrol" />
+    <!-- Tongxi.Li@Plf.Framework, 2017/06/02, add for control charge play sound -->
+    <!--<feature name="oppo.charge.sound.noplay" />-->
+    <!-- Bin.Wang@Plf.Framework, 2017/08/08, add for app protect oneself from clear, suspend or intercept-->
+    <feature name="oppo.selfprotect.support" />
+    <!-- Xiaori.Yuan@PSW.MultiMedia.Display.Service.Feature.1082192,2017/11/21,for new autobrightness  -->
+    <feature name="oppo.multibits.dimming.support" />
+    <!-- XiaWei@Apps, 2017/12/30, add for support wake up arouse  -->
+    <feature name="oppo.black.gesture.wake.up.arouse.support" />
+    <!-- Gaowenbo@Plf.Framework, 2017/12/15, add for safecenter settings security features collect -->
+    <feature name="oppo.security.collect.support" />
+    <!-- Likuan.Ren@PSW.AD.Package.GoogleResource.1285186,2018/02/26,for install talkback  -->
+    <feature name="oppo.talkback.guide.install.support" />
+    <!-- Wenfeng.Li@PSW.AD.OppoFeature.CommonSoft.1305784, 2018/03/07, Add for narrow bezel support -->
+    <feature name="oppo.narrow.bezel.support" />
+    <!-- zhye@PSW.BSP.Sensor,2018/03/27,for not unregister tilt sensor when resume  -->
+    <feature name="oppo.gesture.wakeup.unload_algorithm.disable" />
+    <!-- Bin.Wang@Plf.Framework, 2018/03/20, add for appdisable -->
+    <feature name="oppo.appdisable.support" />
+    <!-- Junhao.Liang@PSW.AD.FaceRecognition.1070880, 2018/06/19, Add for closed eye unlock -->
+    <feature name="oppo.face.closeeye.detect" />
+    <!-- Chevin@Plf.Framework, 2018/06/04, add for hotfix support -->
+    <feature name="oppo.hotfix.support" />
+    <!-- Jialin.Pi@Apps.Settings 2018/06/12, feature only use in MT6771 for email reset password -->
+    <feature name="oppo.email.reset.password.support" />
+    <!-- Junhao.Liang@PSW.AD.FaceRecognition.1070880, 2018/06/19, Add for closed eye unlock -->
+    <feature name="oppo.hardware.face.support" />
+    <feature name="oppo.face.closeeye.detect" />
+    <!-- Miao.Yu@PSW.AD.OppoFeature.Embryo, 2019/1/14, add embryo feature control -->
+    <!-- #ifdef VENDOR_EDIT-->
+    <!-- Xiang.Chen@ODM_WT.AD.OppoFeature.Embryo,2019/12/27,remove embryo feature-->
+    <!--<feature name="oppo.feature.preload.embryo" />-->
+    <!-- #endif VENDOR_EDIT-->
+    <!-- Xijun.Wang@ROM.SDK, 2019/01/01, add for start and back animation support-->
+    <feature name="oppo.animation.round.support"/>
+</permissions>

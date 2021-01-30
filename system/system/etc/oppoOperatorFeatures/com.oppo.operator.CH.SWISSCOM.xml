@@ -1,0 +1,11 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="systemui.statusbar.show.operator.name" />
+  <feature name="systemui.statusbar.disable.volte.show" />
+  <feature name="oppo.systemui.shift.ims.icon.right" />
+  <feature name="oppo.mms.swisscom.retry.strategy" />
+  <feature name="oppo.bluetooth.not.discoverable" />
+  <feature name="oppo.common.wifi.disable.delete_network" />
+  <feature name="oppo.common.contacts.support.cnip_name" />
+  <feature name="oppo.phone.play.busy.tone" />
+</permissions>
