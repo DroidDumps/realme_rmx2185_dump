@@ -1,0 +1,88 @@
+{
+    "206A1_206A2_206A3_206A4_206A5_206A6_206A7_206A8_206A9_206AA_206AB_206B9_206BA_206BB_206BC_206C6_20691_20692_20693_20694_20699_2069D":{
+        "sensor_info": {
+            "android.sensor.accelerometer":{
+                "offset_x": 0.0,
+                "offset_y": 0.0,
+                "offset_z": 0.0
+            },
+            "android.sensor.gyroscope":{
+                "offset_x": 0.0,
+                "offset_y": 0.0,
+                "offset_z": 0.0
+            },
+            "android.sensor.light":{
+                "cali_para": 0
+            },
+            "android.sensor.proximity":{
+                "ps0_distance_delta": 0,
+                "ps0_offset": 1,
+                "ps1_distance_delta": 0,
+                "ps1_offset": 1
+            }
+        }
+    },
+    "all":{
+        "sensor_info":{
+            "android.sensor.accelerometer":{
+                "offset_x": 0.0,
+                "offset_y": 0.0,
+                "offset_z": 0.0
+            },
+            "android.sensor.gyroscope":{
+                "offset_x": 0.0,
+                "offset_y": 0.0,
+                "offset_z": 0.0
+            },
+            "android.sensor.light":{
+                "cali_para": 1000
+            },
+            "android.sensor.proximity":{
+                "ps0_offset": 0,
+                "ps0_distance_delta": 110,
+                "ps1_offset": 0,
+                "ps1_distance_delta": 0
+            },
+            "android.sensor.pressure":{
+                "cali_offset":0
+            },
+            "qti.sensor.proximity_fake":{
+                "offset_1": 110,
+                "threshold_1": 0,
+                "offset_2": 0,
+                "threshold_2": 0
+            },
+            "qti.sensor.wise_light":{
+                "cali_para": 1000
+            },
+            "android.sensor.wise_light":{
+                "cali_para": 1000
+            },
+            "android.sensor.proximity_fake":{
+                "offset_1": 110,
+                "threshold_1": 0,
+                "offset_2": 0,
+                "threshold_2": 0
+            },
+            "qti.sensor.proximity_structure":{
+                "ps_offset":0
+            },
+            "qti.sensor.rgb":{
+                "R_cali":1662,
+                "G_cali":1604,
+                "B_cali":1604,
+                "C_cali":1627,
+                "W_cali":1000,
+                "F_cali":1675
+            },
+            "qti.sensor.rgb_rear":{
+                "R_cali":1000,
+                "G_cali":1000,
+                "B_cali":1000,
+                "C_cali":1000,
+                "W_cali":1000,
+                "F_cali":1000
+            }
+        }
+    }
+}

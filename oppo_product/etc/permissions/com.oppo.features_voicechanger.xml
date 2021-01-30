@@ -1,0 +1,4 @@
+<!-- This file is used by voice changer -->
+<permissions>
+    <feature name="oppo.gamespace.voicechange.support" />
+</permissions>

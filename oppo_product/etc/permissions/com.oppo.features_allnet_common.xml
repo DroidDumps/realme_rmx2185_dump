@@ -1,0 +1,8 @@
+<permissions>
+    <!-- Yuan.Huang@PSW.CN.WiFi.Network.internet.1197891, 2018/08/24, Add for SLA feature -->
+    <feature name="oppo.wlan.sla.support" />
+    <!-- Wenkan.Zhu@PSW.CN.WiFi.Network.internet.1800709, 2019/01/24, Add for private feature -->
+    <feature name="oppo.wlan.privateDns.support" />
+    <!--add by Zuofa.Liu for show wfd menu on device which only 2.4G supported -->
+    <feature name="oppo.wirelesssetting.wifi.show.wfd.menu" />
+</permissions>
