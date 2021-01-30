@@ -1,0 +1,28 @@
+#############################################################
+## File: - nfc_chipset_ref
+## VENDOR_EDIT
+## Copyright (C), 2008-2020, OPPO Mobile Comm Corp., Ltd
+##
+## Description : 1.0
+##           This is a common file
+##
+## Version: 1.0
+## Date created: 12:00, 2019/12/25
+## Author: Yukun.Wang@PSW.CONNECTIVITY.Nfc.Basic, 2674926
+## Format for every line:
+## [chipset]:[project]...
+##
+## ------------------ Revision History: ---------------------
+##      <author>         <date>                        <desc>
+##     Yukun.Wang,  12:00, 2019/12/16,      Add chipset related interface
+#############################################################
+nq310:
+nq330:
+sn100t:19165 19166 19040
+sn100f:
+sn100u:
+st21h:19420
+st54h:19133
+st54u:
+cdx2248:
+cdx2252:

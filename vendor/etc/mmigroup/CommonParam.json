@@ -1,0 +1,1234 @@
+{
+  "S98635MA1": {
+    "itemConfig": {
+      "NFC": {
+        "support": true
+      }
+    }
+  },
+  "S98635NA1": {
+    "itemConfig": {
+      "NFC": {
+        "support": true
+      }
+    }
+  },
+  "S98635PA1": {
+    "itemConfig": {
+      "NFC": {
+        "support": true
+      }
+    }
+  },
+  "S98635QA1": {
+    "itemConfig": {
+      "NFC": {
+        "support": true
+      }
+    }
+  },
+  "S98633": {
+    "systemConfig": {
+      "buildNumber": true,
+      "basebandVersion": true,
+      "kernelVersion": true,
+      "SW_Ver": true,
+      "Modem": true,
+      "MEID": true,
+      "IMEI": true,
+      "SN": true,
+      "PhoneSN": false,
+      "EFS": false,
+      "FactoryTestMode": true,
+      "BoardID": true,
+      "RPMB_provisioned": true,
+      "Secureboot": true,
+      "MMIGroupVersion": true,
+      "FactoryInterfaceVersion": true,
+      "FactoryInterfaceHALVersion": true,
+      "DualCameraCalibration": false,
+      "CameraEfuseID": false,
+      "DualCameCali": true,
+      "FlashlightCali": true,
+      "Flash": true,
+      "camera_match": true,
+      "Flash_fw": true
+    },
+  "camera_match": {
+    "support_camera": [
+      "BackMainCamera",
+      "BackWideCamera"
+    ],
+    "camera_id": [
+      [
+        "pascala_truly2_main_s5kgm1sp",
+        "pascala_sunny_wide_ov8856"
+      ],
+      [
+        "pascala_truly_main_s5kgm1sp",
+        "pascala_sunny_wide_ov8856"
+      ],
+      [
+        "pascala_truly2_main_s5kgm1sp",
+        "pascala_shengtai_wide_ov8856"
+      ],
+      [
+        "pascala_truly_main_s5kgm1sp",
+        "pascala_shengtai_wide_ov8856"
+      ]
+    ]
+  },
+    "itemConfig": {
+        "BackMainCamera": {
+            "support": true,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 0,
+              "camera_Rotation": 0,
+              "support_takepicture": true,
+              "support_camera_match": false,
+              "support_cameraCheck": true
+            }
+        },
+        "FrontMainCamera": {
+            "support": true,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 1,
+              "camera_Rotation": 180,
+              "support_takepicture": true,
+              "support_cameraCheck": true
+            }
+        },
+        "BackWideCamera": {
+            "support": true,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 2,
+              "camera_Rotation": 0,
+              "support_takepicture": true,
+              "support_camera_match": false,
+              "support_cameraCheck": true
+            }
+        },
+        "BackMacroCamera": {
+            "support": true,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 4,
+              "camera_Rotation": 180,
+              "support_takepicture": true,
+              "support_cameraCheck": true
+            }
+        },
+          "BackDepthCamera": {
+            "support": false,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 2,
+              "camera_Rotation": 180,
+              "support_takepicture": true,
+              "support_cameraCheck": true
+            }
+          },
+        "DualCamera": {
+            "support": true,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 4,
+              "camera_Rotation": 180,
+              "support_takepicture": true,
+              "support_cameraCheck": false
+            }
+        },
+        "fingerprint": {
+            "support": true,
+            "action": "com.mmigroup.action.FINGERPRINT",
+            "automatic": false,
+            "paramconfig": {
+                "is_need_nextButton": false,
+                "support_selfTest": true,
+                "support_checkBoardTest": true,
+                "support_enrolTest": true,
+                "support_identifyTest": true
+            }
+        },
+        "Battery": {
+            "action": "com.mmigroup.action.BATTERY",
+            "support": true,
+            "automatic": true,
+            "support_background_test": false,
+            "background_Service": "com.factory.mmigroup.item.BatteryService",
+            "paramconfig": {
+              "is_miui_battery": false,
+              "check_usb_is_unplug": true,
+              "is_show_batteryTemperature": true,
+              "support_typec_check": true,
+              "support_fast_charge": true,
+              "fast_charge_node": "/sys/class/power_supply/battery/fastcharger",
+              "fast_charge_type_node": "/sys/class/power_supply/usb/fast_chg_type",
+              "fast_charge_type_test_mode": "qc",
+              "Voltage": {
+                "min": 3500,
+                "max": 4500
+              },
+              "temp": {
+                "min": 150,
+                "max": 450
+              },
+              "ChargerVoltage": {
+                "min": 8250,
+                "max": 9500
+              },
+              "ChargerCurrent": {
+                "min": -4000,
+                "max": -500
+              },
+              "errorBatteryId": [
+                "Fail",
+                "NULL",
+                "Not found",
+                "Generic_Battery"
+              ]
+            }
+        },
+        "OTG": {
+            "action": "com.mmigroup.action.OTG",
+            "support": true,
+            "automatic": false,
+            "paramconfig": {
+              "is_show_storage": true,
+              "support_typec":true
+            }
+        }
+    }
+  },
+  "S98637": {
+    "systemConfig": {
+      "buildNumber": true,
+      "basebandVersion": true,
+      "kernelVersion": true,
+      "SW_Ver": true,
+      "Modem": true,
+      "MEID": true,
+      "IMEI": true,
+      "SN": true,
+      "PhoneSN": false,
+      "EFS": false,
+      "FactoryTestMode": true,
+      "BoardID": true,
+      "RPMB_provisioned": true,
+      "Secureboot": true,
+      "MMIGroupVersion": true,
+      "FactoryInterfaceVersion": true,
+      "FactoryInterfaceHALVersion": true,
+      "DualCameraCalibration": false,
+      "CameraEfuseID": false,
+      "DualCameCali": true,
+      "FlashlightCali": true,
+      "Flash": true,
+      "camera_match": true,
+      "Flash_fw": true
+    },
+  "camera_match": {
+    "support_camera": [
+      "BackMainCamera",
+      "BackDepthCamera"
+    ],
+    "camera_id": [
+      [
+        "pascalc_shengtai_main_ov12a10",
+        "pascalc_shengtai_mono_ov02b1b"
+      ]
+    ]
+  },
+    "itemConfig": {
+          "BackMainCamera": {
+            "support": true,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 0,
+              "camera_Rotation": 0,
+              "support_takepicture": true,
+              "support_camera_match": false,
+              "support_cameraCheck": true
+            }
+          },
+          "FrontMainCamera": {
+            "support": true,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 1,
+              "camera_Rotation": 180,
+              "support_takepicture": true,
+              "support_cameraCheck": true
+            }
+          },
+          "BackMacroCamera": {
+            "support": true,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 4,
+              "camera_Rotation": 180,
+              "support_takepicture": true,
+              "support_cameraCheck": true
+            }
+          },
+          "BackDepthCamera": {
+            "support": true,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 2,
+              "camera_Rotation": 0,
+              "support_takepicture": true,
+              "support_camera_match": false,
+              "support_cameraCheck": true
+            }
+          },
+        "BackWideCamera": {
+            "support": false,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 2,
+              "camera_Rotation": 0,
+              "support_takepicture": true,
+              "support_cameraCheck": true
+            }
+        },
+          "DualCamera": {
+            "support": true,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 4,
+              "camera_Rotation": 180,
+              "support_takepicture": true,
+              "support_cameraCheck": false
+            }
+          },
+        "fingerprint": {
+            "support": true,
+            "action": "com.mmigroup.action.FINGERPRINT",
+            "automatic": false,
+            "paramconfig": {
+                "is_need_nextButton": false,
+                "support_selfTest": true,
+                "support_checkBoardTest": true,
+                "support_enrolTest": true,
+                "support_identifyTest": true
+            }
+        },
+        "Battery": {
+            "action": "com.mmigroup.action.BATTERY",
+            "support": true,
+            "automatic": true,
+            "support_background_test": false,
+            "background_Service": "com.factory.mmigroup.item.BatteryService",
+            "paramconfig": {
+              "is_miui_battery": false,
+              "check_usb_is_unplug": true,
+              "is_show_batteryTemperature": true,
+              "support_typec_check": true,
+              "support_fast_charge": true,
+              "fast_charge_node": "/sys/class/power_supply/battery/fastcharger",
+              "fast_charge_type_node": "/sys/class/power_supply/usb/fast_chg_type",
+              "fast_charge_type_test_mode": "qc",
+              "Voltage": {
+                "min": 3500,
+                "max": 4500
+              },
+              "temp": {
+                "min": 150,
+                "max": 450
+              },
+              "ChargerVoltage": {
+                "min": 8250,
+                "max": 9500
+              },
+              "ChargerCurrent": {
+                "min": -4000,
+                "max": -500
+              },
+              "errorBatteryId": [
+                "Fail",
+                "NULL",
+                "Not found",
+                "Generic_Battery"
+              ]
+            }
+        },
+        "OTG": {
+            "action": "com.mmigroup.action.OTG",
+            "support": true,
+            "automatic": false,
+            "paramconfig": {
+              "is_show_storage": true,
+              "support_typec":true
+            }
+        }
+    }
+  },
+  "S98639": {
+    "systemConfig": {
+      "buildNumber": true,
+      "basebandVersion": true,
+      "kernelVersion": true,
+      "SW_Ver": true,
+      "Modem": true,
+      "MEID": true,
+      "IMEI": true,
+      "SN": true,
+      "PhoneSN": false,
+      "EFS": false,
+      "FactoryTestMode": true,
+      "BoardID": true,
+      "RPMB_provisioned": true,
+      "Secureboot": true,
+      "MMIGroupVersion": true,
+      "FactoryInterfaceVersion": true,
+      "FactoryInterfaceHALVersion": true,
+      "DualCameraCalibration": false,
+      "CameraEfuseID": false,
+      "DualCameCali": true,
+      "FlashlightCali": true,
+      "Flash": true,
+      "camera_match": true,
+      "Flash_fw": true
+    },
+  "camera_match": {
+    "support_camera": [
+      "BackMainCamera",
+      "BackDepthCamera"
+    ],
+    "camera_id": [
+      [
+        "pascald_truly_main_ov13b10",
+        "pascald_hlt_depth_gc02m1b"
+      ],
+      [
+        "pascald_truly_main_ov13b10",
+        "pascald_hlt_depth_gc02k0b"
+      ],
+      [
+        "pascald_truly_main_ov13b10",
+        "pascald_cxt_depth_gc02m1b"
+      ],
+      [
+        "pascald_truly_main_ov13b10",
+        "pascald_lhyx_depth_ov02b1b"
+      ],
+      [
+        "pascald_qtech_main_ov13b10",
+        "pascald_cxt_depth_gc02m1b"
+      ],
+      [
+        "pascald_qtech_main_ov13b10",
+        "pascald_lhyx_depth_ov02b1b"
+      ],
+      [
+        "pascald_qtech_main_ov13b10",
+        "pascald_hlt_depth_gc02m1b"
+      ]
+    ]
+  },
+    "itemConfig": {
+         "BackMainCamera": {
+            "support": true,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 0,
+              "camera_Rotation": 0,
+              "support_takepicture": true,
+              "support_camera_match": false,
+              "support_cameraCheck": true
+            }
+          },
+          "FrontMainCamera": {
+            "support": true,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 1,
+              "camera_Rotation": 180,
+              "support_takepicture": true,
+              "support_cameraCheck": true
+            }
+          },
+          "BackMacroCamera": {
+            "support": true,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 4,
+              "camera_Rotation": 180,
+              "support_takepicture": true,
+              "support_cameraCheck": true
+            }
+          },
+          "BackDepthCamera": {
+            "support": true,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 2,
+              "camera_Rotation": 0,
+              "support_takepicture": true,
+              "support_camera_match": false,
+              "support_cameraCheck": true
+            }
+          },
+         "BackWideCamera": {
+            "support": false,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 2,
+              "camera_Rotation": 0,
+              "support_takepicture": true,
+              "support_cameraCheck": true
+            }
+        },
+          "DualCamera": {
+            "support": true,
+            "action": "com.mmigroup.action.CAMERATESTTWO",
+            "automatic": false,
+            "support_autoTest_autopass": false,
+            "paramconfig": {
+              "cameraId": 4,
+              "camera_Rotation": 180,
+              "support_takepicture": true,
+              "support_cameraCheck": false
+            }
+          },
+        "fingerprint": {
+            "support": true,
+            "action": "com.mmigroup.action.FINGERPRINT",
+            "automatic": false,
+            "paramconfig": {
+                "is_need_nextButton": false,
+                "support_selfTest": true,
+                "support_checkBoardTest": true,
+                "support_enrolTest": true,
+                "support_identifyTest": true
+            }
+        }
+    }
+  },
+  "S98530": {
+    "systemConfig": {
+      "buildNumber": true,
+      "basebandVersion": true,
+      "kernelVersion": true,
+      "SW_Ver": true,
+      "Modem": true,
+      "MEID": true,
+      "IMEI": true,
+      "SN": true,
+      "PhoneSN": false,
+      "EFS": false,
+      "FactoryTestMode": true,
+      "BoardID": true,
+      "RPMB_provisioned": true,
+      "Secureboot": true,
+      "MMIGroupVersion": true,
+      "FactoryInterfaceVersion": true,
+      "FactoryInterfaceHALVersion": true,
+      "DualCameraCalibration": false,
+      "CameraEfuseID": false,
+      "DualCameCali": true,
+      "FlashlightCali": true,
+      "Flash": true,
+      "camera_match": false,
+      "Flash_fw": true
+    }
+  },
+  "S98635": {
+    "systemConfig": {
+      "buildNumber": true,
+      "basebandVersion": true,
+      "kernelVersion": true,
+      "SW_Ver": true,
+      "Modem": true,
+      "MEID": true,
+      "IMEI": true,
+      "SN": true,
+      "PhoneSN": false,
+      "EFS": false,
+      "FactoryTestMode": true,
+      "BoardID": true,
+      "RPMB_provisioned": true,
+      "Secureboot": true,
+      "MMIGroupVersion": true,
+      "FactoryInterfaceVersion": true,
+      "FactoryInterfaceHALVersion": true,
+      "DualCameraCalibration": false,
+      "CameraEfuseID": false,
+      "DualCameCali": true,
+      "FlashlightCali": true,
+      "Flash": true,
+      "camera_match": true,
+      "Flash_fw": true
+    },
+    "camera_match": {
+      "support_camera": [
+        "BackMainCamera",
+        "BackWideCamera"
+      ],
+      "camera_id": [
+        [
+          "pascald_truly_main_ov13b10",
+          "pascal_sunny_wide_ov8856"
+        ],
+        [
+          "pascald_qtech_main_ov13b10",
+          "pascal_sunny_wide_ov8856"
+        ],
+        [
+          "pascald_truly_main_ov13b10",
+          "pascal_shengtai_wide_ov8856"
+        ],
+        [
+          "pascald_qtech_main_ov13b10",
+          "pascal_shengtai_wide_ov8856"
+        ]
+      ]
+    },
+    "itemConfig": {
+      "BackMainCamera": {
+        "support": true,
+        "action": "com.mmigroup.action.CAMERATESTTWO",
+        "automatic": false,
+        "support_autoTest_autopass": false,
+        "paramconfig": {
+          "cameraId": 0,
+          "camera_Rotation": 0,
+          "support_takepicture": true,
+          "support_camera_match": true,
+          "support_cameraCheck": true
+        }
+      },
+      "FrontMainCamera": {
+        "support": true,
+        "action": "com.mmigroup.action.CAMERATESTTWO",
+        "automatic": false,
+        "support_autoTest_autopass": false,
+        "paramconfig": {
+          "cameraId": 1,
+          "camera_Rotation": 180,
+          "support_takepicture": true,
+          "support_cameraCheck": true
+        }
+      },
+      "BackWideCamera": {
+        "support": true,
+        "action": "com.mmigroup.action.CAMERATESTTWO",
+        "automatic": false,
+        "support_autoTest_autopass": false,
+        "paramconfig": {
+          "cameraId": 2,
+          "camera_Rotation": 0,
+          "support_takepicture": true,
+          "support_camera_match": true,
+          "support_cameraCheck": true
+        }
+      },
+      "BackDepthCamera": {
+        "support": true,
+        "action": "com.mmigroup.action.CAMERATESTTWO",
+        "automatic": false,
+        "support_autoTest_autopass": false,
+        "paramconfig": {
+          "cameraId": 4,
+          "camera_Rotation": 180,
+          "support_takepicture": true,
+          "support_cameraCheck": true
+        }
+      },
+      "BackDepthCamera2": {
+        "support": true,
+        "action": "com.mmigroup.action.CAMERATESTTWO",
+        "automatic": false,
+        "support_autoTest_autopass": false,
+        "paramconfig": {
+          "cameraId": 5,
+          "camera_Rotation": 180,
+          "support_takepicture": true,
+          "support_cameraCheck": true
+        }
+      },
+      "DualCamera": {
+        "support": true,
+        "action": "com.mmigroup.action.CAMERATESTTWO",
+        "automatic": false,
+        "support_autoTest_autopass": false,
+        "paramconfig": {
+          "cameraId": 5,
+          "camera_Rotation": 180,
+          "support_takepicture": true,
+          "support_cameraCheck": false
+        }
+      },
+      "fingerprint": {
+        "support": true,
+        "action": "com.mmigroup.action.FINGERPRINT",
+        "automatic": false,
+        "paramconfig": {
+          "is_need_nextButton": false,
+          "support_selfTest": true,
+          "support_checkBoardTest": true,
+          "support_enrolTest": true,
+          "support_identifyTest": true
+        }
+      },
+      "Battery": {
+        "action": "com.mmigroup.action.BATTERY",
+        "support": true,
+        "automatic": true,
+        "support_background_test": false,
+        "background_Service": "com.factory.mmigroup.item.BatteryService",
+        "paramconfig": {
+          "is_miui_battery": false,
+          "check_usb_is_unplug": true,
+          "is_show_batteryTemperature": true,
+          "support_fast_charge": true,
+          "fast_charge_node": "/sys/class/power_supply/battery/fastcharger",
+          "fast_charge_type_node": "/sys/class/power_supply/usb/fast_chg_type",
+          "fast_charge_type_test_mode": "qc",
+          "Voltage": {
+            "min": 3500,
+            "max": 4500
+          },
+          "temp": {
+            "min": 150,
+            "max": 450
+          },
+          "ChargerVoltage": {
+            "min": 8250,
+            "max": 9500
+          },
+          "ChargerCurrent": {
+            "min": -4000,
+            "max": -500
+          },
+          "errorBatteryId": [
+            "Fail",
+            "NULL",
+            "Not found",
+            "Generic_Battery"
+          ]
+        }
+      }
+    }
+  },
+  "call": {
+    "com.mmigroup.radiosupport.GSM": true,
+    "com.mmigroup.radiosupport.CDMA": false,
+    "com.mmigroup.radiosupport.TDCDMA": false,
+    "com.mmigroup.radiosupport.WCDMA": true,
+    "com.mmigroup.radiosupport.TDD": false,
+    "com.mmigroup.radiosupport.FDD": false,
+    "com.mmigroup.radiosupport.LTE": true
+  },
+  "mmigroupConfig": {
+    "com.mmigroup.support.statusbar": true,
+    "MMIGroupFactory_layout_name": "mainview_gridlayout",
+    "support_icon": "all",
+    "hideDownloadModeUi": true,
+    "notch_height": 52
+  },
+  "systemConfig": {
+    "buildNumber": true,
+    "basebandVersion": true,
+    "kernelVersion": true,
+    "SW_Ver": true,
+    "Modem": true,
+    "MEID": true,
+    "IMEI": true,
+    "SN": true,
+    "PhoneSN": false,
+    "EFS": false,
+    "FactoryTestMode": true,
+    "BoardID": true,
+    "RPMB_provisioned": true,
+    "Secureboot": true,
+    "MMIGroupVersion": true,
+    "FactoryInterfaceVersion": true,
+    "FactoryInterfaceHALVersion": true,
+    "DualCameraCalibration": false,
+    "CameraEfuseID": false,
+    "DualCameCali": true,
+    "FlashlightCali": true,
+    "Flash": true,
+    "camera_match": true,
+    "Flash_fw": true
+  },
+  "camera_match": {
+    "support_camera": [
+      "BackMainCamera",
+      "BackDepthCamera"
+    ],
+    "camera_id": [
+      [
+        "pascald_truly_main_ov13b10",
+        "pascald_hlt_depth_gc02m1b"
+      ],
+      [
+        "pascald_truly_main_ov13b10",
+        "pascald_hlt_depth_gc02k0b"
+      ],
+      [
+        "pascald_truly_main_ov13b10",
+        "pascald_cxt_depth_gc02m1b"
+      ],
+      [
+        "pascald_truly_main_ov13b10",
+        "pascald_lhyx_depth_ov02b1b"
+      ],
+      [
+        "pascald_qtech_main_ov13b10",
+        "pascald_cxt_depth_gc02m1b"
+      ],
+      [
+        "pascald_qtech_main_ov13b10",
+        "pascald_lhyx_depth_ov02b1b"
+      ],
+      [
+        "pascald_qtech_main_ov13b10",
+        "pascald_hlt_depth_gc02m1b"
+      ]
+    ]
+  },
+  "itemConfig": {
+    "MainMicToHeadPhone": {
+      "support": true
+    },
+    "MIMainMicToHeadphone": {
+      "support": true
+    },
+    "MISubMicToHeadphone": {
+      "support": true
+    },
+    "HsMicToReceiver": {
+      "support": true
+    },
+    "MainMicToReceiver": {
+      "support": true
+    },
+    "MainMicToSpeaker": {
+      "support": true
+    },
+    "HsMicToSpeaker": {
+      "support": true
+    },
+    "SubMicToReceiver": {
+      "support": true
+    },
+    "SubMicToHeadPhone": {
+      "support": true
+    },
+    "HsMicToSpeakerLeft": {
+      "support": false
+    },
+    "HsMicToSpeakerRight": {
+      "support": false
+    },
+    "Speaker": {
+      "support": true
+    },
+    "Receiver": {
+      "support": true
+    },
+    "FM": {
+      "support": true
+    },
+    "HeadSet": {
+      "support": true
+    },
+    "HeadSetKey": {
+      "support": true
+    },
+    "Flashlight": {
+      "support": true
+    },
+    "VersionInfo": {
+      "support": true,
+      "action": "com.mmigroup.action.FACTORYVERSION",
+      "automatic": false,
+      "paramconfig": {
+        "AddInfo": {
+          "CameraInfo": "any",
+          "verifiedbootstate": "any",
+          "System_Verity": "any"
+        }
+      }
+    },
+    "KeyPad": {
+      "support": true
+    },
+    "KeyPadAndVibrator": {
+      "support": true
+    },
+    "TouchPal": {
+      "support": true
+    },
+    "TpOpenShort": {
+      "support": true
+    },
+    "iliGetOtpTest": {
+      "support": false
+    },
+    "LPWGRawdata": {
+      "support": true
+    },
+    "TP_LockDown": {
+      "support": false
+    },
+    "LCD": {
+      "support": true
+    },
+    "LCD_R": {
+      "support": true
+    },
+    "LCD_G": {
+      "support": true
+    },
+    "LCD_B": {
+      "support": true
+    },
+    "LCD_W": {
+      "support": true
+    },
+    "LCD_BL": {
+      "support": true
+    },
+    "LCD_GW": {
+      "support": true
+    },
+    "Backlight": {
+      "support": true
+    },
+    "Vibrator": {
+      "support": true
+    },
+    "OTG": {
+      "support": true
+    },
+    "RTC": {
+      "support": true
+    },
+    "LED": {
+      "support": true
+    },
+    "LED_R": {
+      "support": true
+    },
+    "LED_G": {
+      "support": true
+    },
+    "LED_B": {
+      "support": true
+    },
+    "LED_RGB": {
+      "support": true
+    },
+    "Accelerometer": {
+      "support": true
+    },
+    "Accelerometer_C": {
+      "support": true
+    },
+    "Accelerometer_MMI": {
+      "support": true
+    },
+    "Gyroscope": {
+      "support": false
+    },
+    "Gyroscope_C": {
+      "support": true
+    },
+    "Gyroscope_MMI": {
+      "support": true
+    },
+    "Proximity": {
+      "support": true
+    },
+    "Proximity_st": {
+      "support": true
+    },
+    "Proximity_C": {
+      "support": true
+    },
+    "Magnetic": {
+      "support": true
+    },
+    "Optical": {
+      "support": true
+    },
+    "Optical_c": {
+      "support": true
+    },
+    "Hall": {
+      "support": false
+    },
+    "NFC": {
+      "support": false
+    },
+    "fingerprint": {
+      "support": false
+    },
+    "SMARTPA": {
+      "support": false
+    },
+    "Infrared": {
+      "support": false
+    },
+    "SdCard": {
+      "support": true
+    },
+    "MainSIMCard": {
+      "support": true
+    },
+    "SubSIMCard": {
+      "support": true
+    },
+    "Wlan": {
+      "support": true
+    },
+    "WlanAP": {
+      "support": false
+    },
+    "WlanAddress": {
+      "support": false
+    },
+    "Bluetooth": {
+      "support": true
+    },
+    "BluetoothAddress": {
+      "support": false
+    },
+    "BluetoothDevice": {
+      "support": false
+    },
+    "GPS": {
+      "support": true
+    },
+    "Charge": {
+      "support": true
+    },
+    "Battery": {
+      "action": "com.mmigroup.action.BATTERY",
+      "support": true,
+      "automatic": true,
+      "support_background_test": false,
+      "background_Service": "com.factory.mmigroup.item.BatteryService",
+      "paramconfig": {
+        "is_miui_battery": false,
+        "check_usb_is_unplug": true,
+        "is_show_batteryTemperature": true,
+        "support_typec_check": false,
+        "Voltage": {
+          "min": 3500,
+          "max": 4500
+        },
+        "temp": {
+          "min": 150,
+          "max": 450
+        },
+        "ChargerVoltage": {
+          "min": 4250,
+          "max": 5500
+        },
+        "ChargerCurrent": {
+          "min": -2300,
+          "max": -500
+        },
+        "errorBatteryId": [
+          "Fail",
+          "NULL",
+          "Not found",
+          "Generic_Battery"
+        ]
+      }
+    },
+    "FrontFlashLight": {
+      "support": false
+    },
+    "Pressure": {
+      "support": false
+    },
+    "CALL112": {
+      "support": false
+    },
+    "KeyPadLight": {
+      "support": false
+    },
+    "MainMic2ToHeadPhone": {
+      "support": true
+    },
+    "SubMic2ToHeadPhone": {
+      "support": true
+    },
+    "MainMic2ToSpeaker": {
+      "support": false
+    },
+    "MainMic2ToReceiver": {
+      "support": true
+    },
+    "SubMicToSpeaker": {
+      "support": true
+    },
+    "Orientation": {
+      "support": false
+    },
+    "FrontSubCamera": {
+      "support": false
+    },
+    "BackMainCamera": {
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 0,
+        "support_takepicture": true,
+        "support_camera_match": true,
+        "support_cameraCheck": true
+      }
+    },
+    "FrontMainCamera": {
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 1,
+        "camera_Rotation": 180,
+        "support_takepicture": true,
+        "support_cameraCheck": true
+      }
+    },
+    "BackWideCamera": {
+      "support": false
+    },
+    "BackDepthCamera": {
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 2,
+        "support_takepicture": true,
+        "support_camera_match": true,
+        "support_cameraCheck": true
+      }
+    },
+    "BackDepthCamera2": {
+      "support": false
+    },
+    "BackMacroCamera": {
+      "support": false
+    },
+    "DualCamera": {
+      "support": true,
+      "action": "com.mmigroup.action.CAMERATESTTWO",
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "cameraId": 3,
+        "camera_Rotation": 180,
+        "support_takepicture": true,
+        "support_cameraCheck": false
+      }
+    },
+    "PlatCameraZoom": {
+      "support": false
+    },
+    "PlatMainCamera": {
+      "support": false
+    },
+    "PlatSubCamera": {
+      "support": false
+    },
+    "PlatFrontCamera": {
+      "support": false
+    },
+    "PlatCameraSwitch": {
+      "support": false
+    },
+    "Flashlight2": {
+      "support": true
+    },
+    "DualSIMCard": {
+      "support": true
+    },
+    "LightTEST": {
+      "support": true
+    },
+    "SpeakerCali": {
+      "support": true
+    },
+    "ASDeviceInfo": {
+      "support": true
+    },
+    "ASFlashLife": {
+      "support": true
+    },
+    "ASLCDActivity": {
+      "support": true
+    },
+    "TouchPanel": {
+      "support": true
+    },
+    "MainMic": {
+      "support": true
+    },
+    "FlashLightCali": {
+      "support": true
+    },
+    "DualCameraCali": {
+      "support": true
+    },
+    "DualCameraVerify": {
+      "support": true
+    },
+    "AirInterfaceTest": {
+      "support": true
+    },
+    "MainBoardSubBoardMatchTest": {
+      "support": true
+    },
+    "Hardware_ID": {
+      "support": true
+    }
+  }
+}
+
