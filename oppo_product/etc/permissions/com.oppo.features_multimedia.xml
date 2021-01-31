@@ -1,0 +1,12 @@
+<!-- This file is used by Multimedia Daemon Service (YaJun.li).  DO NOT MODIFY. -->
+<permissions>
+    <feature name="oppo.multimedia.record.conflict" />
+    <!--Chenyang.Zhang@RM.MM.AuioServer.Policy, 2019/12/16, Add for Inner Record -->
+    <feature name="oppo.multimedia.internal.record" />
+    <!-- Chenyang.Zhang@RM.MM.AudioServer.Effect, 2019/11/28, Add for dirac a2dp effect -->
+    <feature name="oppo.multimedia.dirac.a2dp.support" />
+    <!-- Chenyang.Zhang@RM.MM.AuioServer.Policy, 2019/12/23, Add for DualHeadPhone -->
+    <feature name="realme.multimedia.dualheadphone"/>
+    <!-- Chenyang.Zhang@RM.MM.AuioServer.Policy, 2020/01/20, Add for remove DHP feature in call status -->
+    <feature name="realme.multimedia.dualheadphone.lite"/>
+</permissions>

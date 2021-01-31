@@ -1,0 +1,16 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=2048
+dt=dtb.img
+kernel_size=10341587
+ramdisk_size=847706
+dtb_offset=0x07808000
+dtb_size=115837
+base_addr=0x40078000
+kernel_offset=0x00008000
+ramdisk_offset=0x11a88000
+tags_offset=0x07808000
+dtbo_offset=0xbff88000
+cmd_line='bootopt=64S3,32N2,64N2 buildvariant=user'
+board=""
+format=gzip

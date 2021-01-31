@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<res>
+    <default_wallpaper_name>inlay_wallpaper45</default_wallpaper_name>
+    <default_lock_wallpaper_name>inlay_wallpaper45</default_lock_wallpaper_name>
+    <versionCode>700013</versionCode>
+    <wallpaper_file_name_array>
+        <item>inlay_wallpaper45</item>
+        <item>inlay_wallpaper1</item>
+        <item>inlay_wallpaper2</item>
+        <item>inlay_wallpaper3</item>
+        <item>inlay_wallpaper4</item>
+        <item>inlay_wallpaper6</item>
+        <item>inlay_wallpaper7</item>
+        <item>inlay_wallpaper25</item>
+    </wallpaper_file_name_array>
+    <wallpaper_en_name_array>
+        <item>Blue Rift</item>
+        <item>Red Rift</item>
+        <item>Frozen Rift</item>
+        <item>Green Rift</item>
+        <item>Mountain</item>
+        <item>Snow Mountain</item>
+        <item>Colorful</item>
+        <item>Cyan Texture</item>
+    </wallpaper_en_name_array>
+    <wallpaper_zh_name_array>
+        <item>靛染青莲</item>
+        <item>赤染青莲</item>
+        <item>冰上青莲</item>
+        <item>粉黛青莲</item>
+        <item>水墨山色</item>
+        <item>青绿沙滩</item>
+        <item>缤纷色彩</item>
+        <item>青色纹理</item>
+    </wallpaper_zh_name_array>
+    <wallpaper_zh_rTw_name_array>
+        <item>靛染青莲</item>
+        <item>赤染青莲</item>
+        <item>冰上青莲</item>
+        <item>粉黛青莲</item>
+        <item>水墨山色</item>
+        <item>青綠沙灘</item>
+        <item>繽紛色彩</item>
+        <item>青色紋理</item>
+    </wallpaper_zh_rTw_name_array>
+
+    <wallpaper_file_name_array_id>
+        <item>inlay_wallpaper_id</item>
+        <item>inlay_wallpaper45</item>
+        <item>inlay_wallpaper1</item>
+        <item>inlay_wallpaper2</item>
+        <item>inlay_wallpaper3</item>
+        <item>inlay_wallpaper4</item>
+        <item>inlay_wallpaper6</item>
+        <item>inlay_wallpaper7</item>
+        <item>inlay_wallpaper25</item>
+    </wallpaper_file_name_array_id>
+
+    <wallpaper_en_name_array_id>
+        <item>Green Beach</item>
+        <item>Blue Rift</item>
+        <item>Red Rift</item>
+        <item>Frozen Rift</item>
+        <item>Green Rift</item>
+        <item>Mountain</item>
+        <item>Snow Mountain</item>
+        <item>Colorful</item>
+        <item>Cyan Texture</item>
+    </wallpaper_en_name_array_id>
+</res>
