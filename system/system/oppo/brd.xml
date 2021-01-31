@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<gs>
+    <p att="android.intent.action.PACKAGE_ADDED"></p>
+    <p att="android.intent.action.PACKAGE_REPLACED"></p>
+    <p att="android.intent.action.MY_PACKAGE_REPLACED"></p>
+    <p att="android.intent.action.PACKAGE_REMOVED"></p>
+    <p att="android.intent.action.PACKAGE_FULLY_REMOVED"></p>
+    <p att="android.intent.action.PACKAGE_CHANGED"></p>
+    <p att="android.intent.action.PHONE_STATE"></p>
+    <p att="android.intent.action.HEADSET_PLUG"></p>
+    <p att="qualcomm.intent.action.WIFI_DISPLAY_AUDIO"></p>
+    <p att="android.intent.action.ANALOG_AUDIO_DOCK_PLUG"></p>
+    <p att="android.media.AUDIO_BECOMING_NOISY"></p>
+    <p att="android.media.VOLUME_CHANGED_ACTION"></p>
+
+    <p att="android.appwidget.action.APPWIDGET_PICK"></p>
+    <p att="android.appwidget.action.APPWIDGET_BIND"></p>
+    <p att="android.appwidget.action.APPWIDGET_CONFIGURE"></p>
+    <p att="android.appwidget.action.APPWIDGET_UPDATE"></p>
+    <p att="android.appwidget.action.APPWIDGET_UPDATE_OPTIONS"></p>
+    <p att="android.appwidget.action.APPWIDGET_DELETED"></p>
+    <p att="android.appwidget.action.APPWIDGET_DISABLED"></p>
+    <p att="android.appwidget.action.APPWIDGET_ENABLED"></p>
+
+    <!-- for cts -->
+    <p att="android.content.cts.ContextWrapperTest.STICKY_BROADCAST_RESULT"></p>
+
+    <!-- for default sms -->
+    <p att="android.provider.Telephony.SMS_DELIVER"></p>
+    <p att="android.provider.Telephony.WAP_PUSH_DELIVER"></p>
+    <!-- for USER_UNLOCKED , Android N new feature. -->
+    <p att="android.intent.action.USER_UNLOCKED"></p>
+</gs>

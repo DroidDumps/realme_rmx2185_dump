@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <!--function for rom update parameter-->
+    <version>2020021100</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_quality_config</filter-name>
+    <switch name="TotalSwitch" value="1"></switch>
+    <switch name="UpdateCpuStats" value="1"></switch>
+    <switch name="LaunchTime" value="1"></switch>
+    <switch name="BlackScreen" value="1"></switch>
+    <switch name="SlowOperation" value="1"></switch>
+    <switch name="Iozone1" value="0"></switch>
+    <switch name="Iozone2" value="0"></switch>
+    <switch name="Choreographer" value="1"></switch>
+    <switch name="IONCountSwitch" value="1"></switch>
+    <switch name="PartitionCheckSwitch" value="0"></switch>
+    <switch name="FileCheckSwitch" value="0"></switch>
+    <switch name="ExtFragSwitch" value="0"></switch>
+    <switch name="LowMemLog" value="10"></switch>
+    <switch name="LowMemDetailLog" value="0"></switch>
+    <switch name="memmonitorLog" value="0"></switch>
+    <switch name="memleakLog" value="0"></switch>
+    <switch name="launchLog" value="1"></switch>
+    <switch name="fsyncLog" value="0"></switch>
+    <switch name="systraceLog" value="1"></switch>
+    <switch name="forceStartSystraceLog" value="0"></switch>
+    <switch name="MemoryLeakLog" value="1"></switch>
+    <switch name="memmallocLog" value="0"></switch>
+    <switch name="BackgroundDexopt" value="1"></switch>
+    <switch name="JavaHeapSwitch" value="1"></switch>
+    <switch name="NativeHeapSwitch" value="1"></switch>
+    <switch name="IONSwitch" value="1"></switch>
+    <switch name="PkgBGSwitch" value="1"></switch>
+    <switch name="PkgFGSwitch" value="1"></switch>
+    <switch name="PkgIONSwitch" value="1"></switch>
+    <switch name="KernelStackSwitch" value="1"></switch>
+    <switch name="SUnreclaimSwitch" value="1"></switch>
+    <switch name="VmallocSwitch" value="1"></switch>
+    <switch name="KmallocSwitch" value="1"></switch>
+    <switch name="betaSwitch" value="0"></switch>
+    <switch name="NativeHeapHprofSwitch" value="1"></switch>
+    <command result="ps-A.txt">ps -A -T</command>
+    <switch name="of2fsSwitch" value="0"></switch>
+    <execute name="ohmctrl" value="echo ohmctrl1048575 > proc/oppo_healthinfo/para_update"></execute>
+    <execute name="ohmlogon" value="echo ohmlogon8197 > proc/oppo_healthinfo/para_update"></execute>
+    <execute name="ohm_action_ctrl" value="echo ohmacitonctrl1 > proc/oppo_healthinfo/para_update"></execute>
+    <execute name="ohmtrig" value="echo ohmtrig466944 > proc/oppo_healthinfo/para_update"></execute>
+    <execute name="ohmparaupdate" value="echo ohmparaupdate > proc/oppo_healthinfo/para_update"></execute>
+    <param name="lowmem_system" value="600000"></param>
+    <param name="lowmem_com.oppo.launcher" value="350000"></param>
+    <param name="lowmem_com.android.systemui" value="500000"></param>
+    <param name="lowmem_com.coloros.assistantscreen" value="300000"></param>
+    <param name="lowmem_android.process.media" value="225000"></param>
+    <param name="lowmem_com.android.phone" value="300000"></param>
+    <param name="lowmem_com.android.incallui" value="150000"></param>
+    <param name="debugleakprocess" value="com.coloros.appmanager"></param>
+    <param name="debugleaksize" value="100"></param>
+    <param name="debugtype" value="0"></param>
+    <param name="memleaklistsize" value="1"></param>
+    <param name="memleakscreenduration" value="300000"></param>
+
+    <!-- for performance test tools -->
+    <benchTool type="tempConfig" plat="msmnile" tempNode="/sys/devices/virtual/thermal/thermal_zone68/temp"></benchTool>
+    <benchTool type="benchApp" packageName="com.antutu" enterActivity="ActivityMain" startActivity="ActivityScoreBench" finishedActivity="ActivityTestResultDetails"></benchTool>
+    <benchTool type="benchApp" packageName="com.ludashi" enterActivity="ui.activity.MainTabActivity" startActivity="BenchmarkActivity" finishedActivity="BenchScoreInfoActivity"></benchTool>
+
+</filter-conf>

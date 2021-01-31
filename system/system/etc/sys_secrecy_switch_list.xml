@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20190201</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_secrecy_switch_list</filter-name>
+    <support>true</support>
+    <activity_sw>false</activity_sw>
+    <log_sw>false</log_sw>
+    <adb_sw>true</adb_sw>
+    <test_sw>false</test_sw>
+    <!-- Time out for mac 24 * 60 min -->
+    <mac_timeout>1440</mac_timeout>
+    <!-- Time out for id 24 * 60 min -->
+    <id_timeout>1440</id_timeout>
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.EngineeringMode" />
+    <!-- *#8778# -->
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.manualtest.MasterClear" />
+    <!-- *#806# -->
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.autoaging.AutoAgingMainListActivity" />
+    <!-- *#37847# -->
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.device.DeviceListActivity" />
+    <!-- *#649010# -->
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.development.DiagEnabled" />
+    <!-- *#268# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.qualcomm.QualCommActivity" />
+    <!-- *#818#/*#838# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.NetworkSearchNew" />
+    <!-- *#727# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.SarTest" />
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.LteSarTest" />
+    <!-- *#7332# -->
+    <activity packageName="com.oppo.rftoolkit"  className="com.oppo.rftoolkit.RfToolkitFactory" />
+    <!-- *#7328# -->
+    <activity packageName="com.oppo.rftoolkit"  className="com.oppo.rftoolkit.RfToolkitAgingTest" />
+    <!-- *#804# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.NetworkSearch" />
+    <!-- *#872# -->
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.development.UsbPreloaderEnabled" />
+    <!-- *#391# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.SwitchSoftwareVersion" />
+    <!-- *#*#88#*#* -->
+    <activity packageName="com.factory.mmigroup"  className="com.factory.mmigroup.MMIGroupNormalMode" />
+    <!-- *#*#86#*#* -->
+    <activity packageName="com.factory.mmigroup"  className="com.factory.mmigroup.MMIGroupMenu" />
+    <!-- Ant debug toolkit -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.AntDebugToolBox" />
+    <!-- ASDIV state display -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.ASDIVSettings" />
+    <!-- GSM Power Settings -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.GsmPwrSetting" />
+    <!-- RF MIPI device test -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.OPPOMissingRFFEActivity" />
+    <!-- Tx power back-off control -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.SarControl" />
+    <!-- Communication Debugging -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.StanCurTest" />
+    <!-- ForceAntennaForLabTest -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.ForceAntennaForLabTest" />
+    <!-- MaxTxPowerTuning -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.MaxTxPowerTuning" />
+
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.MultNetworkModeSet" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.BandMode2" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.NetWorkSet" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.nw"  className="com.oppo.nw.RadioInfoActivity" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.LteCaStatusActivity" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.OppoFilterCsfbArfcn" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.OppoLockGSMArfcn" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.OppoLockLteArfcn" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.OppoCheckVolteFr1Fr2Feature" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.LteBandMode" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.OppoFastDormancy" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.CfuActivity" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.DeviceMgr" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.AutoAnswer" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.ProtocolTestSwitcher" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.OppoMtuActivity" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.OppoLTEOnlyFullBandTestActivity" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.OppoSignalSmooth" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.OppoEnable4gSwitch" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.PLMNListPreference" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.development.AutoFillSmsContacts" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.qualcomm.QualCommActivity" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.qualcomm.QualCommNv2" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.qualcomm.CalibrateStatus" />
+    <!-- *#36446337# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.OppoEnableHotswapSwitch" />
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.wifi.manualtest.WifiFTMActivity" />
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.RebootManager" />
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.wireless.WifiSocketHelper" />
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.wireless.WifiAdbHelper" />
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.wireless.SwitchWifiAdbHelper" />
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.wireless.SwitchMetaModeHelper" />
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.DetectMasterClearResult" />
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.SwitchColorActivation" />
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.ShowRemoteMessage" />
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.ResetTestMark" />
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.PowerOff" />
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.manualtest.modeltest.ModelTestImpl" />
+    <!-- *#8168#/*#8398# -->
+    <activity packageName="com.oppo.engineermode.network"  className="com.oppo.engineermode.network.CmccEvaluationOTA" />
+    <activity packageName="com.oppo.engineermode"  className="com.oppo.engineermode.aftersale.SwitchRegionAssistant" />
+    <!-- *#*#4636#*#* -->
+    <activity packageName="com.android.settings"  className="com.android.settings.Settings$TestingSettingsActivity" />
+    <!--*#*#3646633#*#*-->
+    <activity packageName="com.mediatek.engineermode"  className="com.mediatek.engineermode.EngineerMode" />
+</filter-conf>

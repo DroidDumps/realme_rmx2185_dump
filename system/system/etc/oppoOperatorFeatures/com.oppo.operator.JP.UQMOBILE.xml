@@ -1,0 +1,11 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.systemui.disable.navigationicon" />
+  <feature name="coloros.customize.guardelf.jp.uqmobile.keepalive" />
+  <feature name="coloros.customize.settings.battery_optimization.support" />
+  <feature name="oppo.cellbroadcast.uq.special.channel.config" />
+  <feature name="oppo.apn.kddi.show_uq_apn" />
+  <feature name="oppo.phone.not.need.call.immediately" />
+  <feature name="coloros.customize.phone.hide_carrier_settings" />
+  <feature name="oppo.apn.kddi.show_uq_apn" />
+</permissions>

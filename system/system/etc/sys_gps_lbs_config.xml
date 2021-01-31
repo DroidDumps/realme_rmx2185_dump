@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>20200118</version>
+    <isOpen>1</isOpen>
+    <filter-name>lbs_config</filter-name>
+    <Android-Version>10</Android-Version>
+
+    <string-array name="config_gpsBackgroudRunningApp">
+        <item>com.google.android.gms</item>
+        <item>com.redteamobile.roaming</item>
+        <item>com.coloros.compass</item>
+        <item>me.ele</item>
+        <item>me.ele.hbdteam</item>
+        <item>com.sankuai.meituan.takeoutnew</item>
+        <item>com.nuomi</item>
+        <item>com.baidu.lbs.waimai</item>
+        <item>com.jingdong.pdj</item>
+        <item>cn.missfresh.application</item>
+        <item>com.sdu.didi.psnger</item>
+        <item>so.ofo.labofo</item>
+        <item>com.mobike.mobikeapp</item>
+        <item>com.sdu.didi.gsui</item>
+        <item>com.wlqq</item>
+        <item>com.didi.echo</item>
+        <item>com.sdu.didi.gui</item>
+        <item>com.ibike.publicbicycle.activity</item>
+        <item>com.didapinche.booking</item>
+        <item>com.beastbike.bluegogo</item>
+        <item>com.glimmer.carrycport</item>
+        <item>com.lalamove.huolala.driver</item>
+        <item>com.xiwei.logistics.consignor</item>
+        <item>com.xiaoming.bike</item>
+        <item>com.yongche</item>
+        <item>com.didichuxing.drivercommunity</item>
+        <item>com.yongche.android</item>
+        <item>com.szzc.ucar.pilot</item>
+        <item>com.ichinait.gbpassenger</item>
+        <item>cn.edaijia.android.client</item>
+        <item>com.kuaidi.daijia.driver</item>
+        <item>com.transfar56.project.uc</item>
+        <item>cn.caocaokeji.user</item>
+        <item>com.szzc</item>
+        <item>com.dingda.app</item>
+        <item>insigma.waybook</item>
+        <item>com.ekuaitu.kuaitu</item>
+        <item>com.mmuu.travel.client</item>
+        <item>com.shunfengche.ride</item>
+        <item>com.gvsoft.gofun</item>
+        <item>com.woasis.smp</item>
+        <item>com.chedaole</item>
+        <item>com.ehai</item>
+        <item>com.funcity.taxi.passenger</item>
+        <item>com.maimi.meng</item>
+        <item>com.meituan.qcs.r.android</item>
+        <item>com.ttyongche.ttbike</item>
+        <item>com.toscm.chlogistics.phone</item>
+        <item>com.slkj.paotui.worker</item>
+        <item>com.preference.driver</item>
+        <item>com.adinnet.mashangdao</item>
+        <item>cn.qimate.bike</item>
+        <item>com.test.qykj.qyelectromobile</item>
+        <item>com.az.newelblock</item>
+        <item>com.futurefleet.pandabus.ui</item>
+        <item>com.yidu.app.car</item>
+        <item>com.rentpig.customer</item>
+        <item>com.cn.newbike</item>
+        <item>com.wsecar.wsjc</item>
+        <item>com.jryg.driver</item>
+        <item>com.heibai.bike</item>
+        <item>com.pgt.collinebike</item>
+        <item>com.yuxi.qfqbike</item>
+        <item>com.ezg.smartbus</item>
+        <item>com.keqiongzc.kqzc</item>
+        <item>com.baojia</item>
+        <item>com.commontaxi.taxiapp</item>
+        <item>cn.bluerhino.client</item>
+        <item>cn.eakay.userapp</item>
+        <item>com.utoo.passenger</item>
+        <item>com.fifteentech.cangowin</item>
+        <item>com.luejia.mobike</item>
+        <item>com.duoduo.passenger</item>
+        <item>com.usercar.yongche</item>
+        <item>com.newdadabus</item>
+        <item>com.yuan.ehualu.trans</item>
+        <item>com.ssyc.WQDriver</item>
+        <item>com.shuimuhuatong.youche</item>
+        <item>com.ygkj.chelaile.standard</item>
+        <item>com.mygolbs.mybus</item>
+        <item>com.coomix.app.bus</item>
+        <item>com.edcsc.wbus</item>
+        <item>com.gjcx.zsgj</item>
+        <item>com.qingdaonews.bus</item>
+        <item>cn.com.bustea</item>
+        <item>com.sogou.map.android.sogoubus</item>
+        <item>com.cictec.busintelligentonline</item>
+        <item>com.tonglu.app</item>
+        <item>com.teewoo.app.bus</item>
+        <item>com.cn.bushelper</item>
+        <item>com.hisense.hdbus</item>
+        <item>com.wuxibus.app</item>
+        <item>com.dtdream.publictransit</item>
+        <item>com.ourlinc</item>
+        <item>com.mygolbs.mybusfj</item>
+        <item>com.tiamaes.areabusassistant.jilin</item>
+        <item>gci.com.cn.ui</item>
+        <item>com.sybus.android</item>
+        <item>com.sh.gj</item>
+        <item>com.bjjt.real</item>
+        <item>com.baidu.bus</item>
+        <item>lin.apps.gzrealtimebus</item>
+        <item>com.kmbus.ccelt</item>
+        <item>com.huntersun.zhixingbus</item>
+        <item>com.netted.autotraffic_zs</item>
+        <item>com.uroad.yxw</item>
+        <item>com.keli.hfbussecond</item>
+        <item>com.ztesoft.zst</item>
+        <item>com.mygolbs.mybuswz</item>
+        <item>com.hisense.gybus</item>
+        <item>com.baidu.BaiduMap</item>
+        <item>com.autonavi.minimap</item>
+        <item>com.tencent.map</item>
+        <item>com.beidou.android.beidoumap</item>
+        <item>com.autonavi.xmgd.navigator</item>
+        <item>com.baidu.navi</item>
+        <item>com.sogou.map.android.maps</item>
+        <item>com.cld.nv.h</item>
+        <item>com.ovital.ovitalMap</item>
+        <item>com.jason.freenavigationvoice</item>
+        <item>com.autonavi.cmccmap</item>
+        <item>cn.com.tiros.android.navidog</item>
+        <item>com.traffic.panda</item>
+        <item>com.sogou.map.android.minimap</item>
+        <item>com.leduoworks.gpstoolbox</item>
+        <item>com.cpsdna.xingcheweishi</item>
+        <item>com.shipxy.android</item>
+        <item>com.mapbar.android.mapbarmap</item>
+        <item>com.txy.anywhere</item>
+        <item>com.example.ppmap</item>
+        <item>com.mobile.sjgpsmapdw</item>
+        <item>com.hongxia.location</item>
+        <item>cn.dlapp.navigation</item>
+        <item>cn.gogocity.suibian</item>
+        <item>com.uu.uunavi</item>
+        <item>cn.cstonline.kartor3</item>
+        <item>com.lolaage.tbulu.tools</item>
+        <item>net.easyconn.carman</item>
+        <item>com.zhituo.gpslocation</item>
+        <item>com.shanghaionstar</item>
+        <item>com.edog</item>
+        <item>com.fw.gps.yiwenneutral</item>
+        <item>com.jlzb.android</item>
+        <item>com.unking.weiguanai</item>
+        <item>com.lbs.lbspos</item>
+        <item>com.innotek.goodparking</item>
+        <item>com.akuan.friend</item>
+        <item>com.tigerknows</item>
+        <item>com.map.pamap</item>
+        <item>com.minigps.guardmaster</item>
+        <item>cn.com.tiros.android.navidog4x</item>
+        <item>com.wxdt</item>
+        <item>com.shabro.android.activity</item>
+        <item>com.topgether.sixfoot</item>
+        <item>com.uu.uueeye</item>
+        <item>com.tencent.navsns</item>
+        <item>dsg.app.chinamap</item>
+        <item>com.szchmtech.parkingfee</item>
+        <item>com.xinan.motorgps</item>
+        <item>com.ctx.app</item>
+        <item>com.map.ppmap</item>
+        <item>com.tian.obd.android</item>
+        <item>com.pdager</item>
+        <item>com.togo.apps</item>
+        <item>com.ETCPOwner.yc</item>
+        <item>com.witgo.env</item>
+        <item>com.bcxgps.baidumap</item>
+        <item>com.iwxlh.pta</item>
+        <item>net.whereapp.lbs</item>
+        <item>com.sosocome.wanneng</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.map.view</item>
+        <item>com.xiwei.logistics</item>
+        <item>co.truckno1.cargo</item>
+        <item>cld.navi.mainframe</item>
+        <item>com.jingzhaokeji.subway</item>
+        <item>com.didi.es.psngr</item>
+        <item>com.yhtye.beijing</item>
+        <item>com.wsecar.wsjcsj</item>
+        <item>com.ztesoft.nbt</item>
+        <item>com.waze</item>
+        <item>com.mapswithme.maps.pro</item>
+        <item>com.here.app.maps</item>
+        <item>com.prime.studio.apps.route.finder.map</item>
+        <item>com.sygic.aura</item>
+        <item>streetdirectory.mobile</item>
+        <item>com.baidu.baidumap</item>
+        <item>com.pickme.passenger</item>
+        <item>cz.aponia.bor3</item>
+        <item>com.fly.gps</item>
+        <item>com.gojek.app</item>
+        <item>com.ubercab</item>
+        <item>com.olacabs.customer</item>
+        <item>com.grabtaxi.driver2</item>
+        <item>com.ubercab.driver</item>
+        <item>com.careem.acma</item>
+        <item>com.magnetic.openmaps</item>
+        <item>com.ezypzy.mytaxi2</item>
+        <item>com.olacabs.android.operator</item>
+        <item>com.seatech.bluebird</item>
+        <item>com.fleety.bluebirddriver</item>
+        <item>com.moveinsync.ets</item>
+        <item>hk.easyvan.app.driver2</item>
+        <item>org.wundercar.android</item>
+        <item>com.androits.gps.test.test</item>
+        <item>com.androits.gps.test.pro</item>
+        <item>com.GPS2GoogleEarth</item>
+        <item>com.gps.topshowcnr</item>
+        <item>com.grabtaxi.passenger</item>
+        <item>android.location.cts</item>
+        <item>com.android.server.cts.device.batterystats</item>
+        <item>com.android.cts.verifier</item>
+        <item>com.google.android.location.gts</item>
+        <item>com.google.android.apps.navlite</item>
+        <item>gpscom.gpsoppo.gpslocation.gnsstools</item>
+        <item>com.oppo.sos</item>
+        <item>im.xingzhe</item>
+        <item>com.imohoo.shanpao</item>
+        <item>com.yuedong.sport</item>
+        <item>com.mandian.android.dongdong</item>
+        <item>co.runner.app</item>
+        <item>cn.ledongli.ldl</item>
+        <item>qibai.bike.bananacard</item>
+        <item>com.yelong.jibuqi</item>
+        <item>com.gotokeep.keep</item>
+        <item>com.codoon.gps</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.tencent.mm</item>
+        <item>com.eg.android.AlipayGphone</item>
+        <item>com.xiaomi.hm.health</item>
+        <item>com.jingyao.easybike</item>
+        <item>com.lalamove.huolala.client</item>
+        <item>com.healthifyme.basic</item>
+        <item>com.runtastic.android</item>
+        <item>com.google.android.apps.fitness</item>
+        <item>com.fitnesskeeper.runkeeper.pro</item>
+        <item>com.fitapp</item>
+        <item>com.fitnesskeeper.runkeeper.pro</item>
+        <item>com.sportractive</item>
+        <item>com.xiaomi.hm.health</item>
+        <item>com.FitbitMobile</item>
+        <item>com.stt.android</item>
+        <item>com.fitbit.FitbitMobile</item>
+        <item>com.sec.android.app.shealth</item>
+        <item>com.huawei.health</item>
+        <item>com.endomondo.android</item>
+        <item>com.technogym.mywellness</item>
+        <item>com.google.android.apps.fitness</item>
+        <item>com.strava</item>
+        <item>com.runtastic.android</item>
+        <item>com.nike.plusgps</item>
+        <item>com.ftw_and_co.happn</item>
+        <item>com.tinder</item>
+        <item>com.badoo.mobile</item>
+        <item>net.lovoo.android</item>
+        <item>com.grindrapp.android</item>
+        <item>com.adopteunmec.androides</item>
+        <item>com.cabify.rider</item>
+        <item>taxi.android.client</item>
+        <item>com.samsung.android.app.watchmanager</item>
+        <item>com.google.android.wearable.app</item>
+        <item>com.huawei.bone</item>
+        <item>com.garmin.android.apps.connectmobile</item>
+        <item>fi.polar.polarflow</item>
+        <item>com.heytap.health</item>
+        <item>com.android.server.cts.device.statsd</item>
+        <item>com.android.server.cts.device.batterystats</item>
+    </string-array>
+
+    <string-array name="config_gpsForegroudRunningApp">
+       <item>com.htinns</item>
+       <item>com.sankuai.meituan</item>
+       <item>com.sina.news</item>
+       <item>com.when.coco</item>
+    </string-array>
+
+    <string-array name="config_gpsForbiddenRunningApp">
+        <item>com.cebbank.bankebb</item>
+        <item>com.gzhj.shenlanshaonian.nearme.gamecenter</item>
+        <item>com.gzlxd.huluwawdxjg.nearme.gamecenter</item>
+        <item>com.gzhj.bolimotuojisukuangbiao.oppo</item>
+        <item>com.happyelements.AndroidAnimal</item>
+        <item>com.SZHCYT.GGBondAdventure.nearme.gamecenter</item>
+        <item>com.QQ.KJYS</item>
+        <item>com.sythealth.fitness</item>
+        <item>com.tencent.zebra</item>
+        <item>org.cocos2d.fishingjoy3</item>
+        <item>org.cocos2dx.FishingJoy2</item>
+        <item>com.szgd.GodBeastKingKong.nearme.gamecenter</item>
+    </string-array>
+
+    <integer-array name="config_withNlpMccList">
+        <item>460</item>
+        <item>454</item>
+        <item>455</item>
+        <item>000</item>
+    </integer-array>
+
+    <integer-array name="config_qrtrController">
+        <item>1</item>
+    </integer-array>
+
+    <!-- parameter for networklocation Whitelist -->
+    <string name="config_networklocationAlwayOn">on</string>
+
+    <string-array name="config_networklocationWhitelist">
+        <item>com.coloros.weather</item>
+        <item>com.coloros.weather2</item>
+        <item>com.coloros.weather.service</item>
+        <item>com.coloros.speechassist</item>
+        <item>com.coloros.speechassist.engine</item>
+        <item>com.heytap.speechassist</item>
+        <item>com.heytap.speechassist.engine</item>
+        <item>com.qualcomm.location</item>
+        <item>com.mediatek.nlpservice</item>
+        <item>com.ted.number</item>
+        <item>com.android.mms</item>
+        <item>com.coloros.assistantscreen</item>
+        <item>com.coloros.colordirectservice</item>
+        <item>com.coloros.directui</item>
+        <item>com.coloros.smartlock</item>
+        <item>com.oppo.sos</item>
+        <item>com.coloros.sceneservice</item>
+        <item>com.coloros.personalassistant</item>
+        <item>com.coloros.remoteguardservice</item>
+        <item>com.coloros.familyguard</item>
+        <item>com.coloros.findmyphone</item>
+    </string-array>
+
+    <!-- parameter for delAidingData Whitelist -->
+    <bool name="config_delAidingDataWhitelistEnabled">true</bool>
+
+    <string-array name="config_delAidingDataWhitelist">
+        <item>gpscom.gpsoppo.gpslocation.gnsstools</item>
+        <item>com.oppo.engineermode</item>
+        <item>com.starriver.gnsstester</item>
+        <item>com.mediatek.ygps</item>
+    </string-array>
+
+    <!-- parameter for inject time Whitelist -->
+    <bool name="config_injectTimeWhitelistEnabled">true</bool>
+
+    <string-array name="config_injectTimeWhitelist">
+        <item>gpscom.gpsoppo.gpslocation.gnsstools</item>
+        <item>com.oppo.engineermode</item>
+    </string-array>
+
+    <!-- parameter for access backgroung location Whitelist -->
+    <bool name="config_accessBackgroundLocationWhitelistEnabled">true</bool>
+
+    <string-array name="config_accessBackgroundLocationWhitelist">
+       <item>com.google.android.gms</item>
+        <item>com.redteamobile.roaming</item>
+        <item>com.coloros.compass</item>
+        <item>me.ele</item>
+        <item>me.ele.hbdteam</item>
+        <item>com.sankuai.meituan.takeoutnew</item>
+        <item>com.nuomi</item>
+        <item>com.baidu.lbs.waimai</item>
+        <item>com.jingdong.pdj</item>
+        <item>cn.missfresh.application</item>
+        <item>com.sdu.didi.psnger</item>
+        <item>so.ofo.labofo</item>
+        <item>com.mobike.mobikeapp</item>
+        <item>com.sdu.didi.gsui</item>
+        <item>com.wlqq</item>
+        <item>com.didi.echo</item>
+        <item>com.sdu.didi.gui</item>
+        <item>com.ibike.publicbicycle.activity</item>
+        <item>com.didapinche.booking</item>
+        <item>com.beastbike.bluegogo</item>
+        <item>com.glimmer.carrycport</item>
+        <item>com.lalamove.huolala.driver</item>
+        <item>com.xiwei.logistics.consignor</item>
+        <item>com.xiaoming.bike</item>
+        <item>com.yongche</item>
+        <item>com.didichuxing.drivercommunity</item>
+        <item>com.yongche.android</item>
+        <item>com.szzc.ucar.pilot</item>
+        <item>com.ichinait.gbpassenger</item>
+        <item>cn.edaijia.android.client</item>
+        <item>com.kuaidi.daijia.driver</item>
+        <item>com.transfar56.project.uc</item>
+        <item>cn.caocaokeji.user</item>
+        <item>com.szzc</item>
+        <item>com.dingda.app</item>
+        <item>insigma.waybook</item>
+        <item>com.ekuaitu.kuaitu</item>
+        <item>com.mmuu.travel.client</item>
+        <item>com.shunfengche.ride</item>
+        <item>com.gvsoft.gofun</item>
+        <item>com.woasis.smp</item>
+        <item>com.chedaole</item>
+        <item>com.ehai</item>
+        <item>com.funcity.taxi.passenger</item>
+        <item>com.maimi.meng</item>
+        <item>com.meituan.qcs.r.android</item>
+        <item>com.ttyongche.ttbike</item>
+        <item>com.toscm.chlogistics.phone</item>
+        <item>com.slkj.paotui.worker</item>
+        <item>com.preference.driver</item>
+        <item>com.adinnet.mashangdao</item>
+        <item>cn.qimate.bike</item>
+        <item>com.test.qykj.qyelectromobile</item>
+        <item>com.az.newelblock</item>
+        <item>com.futurefleet.pandabus.ui</item>
+        <item>com.yidu.app.car</item>
+        <item>com.rentpig.customer</item>
+        <item>com.cn.newbike</item>
+        <item>com.wsecar.wsjc</item>
+        <item>com.jryg.driver</item>
+        <item>com.heibai.bike</item>
+        <item>com.pgt.collinebike</item>
+        <item>com.yuxi.qfqbike</item>
+        <item>com.ezg.smartbus</item>
+        <item>com.keqiongzc.kqzc</item>
+        <item>com.baojia</item>
+        <item>com.commontaxi.taxiapp</item>
+        <item>cn.bluerhino.client</item>
+        <item>cn.eakay.userapp</item>
+        <item>com.utoo.passenger</item>
+        <item>com.fifteentech.cangowin</item>
+        <item>com.luejia.mobike</item>
+        <item>com.duoduo.passenger</item>
+        <item>com.usercar.yongche</item>
+        <item>com.newdadabus</item>
+        <item>com.yuan.ehualu.trans</item>
+        <item>com.ssyc.WQDriver</item>
+        <item>com.shuimuhuatong.youche</item>
+        <item>com.ygkj.chelaile.standard</item>
+        <item>com.mygolbs.mybus</item>
+        <item>com.coomix.app.bus</item>
+        <item>com.edcsc.wbus</item>
+        <item>com.gjcx.zsgj</item>
+        <item>com.qingdaonews.bus</item>
+        <item>cn.com.bustea</item>
+        <item>com.sogou.map.android.sogoubus</item>
+        <item>com.cictec.busintelligentonline</item>
+        <item>com.tonglu.app</item>
+        <item>com.teewoo.app.bus</item>
+        <item>com.cn.bushelper</item>
+        <item>com.hisense.hdbus</item>
+        <item>com.wuxibus.app</item>
+        <item>com.dtdream.publictransit</item>
+        <item>com.ourlinc</item>
+        <item>com.mygolbs.mybusfj</item>
+        <item>com.tiamaes.areabusassistant.jilin</item>
+        <item>gci.com.cn.ui</item>
+        <item>com.sybus.android</item>
+        <item>com.sh.gj</item>
+        <item>com.bjjt.real</item>
+        <item>com.baidu.bus</item>
+        <item>lin.apps.gzrealtimebus</item>
+        <item>com.kmbus.ccelt</item>
+        <item>com.huntersun.zhixingbus</item>
+        <item>com.netted.autotraffic_zs</item>
+        <item>com.uroad.yxw</item>
+        <item>com.keli.hfbussecond</item>
+        <item>com.ztesoft.zst</item>
+        <item>com.mygolbs.mybuswz</item>
+        <item>com.hisense.gybus</item>
+        <item>com.baidu.BaiduMap</item>
+        <item>com.autonavi.minimap</item>
+        <item>com.tencent.map</item>
+        <item>com.beidou.android.beidoumap</item>
+        <item>com.autonavi.xmgd.navigator</item>
+        <item>com.baidu.navi</item>
+        <item>com.sogou.map.android.maps</item>
+        <item>com.cld.nv.h</item>
+        <item>com.ovital.ovitalMap</item>
+        <item>com.jason.freenavigationvoice</item>
+        <item>com.autonavi.cmccmap</item>
+        <item>cn.com.tiros.android.navidog</item>
+        <item>com.traffic.panda</item>
+        <item>com.sogou.map.android.minimap</item>
+        <item>com.leduoworks.gpstoolbox</item>
+        <item>com.cpsdna.xingcheweishi</item>
+        <item>com.shipxy.android</item>
+        <item>com.mapbar.android.mapbarmap</item>
+        <item>com.txy.anywhere</item>
+        <item>com.example.ppmap</item>
+        <item>com.mobile.sjgpsmapdw</item>
+        <item>com.hongxia.location</item>
+        <item>cn.dlapp.navigation</item>
+        <item>cn.gogocity.suibian</item>
+        <item>com.uu.uunavi</item>
+        <item>cn.cstonline.kartor3</item>
+        <item>com.lolaage.tbulu.tools</item>
+        <item>net.easyconn.carman</item>
+        <item>com.zhituo.gpslocation</item>
+        <item>com.shanghaionstar</item>
+        <item>com.edog</item>
+        <item>com.fw.gps.yiwenneutral</item>
+        <item>com.jlzb.android</item>
+        <item>com.unking.weiguanai</item>
+        <item>com.lbs.lbspos</item>
+        <item>com.innotek.goodparking</item>
+        <item>com.akuan.friend</item>
+        <item>com.tigerknows</item>
+        <item>com.map.pamap</item>
+        <item>com.minigps.guardmaster</item>
+        <item>cn.com.tiros.android.navidog4x</item>
+        <item>com.wxdt</item>
+        <item>com.shabro.android.activity</item>
+        <item>com.topgether.sixfoot</item>
+        <item>com.uu.uueeye</item>
+        <item>com.tencent.navsns</item>
+        <item>dsg.app.chinamap</item>
+        <item>com.szchmtech.parkingfee</item>
+        <item>com.xinan.motorgps</item>
+        <item>com.ctx.app</item>
+        <item>com.map.ppmap</item>
+        <item>com.tian.obd.android</item>
+        <item>com.pdager</item>
+        <item>com.togo.apps</item>
+        <item>com.ETCPOwner.yc</item>
+        <item>com.witgo.env</item>
+        <item>com.bcxgps.baidumap</item>
+        <item>com.iwxlh.pta</item>
+        <item>net.whereapp.lbs</item>
+        <item>com.sosocome.wanneng</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.map.view</item>
+        <item>com.xiwei.logistics</item>
+        <item>co.truckno1.cargo</item>
+        <item>cld.navi.mainframe</item>
+        <item>com.jingzhaokeji.subway</item>
+        <item>com.didi.es.psngr</item>
+        <item>com.yhtye.beijing</item>
+        <item>com.wsecar.wsjcsj</item>
+        <item>com.ztesoft.nbt</item>
+        <item>com.waze</item>
+        <item>com.mapswithme.maps.pro</item>
+        <item>com.here.app.maps</item>
+        <item>com.prime.studio.apps.route.finder.map</item>
+        <item>com.sygic.aura</item>
+        <item>streetdirectory.mobile</item>
+        <item>com.baidu.baidumap</item>
+        <item>com.pickme.passenger</item>
+        <item>cz.aponia.bor3</item>
+        <item>com.fly.gps</item>
+        <item>com.gojek.app</item>
+        <item>com.ubercab</item>
+        <item>com.olacabs.customer</item>
+        <item>com.grabtaxi.driver2</item>
+        <item>com.ubercab.driver</item>
+        <item>com.careem.acma</item>
+        <item>com.magnetic.openmaps</item>
+        <item>com.ezypzy.mytaxi2</item>
+        <item>com.olacabs.android.operator</item>
+        <item>com.seatech.bluebird</item>
+        <item>com.fleety.bluebirddriver</item>
+        <item>com.moveinsync.ets</item>
+        <item>hk.easyvan.app.driver2</item>
+        <item>org.wundercar.android</item>
+        <item>com.androits.gps.test.test</item>
+        <item>com.androits.gps.test.pro</item>
+        <item>com.GPS2GoogleEarth</item>
+        <item>com.gps.topshowcnr</item>
+        <item>com.grabtaxi.passenger</item>
+        <item>com.google.android.apps.navlite</item>
+        <item>gpscom.gpsoppo.gpslocation.gnsstools</item>
+        <item>com.oppo.sos</item>
+        <item>im.xingzhe</item>
+        <item>com.imohoo.shanpao</item>
+        <item>com.yuedong.sport</item>
+        <item>com.mandian.android.dongdong</item>
+        <item>co.runner.app</item>
+        <item>cn.ledongli.ldl</item>
+        <item>qibai.bike.bananacard</item>
+        <item>com.yelong.jibuqi</item>
+        <item>com.gotokeep.keep</item>
+        <item>com.codoon.gps</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.tencent.mm</item>
+        <item>com.eg.android.AlipayGphone</item>
+        <item>com.xiaomi.hm.health</item>
+        <item>com.jingyao.easybike</item>
+        <item>com.lalamove.huolala.client</item>
+        <item>com.healthifyme.basic</item>
+        <item>com.runtastic.android</item>
+        <item>com.google.android.apps.fitness</item>
+        <item>com.fitnesskeeper.runkeeper.pro</item>
+        <item>com.fitapp</item>
+        <item>com.fitnesskeeper.runkeeper.pro</item>
+        <item>com.sportractive</item>
+        <item>com.xiaomi.hm.health</item>
+        <item>com.FitbitMobile</item>
+        <item>com.stt.android</item>
+        <item>com.fitbit.FitbitMobile</item>
+        <item>com.sec.android.app.shealth</item>
+        <item>com.huawei.health</item>
+        <item>com.endomondo.android</item>
+        <item>com.technogym.mywellness</item>
+        <item>com.google.android.apps.fitness</item>
+        <item>com.strava</item>
+        <item>com.runtastic.android</item>
+        <item>com.nike.plusgps</item>
+        <item>com.ftw_and_co.happn</item>
+        <item>com.tinder</item>
+        <item>com.badoo.mobile</item>
+        <item>net.lovoo.android</item>
+        <item>com.grindrapp.android</item>
+        <item>com.adopteunmec.androides</item>
+        <item>com.cabify.rider</item>
+        <item>taxi.android.client</item>
+        <item>com.samsung.android.app.watchmanager</item>
+        <item>com.google.android.wearable.app</item>
+        <item>com.huawei.bone</item>
+        <item>com.garmin.android.apps.connectmobile</item>
+        <item>fi.polar.polarflow</item>
+        <item>com.heytap.health</item>
+    </string-array>
+
+    <!-- parameter for gnss power saver -->
+    <bool name="config_gnssPowerSaverEnabled">true</bool>
+    <integer name="config_motionSampleNumber">62</integer>
+    <integer name="config_motionInterval">40</integer>
+    <item name="config_motionThresholdEnergy" format="float" type="dimen">7.0</item>
+    <item name="config_motionThresholdAngle" format="float" type="dimen">2.0</item>
+
+    <!-- monitor type : Original monitor type is 1, and light monitor is 2 -->
+    <integer name="gps_status_monitor_type">2</integer>
+
+    <!-- parameter for SUPL -->
+    <string name="config_agpsSuplHostName">supl.qxwz.com</string>
+    <string name="config_agpsSuplHostPort">7275</string>
+    <!-- Supl Host Switch|Specify Host|MSA|MSB-->
+    <integer name="config_agpsSuplContoller">31</integer>
+    <string name="config_regionSuplSid">[13568,14335][25600,26111][7825,7825][10640,10655][11296,11311]</string>
+    <string name="config_regionSuplMcc">~460~454~455</string>
+
+    <string-array name="config_suplConfig_default">
+        <item>CONFIG_NAME=default</item>
+        <item>SUPL_REGION=0</item>
+        <item>SUPL_SWITCH=0</item>
+        <item>SUPL_CARRIER=0</item>
+        <item>SUPL_HOST=supl.google.com</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+        <item>SUPL_ES=0</item>
+        <item>LPP_PROFILE=3</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=0</item>
+        <item>GPS_LOCK=0</item>
+    </string-array>
+
+    <string-array name="config_suplConfig_region">
+        <item>CONFIG_NAME=region</item>
+        <item>SUPL_REGION=1</item>
+        <item>SUPL_SWITCH=1</item>
+        <item>SUPL_CARRIER=0</item>
+        <item>SUPL_HOST=supl.qxwz.com</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+        <item>SUPL_ES=0</item>
+        <item>LPP_PROFILE=3</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=0</item>
+        <item>GPS_LOCK=0</item>
+    </string-array>
+
+    <string-array name="config_suplConfig_46000">
+        <item>CONFIG_NAME=CMCC</item>
+        <item>SUPL_REGION=0</item>
+        <item>SUPL_SWITCH=1</item>
+        <item>SUPL_CARRIER=46000</item>
+        <item>SUPL_HOST=supl.qxwz.com</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+        <item>SUPL_ES=0</item>
+        <item>LPP_PROFILE=3</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=0</item>
+        <item>GPS_LOCK=0</item>
+    </string-array>
+
+    <string-array name="config_suplConfig_44011">
+        <item>CONFIG_NAME=JapanRakuten</item>
+        <item>SUPL_REGION=0</item>
+        <item>SUPL_SWITCH=1</item>
+        <item>SUPL_CARRIER=44011</item>
+        <item>SUPL_HOST=supl.rm-n.jp</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+        <item>SUPL_ES=0</item>
+        <item>LPP_PROFILE=3</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=15</item>
+        <item>GPS_LOCK=0</item>
+    </string-array>
+
+   <string-array name="config_suplConfig_44053">
+        <item>CONFIG_NAME=JapanRakuten</item>
+        <item>SUPL_REGION=0</item>
+        <item>SUPL_SWITCH=1</item>
+        <item>SUPL_CARRIER=44053</item>
+        <item>SUPL_HOST=supl.rm-n.jp</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+        <item>SUPL_ES=0</item>
+        <item>LPP_PROFILE=3</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=15</item>
+        <item>GPS_LOCK=0</item>
+    </string-array>
+
+   <string-array name="config_suplConfig_26202">
+        <item>CONFIG_NAME=GermanyVodafone</item>
+        <item>SUPL_REGION=0</item>
+        <item>SUPL_SWITCH=1</item>
+        <item>SUPL_CARRIER=26202</item>
+        <item>SUPL_HOST=supl.vodafone.com</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+        <item>SUPL_ES=0</item>
+        <item>LPP_PROFILE=3</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=1</item>
+        <item>GPS_LOCK=0</item>
+    </string-array>
+
+   <string-array name="config_suplConfig_22210">
+        <item>CONFIG_NAME=ItalyVodafone</item>
+        <item>SUPL_REGION=0</item>
+        <item>SUPL_SWITCH=1</item>
+        <item>SUPL_CARRIER=22210</item>
+        <item>SUPL_HOST=supl.vodafone.com</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+        <item>SUPL_ES=0</item>
+        <item>LPP_PROFILE=3</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=1</item>
+        <item>GPS_LOCK=0</item>
+    </string-array>
+
+   <string-array name="config_suplConfig_26801">
+        <item>CONFIG_NAME=PortugalVodafone</item>
+        <item>SUPL_REGION=0</item>
+        <item>SUPL_SWITCH=1</item>
+        <item>SUPL_CARRIER=26801</item>
+        <item>SUPL_HOST=supl.vodafone.com</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+        <item>SUPL_ES=0</item>
+        <item>LPP_PROFILE=3</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=1</item>
+        <item>GPS_LOCK=0</item>
+    </string-array>
+
+   <string-array name="config_suplConfig_21401">
+        <item>CONFIG_NAME=SpainVodafone</item>
+        <item>SUPL_REGION=0</item>
+        <item>SUPL_SWITCH=1</item>
+        <item>SUPL_CARRIER=21401</item>
+        <item>SUPL_HOST=supl.vodafone.com</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+        <item>SUPL_ES=0</item>
+        <item>LPP_PROFILE=3</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=1</item>
+        <item>GPS_LOCK=0</item>
+    </string-array>
+
+   <string-array name="config_suplConfig_23415">
+        <item>CONFIG_NAME=UKVodafone</item>
+        <item>SUPL_REGION=0</item>
+        <item>SUPL_SWITCH=1</item>
+        <item>SUPL_CARRIER=23415</item>
+        <item>SUPL_HOST=supl.vodafone.com</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+        <item>SUPL_ES=0</item>
+        <item>LPP_PROFILE=3</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=1</item>
+        <item>GPS_LOCK=0</item>
+    </string-array>
+
+    <string-array name="config_suplConfig_other">
+        <item>CONFIG_NAME=Other</item>
+        <item>SUPL_REGION=0</item>
+        <item>SUPL_SWITCH=1</item>
+        <item>SUPL_CARRIER=0</item>
+        <item>SUPL_HOST=supl.google.com</item>
+        <item>SUPL_PORT=7275</item>
+        <item>SUPL_VER=0x20000</item>
+        <item>SUPL_MODE=1</item>
+        <item>SUPL_ES=0</item>
+        <item>LPP_PROFILE=3</item>
+        <item>USE_EMERGENCY_PDN_FOR_EMERGENCY_SUPL=1</item>
+        <item>A_GLONASS_POS_PROTOCOL_SELECT=0</item>
+        <item>GPS_LOCK=0</item>
+    </string-array>
+    <!-- parameter for SUPL end -->
+
+     <!-- parameter for fast network location -->
+    <bool name="config_fastNetworkLocationEnabled">true</bool>
+
+    <!-- parameter for coarse to fine location -->
+    <bool name="config_coarseToFineLocationEnabled">true</bool>
+    <string-array name="config_coarseToFineLocationList">
+        <item>com.coloros.weather.service</item>
+    </string-array>
+     <!-- parameter for show gms permission dialog -->
+    <bool name="config_showGmsDialogEnabled">true</bool>
+    <!-- parameter for Network location -->
+    <bool name="config_osNlpEnabled">true</bool>
+    <bool name="config_regionNlpEnabled">true</bool>
+    <bool name="config_nlpRoamingEnabled">true</bool>
+    <string name="config_regionNlpSid">[13568,14335][25600,26111][7825,7825][10640,10655][11296,11311]</string>
+    <string name="config_regionNlpMcc">~460~454~455</string>
+
+    <!-- parameter for location status broadcast -->
+    <bool name="config_locationStatusBroadcastEnabled">true</bool>
+
+    <!-- parameter for location big data -->
+    <integer name="config_locationBigDataMask">1</integer>
+
+    <!-- parameter for nmea filter -->
+    <bool name="config_gnssNmeaFilterEnabled">false</bool>
+
+    <!-- parameter for doze controller -->
+    <bool name="config_locationInteractiveEnabled">true</bool>
+</filter-conf>

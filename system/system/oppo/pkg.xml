@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<gs>
+    <!-- for cts -->
+    <p att="com.android.cts.net"></p>
+    <p att="com.android.cts.stub"></p>
+    <p att="com.android.cts.verifier"></p>
+    <p att="com.android.cts.permissiondeclareappcompat"></p>
+    <!-- others -->
+    <p att="com.realtek.airplay.client"></p>
+    <p att="com.jb.gokeyboard.handwrite.zh"></p>
+    <!-- for sony smart wireless headset -->
+    <p att="com.sonyericsson.extras.smartwirelessheadsetpro"></p>
+    <p att="com.oppo.gatt"></p>
+    <p att="com.oppo.gatt.proximityservice"></p>
+    <p att="com.google.android.voicesearch"></p>
+    <!-- for the backuprestore apk -->
+    <p att="com.oppo.simplebackup"></p>
+    <!-- add for the AVP RD  -->
+    <p att="com.oppo.mediacontrol"></p>
+    <p att="com.oppo.saus"></p>
+    <p att="com.oppo.pcassistant"></p>
+    <!-- add for the oppo app  -->
+    <p att="com.android.email"></p>
+    <p att="com.oppo.wearable"></p>
+    <p att="com.vlife.newlockframe.oppo.wallpaper"></p>
+    <p att="com.coloros.safe.service.framework"></p>
+    <p att="com.google.android.gsf"></p>
+    <p att="com.google.android.gms"></p>
+    <p att="com.google.android.gsf.login"></p>
+    <p att="com.google.android.syncadapters.calendar"></p>
+    <p att="com.google.android.syncadapters.contacts"></p>
+    <p att="com.android.vending"></p>
+    <p att="com.nearme.gamecenter"></p>
+    <p att="com.redteamobile.roaming"/>
+    <p att="com.redteamobile.oppo.roaming"/>
+    <!-- add for cta test -->
+    <p att="com.cttl.testService"></p>
+</gs>

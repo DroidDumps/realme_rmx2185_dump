@@ -1,0 +1,7 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.phone.nodisplayrecord" />
+  <feature name="oppo.mms.disable.text.sms.convert.mms" />
+  <feature name="oppo.mms.create.mode" />
+  <feature name="oppo.phone.play.busy.tone" />
+</permissions>

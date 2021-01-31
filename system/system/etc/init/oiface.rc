@@ -1,0 +1,15 @@
+service oiface /system/bin/oiface
+	class hal
+	user system
+	group system readproc root
+	capabilities SYS_NICE
+	disabled
+
+on property:sys.boot_completed=1 && property:persist.sys.oiface.enable=0
+	stop oiface
+
+on property:sys.boot_completed=1 && property:persist.sys.oiface.enable=1
+	start oiface
+
+on property:sys.boot_completed=1 && property:persist.sys.oiface.enable=2
+	start oiface

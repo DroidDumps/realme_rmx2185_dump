@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apk_config>
+  <!--该xml适用于realme OS system下的应用内置，为黑名单，package name为包名，project、country、operator分别表示该应用适用于哪些项目、国家、运营商，示例如下-->
+  <!--package name="com.example.test" project="17001,17002" country="common" operator="common" 表明要system下包名为com.example.test的应用，不在17001和17002两个项目内置-->
+  <!--package name="com.example.test" project="common" country="-IN,-TW" operator="common" 表明要system下包名为com.example.test的应用，只在台湾和印度区域内置，负号表示非,common表示通用-->
+  <!--package name="com.example.test" project="17001,17002" country="-IN,-TW" operator="common" 表明要system下包名为com.example.test的应用，不在17001和17002两个项目内置，也不在除台湾和印度之外的区域内置-->
+  <!--注：如果应用已经不再内置了请及时去掉或注释掉名单，否则会导致产线911过不了-->
+
+  <!-- HeyTap浏览器内置：印度、印尼、越南、泰国 -->
+  <package name="com.heytap.browser" project="common" country="-IN,-ID,-VN,-TH" operator="common" />
+
+  <!--Realme帐号外销内置：非欧盟区域 -->
+  <package name="com.oppo.usercenter" project="common" country="EUEX" operator="common" />
+  <!--Realme帐号外销内置：非欧盟区域 -->
+  <package name="com.heytap.usercenter" project="common" country="EUEX" operator="common" />
+  <!-- 软件商店新包名内置：印度、印尼、越南、台湾、泰国、菲律宾、马来西亚 -->
+  <package name="com.heytap.market" project="common" country="-IN,-ID,-VN,-TW,-TH,-PH,-MY" operator="common" />
+  <!-- 游戏中心内置：印度、印尼、越南、台湾、泰国、菲律宾、马来西亚 -->
+  <package name="com.nearme.gamecenter" project="common" country="-IN,-ID,-VN,-TW,-TH,-PH,-MY" operator="common" />
+  <!-- 主题商店内置：除欧盟、俄罗斯、哈萨克斯坦，其它国家均内置 -->
+  <package name="com.heytap.themestore" project="common" country="EUEX,RU,KZ" operator="common" />
+  <!-- 主题商店不内置外销墨西哥Telcel运营商版本 -->
+  <package name="com.heytap.themestore" project="common" country="MX" operator="TELCEL" />
+  <!-- 国际上网 外销内置：印度、印尼、泰国、菲律宾、马来西亚-->
+  <package name="com.redteamobile.roaming" project="common" country="-IN,-ID,-TH,-PH,-MY" operator="common" />
+  <!-- 国际上网 外销内置：-18633,-19653,-19692,-19631,-18602 印度、印尼、台湾、泰国、菲律宾、马来西亚-->
+  <package name="com.redteamobile.roaming" project="-18633,-19653,-19692,-19631,-18602" country="-IN,-ID,-TW,-TH,-PH,-MY" operator="common" />
+  <!-- 国际上网服务 外销内置：印度、印尼、泰国、菲律宾、马来西亚-->
+  <package name="com.redteamobile.roaming.deamon" project="common" country="-IN,-ID,-TH,-PH,-MY" operator="common" />
+  <!-- 国际上网服务 外销内置：-18633,-19653,-19692,-19631,-18602 印度、印尼、台湾、泰国、菲律宾、马来西亚-->
+  <package name="com.redteamobile.roaming.deamon" project="-18633,-19653,-19692,-19631,-18602" country="-IN,-ID,-TW,-TH,-PH,-MY" operator="common" />
+
+   <!-- heytap锁屏杂志内置：除区域和俄罗斯区域 哈萨克斯坦-->
+   <package name="com.heytap.pictorial" project="common" country="EUEX,RU,KZ" operator="common" />
+  <!-- Juhong.Lu@ROM.SysApp, 2019-10-31 : add for phonemanager to disable clean and antivirus for europe -->
+  <package name="com.coloros.safesdkproxy" project="common" country="EUEX,JP,IN" operator="common" />
+
+  <!-- 外销云服务内置：印度、印尼、越南、泰国、马来西亚、菲律宾、柬埔寨、新加坡、台湾、日本 -->
+  <package name="com.heytap.cloud" project="common" country="-IN,-ID,-VN,-TH,-MY,-PH,-KH,-SG,-TW,-JP" operator="common" />
+  <!--MTK FM不内置欧盟区域-->
+  <package name="com.android.fmradio" project="common" country="EUEX" operator="common" euexcountry="-TR"/>
+  <!--高通FM不内置欧盟区域-->
+  <package name="com.caf.fmradio" project="common" country="EUEX" operator="common" euexcountry="-TR"/>
+  <!-- Nfc不在20610/20611/20613内置 -->
+  <package name="com.android.nfc" project="20610,20611,20613" country="common" operator="common" />
+  <!--if not support RSA3.0 -->
+  <!--google -->
+  <package name="com.google.android.contacts" project="common" country="common" operator="-ORANGE,-VODAFONE,-VODAFONE_EUEX,-VODAFONE_EEA,-VODAFONE_NONEEA,-VODAFONE_POSTPAID,-VODAFONE_PREPAID" />
+  <package name="com.google.android.dialer" project="common" country="common" operator="-ORANGE,-VODAFONE,-VODAFONE_EUEX,-VODAFONE_EEA,-VODAFONE_NONEEA,-VODAFONE_POSTPAID,-VODAFONE_PREPAID" />
+  <package name="com.google.android.apps.messaging" project="common" country="common" operator="-VODAFONE,-VODAFONE_EUEX,-VODAFONE_EEA,-VODAFONE_NONEEA,-VODAFONE_POSTPAID,-VODAFONE_PREPAID,-ORANGE,-TELCEL,-CPW,-MOVISTAR,-ALTICE,-EE,-ATT" />
+  <package name="com.google.android.ims" project="common" country="common" operator="-VODAFONE,-VODAFONE_EUEX,-VODAFONE_EEA,-VODAFONE_NONEEA,-VODAFONE_POSTPAID,-VODAFONE_PREPAID,-ORANGE,-TELCEL,-CPW" />
+  <!--google pay -->
+  <package name="com.google.android.apps.walletnfcrel" project="common" country="common" operator="-TELSTRA_POSTPAID" />
+  <package name="com.google.android.apps.nbu.paisa.user" project="common" country="common" operator="common" />
+  <!--google -->
+  <package name="com.google.android.apps.googleassistant" project="common" country="common" operator="common" />
+  <package name="com.google.android.apps.photos" project="common" country="common" operator="common" />
+  <!--Google File -->
+  <package name="com.google.android.apps.nbu.files" project="common" country="MX" operator="TELCEL"/>
+  <package name="com.google.android.apps.nbu.files" project="-206AC,-206AD,-206AE,-206AF,-206A0,-20667,-206BD,-206BE,-206BF,-206C0,-206C1,-20680,-20701,-20702,-20703,-20704,-20705,-20720,-20721,-20722,-20723,-20724,-20725,-20726,-20727,-20728,-20729,-2072A,-2072B,-2072C,-2072D,-2072E,-2072F,-20747,-20748,-20749,-2074A,-2074B,-2074C,-2074D,-2074E,-2074F,-20752" country="common" operator="common" />
+  <package name="com.google.ar.lens" project="common" country="common" operator="common" />
+
+  <!-- 侧边栏 不在 PascalD内置 不在RIO内置(20701，2074A) -->
+  <package name="com.coloros.smartsidebar" project="206A1,206A2,206A3,206A4,206A5,206A6,206A7,206A8,206A9,206AA,206AB,206B9,206BA,206BB,206BC,206C6,20701,20702,20703,20704,20705,20720,20721,20722,20723,20724,20725,20726,20727,20728,20729,2072A,2072B,2072C,2072D,2072E,2072F,20747,20748,20749,2074A" country="common" operator="common" />
+  <!-- 短信不内置外销墨西哥Telcel运营商版本 -->
+  <package name="com.android.mms" project="common" country="MX" operator="TELCEL" />
+  <!-- 悬浮球 不在 PascalD内置 不在RIO内置(20701，2074A) -->
+  <package name="com.coloros.floatassistant" project="206A1,206A2,206A3,206A4,206A5,206A6,206A7,206A8,206A9,206AA,206AB,206B9,206BA,206BB,206BC,206C6,20701,20702,20703,20704,20705,20720,20721,20722,20723,20724,20725,20726,20727,20728,20729,2072A,2072B,2072C,2072D,2072E,2072F,20747,20748,20749,2074A" country="common" operator="common" />
+  <!-- 悬浮球 不在 西欧和日本内置 -->
+  <package name="com.coloros.floatassistant" project="common" country="EUEX,JP" operator="common" />
+</apk_config>

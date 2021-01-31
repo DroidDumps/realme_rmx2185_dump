@@ -1,0 +1,5 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+    <feature name="oppo.comm.show.4.5g.replace.4g" />
+    <feature name="oppo.comm.volte.force.on" />
+</permissions>

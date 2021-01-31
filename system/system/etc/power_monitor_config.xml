@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<version>1.0</version>
+<basic.current>5.5</basic.current>
+<no.sim>3.0</no.sim>
+<single.sim>4.0</single.sim>
+<multi.sim>8.0</multi.sim>
+<wifi.connect.delta>3.0</wifi.connect.delta>
+<bt.connect.delta>1.0</bt.connect.delta>
+<wifi.bt.delta>2.5</wifi.bt.delta>
+<floate.current>5.0</floate.current>

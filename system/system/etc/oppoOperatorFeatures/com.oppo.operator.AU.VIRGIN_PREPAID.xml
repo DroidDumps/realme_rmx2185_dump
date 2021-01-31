@@ -1,0 +1,5 @@
+<!-- This file is used by Exp operator: AU.VIRGIN_PREPAID.  DO NOT MODIFY. -->
+
+<permissions>
+  <feature name="oppo.null.AU.VIRGIN_PREPAID" />
+</permissions>

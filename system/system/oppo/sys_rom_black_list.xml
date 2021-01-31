@@ -1,0 +1,76 @@
+<filter-conf>
+<version>20190305</version>
+<isOpen>1</isOpen>
+<filter-name>sys_rom_black_list</filter-name>
+<!--Warning: The format must be fixed -->
+<type value='forbid'>
+<startForbidden minCode='0' maxCode='max'>com.qihoo.permmgr</startForbidden>
+<startForbidden minCode='0' maxCode='max'>com.kingroot.kinguser</startForbidden>
+<startForbidden minCode='0' maxCode='max'>com.zhiqupk.root</startForbidden>
+<startForbidden minCode='0' maxCode='max'>com.baidu.easyroot</startForbidden>
+<startForbidden minCode='0' maxCode='max'>com.shuame.rootgenius</startForbidden>
+<startForbidden minCode='0' maxCode='max'>com.baidu.superroot</startForbidden>
+<startForbidden minCode='0' maxCode='max'>com.android.yellowcalendarz</startForbidden>
+<startForbidden minCode='0' maxCode='max'>com.changmi.launcher</startForbidden>
+<startForbidden minCode='0' maxCode='max'>com.android.services.securewifi</startForbidden>
+<startForbidden minCode='0' maxCode='max'>com.system.service.zdsgt</startForbidden>
+</type>
+<forbid>
+<zh-CN>此应用存在高危风险，已禁止其运行#此应用会获取手机最高权限，可能会恶意控制手机#好</zh-CN>
+<zh-TW>此應用存在高危風險，已禁止其運行#此應用會獲取手機最高權限，可能會惡意控制手機#好</zh-TW>
+<en-US>This app is at high risk, has been banned its operation # This app will get the highest authority on the phone, may be malicious control phone#ok</en-US>
+</forbid>
+
+<dialogType enable='true' normalType='0' crashType='0'/> <!--0 toast, 1 dialog, 2 notification -->
+<remoteServer date='-7' switch='1'/>
+<dialogCheckTime>1000</dialogCheckTime>
+<appUpdate enable='true' date='-1'/>
+
+<crash type='nullRef' key='com.unicom.shield.UnicomApplicationWrapper.onCreate'>NullPointerException</crash>
+<crash type='nullRef' key='com.qihoo.util.StubApp'>UnsatisfiedLinkError</crash>
+
+<crash type='nullRef' key='/lib/arm/libshella-[0-2]\\.[0-7]\\.\\d\\.so'>tombstone_</crash> <!--legu-->
+
+<permission category='permissionPrivacycategory' type='readCall' dialogType='1' key='android.permission.READ_CALL_LOG' bt='3'>SecurityException</permission>
+<permission category='permissionPrivacycategory' type='readCall' dialogType='1' key='android.permission.WRITE_CALL_LOG' bt='3'>SecurityException</permission>
+<permission category='permissionPrivacycategory' type='readSms' dialogType='1' key='android.permission.READ_SMS' bt='3'>SecurityException</permission>
+<permission category='permissionNormalcategory' type='phoneState' dialogType='1' key='android.permission.READ_PHONE_STATE' bt='2'>SecurityException</permission>
+
+<notificationSubText key='zh-CN'>兼容性问题</notificationSubText>
+<notificationSubText key='zh-TW'>相容性問題</notificationSubText>
+<notificationSubText key='en-US'>Compatibility problem</notificationSubText>
+
+
+<nullRef key='zh-CN'>系统提示您#*的加固插件版本太低，不支持Android新系统#取消#好</nullRef>
+<nullRef key='zh-TW'>系統提示您#*的加固挿件版本太低，不支持Android新系統#取消#好</nullRef>
+<nullRef key='en-US'>The system prompts#The version of the *'s reinforcement plug-in is too low to support the Android system#Cancle#OK</nullRef>
+
+<permissionNormalcategory  key='zh-CN'>系统提示您*获取*权限失败而运行异常##退出#授予权限</permissionNormalcategory>
+<permissionNormalcategory  key='zh-TW'>系統提示您*獲取*許可權失敗而運行异常##退出#授予許可權</permissionNormalcategory>
+<permissionNormalcategory  key='en-US'>The system prompts you that * has failed to get * permissions and run exceptions##Exit#Allow</permissionNormalcategory>
+
+<permissionPrivacycategory  key='zh-CN'>*因获取*权限失败而运行异常，是否授予权限并开启个人信息保护？#开启个人信息保护后该应用只能获取到空信息。#授予权限+开启信息保护#仅授予权限</permissionPrivacycategory>
+<permissionPrivacycategory  key='zh-TW'>*因獲取*權限失敗而運行異常，是否授予權限並開啟個人信息保護？#開啟個人信息保護後該應用只能獲取到空信息。#授予權限+開啟信息保護#僅授予權限</permissionPrivacycategory>
+<permissionPrivacycategory  key='en-US'>* Can Not Run Properly Due To Failed To Acquire The Permission Of * ，Do You Want To Authorize This Permission And  Turn On Information Protection?#the app just can accept empty information when you turn on information protection.#Turn On Authorization And Information Protection#Only Turn On Authorization</permissionPrivacycategory>
+
+<permissionPrivacyText key='zh-CN'>*获取*权限失败而运行异常，是否授予权限？#该应用权限已开启信息保护，授权后该应用只能读取到空信息。#禁止#授权权限</permissionPrivacyText>
+<permissionPrivacyText key='zh-TW'>*獲取*權限失敗而運行異常，是否授予權限？#該應用權限已開啟信息保護，授權後該應用只能獲取到空信息。#禁止#授予權限</permissionPrivacyText>
+<permissionPrivacyText key='en-US'>* Can Not Run Properly Due To Failed To Acquire The Permission Of *,Do You Want To Authorize This Permission?#this app permission has turned on information protection，it just can accept empty information when you authorize.#Forbid#Turn On Authorization</permissionPrivacyText>
+
+<phoneState category='permissionNormalcategory' key='zh-CN'>"手机识别码"</phoneState>
+<phoneState category='permissionNormalcategory' key='zh-TW'>"手機識別碼"</phoneState>
+<phoneState category='permissionNormalcategory' key='en-US'>"Read Phone State"</phoneState>
+
+<readCall category='permissionPrivacycategory' key='zh-CN'>"拨打电话"</readCall>
+<readCall category='permissionPrivacycategory' key='zh-TW'>"撥打電話"</readCall>
+<readCall category='permissionPrivacycategory' key='en-US'>"Call phone"</readCall>
+
+<readSms category='permissionPrivacycategory' key='zh-CN'>"读取短信"</readSms>
+<readSms category='permissionPrivacycategory' key='zh-TW'>"讀取簡訊"</readSms>
+<readSms category='permissionPrivacycategory' key='en-US'>"Read SMS"</readSms>
+
+<appupdateText key='zh-CN'>系统提示您#*多次运行异常，建议您更新最新版本，更新到最新版本或可提升应用运行稳定性#取消#前往更新</appupdateText>
+<appupdateText key='zh-TW'>系统提示您#*多次運行異常，建議您更新最新版本，更新到最新版本或可提升應用運行穩定性#取消#前往更新</appupdateText>
+<appupdateText key='en-US'>系统提示您#* has run abnormally many times. Suggest you to update the latest version. Update to the latest version may improve application stability#Cancel#Go to Update</appupdateText>
+
+</filter-conf>

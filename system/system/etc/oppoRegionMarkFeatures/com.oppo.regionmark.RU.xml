@@ -1,0 +1,9 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+    <feature name="com.google.android.feature.RU" />
+  <feature name="oppo.contacts.support.card.recognize" />
+  <feature name="oppo.write.calllog.vowifi" />
+  <feature name="oppo.phone.display.vowifi.icon" />
+  <feature name="oppo.phone.rumts.display.vilte.hold.button" />
+  <feature name="oppo.contacts.wifi.calling.customize" />
+</permissions>

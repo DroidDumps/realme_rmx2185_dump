@@ -1,0 +1,35 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.dcs.enable.anonymous" />
+  <feature name="oppo.rus.postdomain.eu" />
+  <feature name="oppo.sau.postdomain.eu" />
+  <feature name="oppo.ota.postdomain.eu" />
+  <feature name="oppo.phonemanager.disable.clean" />
+  <feature name="oppo.feature.thermal.modid.eu" />
+    <feature name="oppo.themespace.europe" />
+    <feature name="oppo.themespace.europe.hide" />
+  <feature name="oppo.music.edit.details" />
+  <feature name="oppo.gallery.memories.international" />
+  <feature name="oppo.gallery.timeline.international" />
+  <feature name="oppo.gallery.photopage.international" />
+  <feature name="oppo.gallery.sticker.international" />
+  <feature name="oppo.settings.euex.support" />
+  <feature name="oppo.mediastorage.forbid.uploadsensitive" />
+  <feature name="oppo.launcher.drawer_mode.default" />
+    <feature name="com.google.android.feature.EEA_DEVICE" />
+    <feature name="com.google.android.paid.search" />
+    <feature name="com.google.android.paid.chrome" />
+    <feature name="com.oppo.feature.widevineL1" />
+  <feature name="oppo.phone.nodisplayrecord" />
+  <feature name="oppo.blacklistapp.hide.pseudo.map" />
+  <feature name="oppo.simsettings.remove.cell.location.action" />
+  <feature name="oppo.phone.harass.intercept.off" />
+  <feature name="oppo.wirelesssettings.remove.mac.address.action" />
+  <feature name="oppo.common_center.disable.ted.function" />
+  <feature name="oppo.common_center.tzupdate.proxy.eu" />
+  <feature name="oppo.contacts.support.card.recognize" />
+  <feature name="oppo.mms.operator.custom.max.mms.size" />
+  <feature name="oppo.lockassistant.server.access.restrict" />
+  <feature name="oppo_mms_exeu_max_threshold_sms_convert_mms" />
+  <feature name="oppo.simsettings.show.kpn.volte.off.dialog" />
+</permissions>

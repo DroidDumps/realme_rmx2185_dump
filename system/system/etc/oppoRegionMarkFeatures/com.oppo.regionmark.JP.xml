@@ -1,0 +1,15 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.phonemanager.disable.clean" />
+  <feature name="oppo.music.edit.details" />
+  <feature name="oppo.gallery.memories.international" />
+  <feature name="oppo.gallery.timeline.international" />
+  <feature name="oppo.gallery.photopage.international" />
+  <feature name="oppo.gallery.sticker.international" />
+  <feature name="oppo.mediastorage.forbid.uploadsensitive" />
+    <feature name="com.oppo.feature.widevineL1" />
+  <feature name="oppo.contacts.support.card.recognize" />
+  <feature name="oppo.common_center.disable.sos.function" />
+  <feature name="oppo.apn.rakuten.delete.bt.gray" />
+  <feature name="oppo.common_center.wifi.qrcode_share" />
+</permissions>

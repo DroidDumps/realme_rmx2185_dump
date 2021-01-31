@@ -1,0 +1,17 @@
+{
+  "comment"       : "editable description",
+  "version"       : 20190930,
+  "filter_content": [
+    {
+      "name": "gl_oom",
+      "tag" : ["com.instagram.android", "com.facebook.katana", "com.facebook.orca", "com.facebook.pages.app", "com.excean.gspace", "com.ddzn.suyan"]
+    },
+    {
+      "name": "brk_s2w",
+      "tag" : [
+        "com.autonavi.minimap", "com.autonavi.amapauto", "cn.bus365.wyc.drivergd", "cn.hznetroute.AAdriver",
+        "com.eamobile.nbajam_na_wf", "com.tuotuo.driver", "com.keubano.zhdz", "com.jsyc.driver", "net.untrip.app.lczcd"
+      ]
+    }
+  ]
+}

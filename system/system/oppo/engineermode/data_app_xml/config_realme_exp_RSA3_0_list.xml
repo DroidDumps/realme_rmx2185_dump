@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<apk_config>
+  <!--该xml适用于Realme应用内置，内销内置配置到config_exp.xml里面，package name为包名，path为应用内置到手机/data/app下面的路径名，project、country、operator分别表示该应用适用于哪些项目、国家、运营商，示例如下-->
+  <!--package name="com.example.test" path="ExampleTest" project="17001,17002" country="-TW,-IN" operator="common" 表明要内置到/data/app/ExampleTest的应用，只在17001和17002两个项目，除台湾和印度区域内置，负号表示非,common表示通用-->
+  <!--注：如果应用已经不再内置了请及时去掉或注释掉名单，否则会导致产线911过不了-->
+  <!-- 一键锁屏 -->
+  <package name="com.coloros.onekeylockscreen" path="OneKeyLockScreen" project="common" country="common" operator="common" />
+  <!-- 录屏 -->
+  <package name="com.coloros.screenrecorder" path="ColorScreenRecorder" project="common" country="common" operator="common" />
+  <!-- GameSpaceUI -->
+  <package name="com.coloros.gamespaceui" path="GameSpaceUI" project="common" country="common" operator="common" />
+  <!--google gms app -->
+  <package name="com.google.android.apps.docs" path="com.google.android.apps.docs-9" project="common" country="common" operator="common" />
+  <package name="com.google.android.apps.photos" path="com.google.android.apps.photos-9" project="common" country="common" operator="common" />
+  <package name="com.google.android.apps.tachyon" path="com.google.android.apps.tachyon-9" project="common" country="common" operator="common" />
+  <package name="com.google.android.videos" path="com.google.android.videos-9" project="common" country="common" operator="common" />
+  <package name="com.google.android.apps.youtube.music" path="com.google.android.apps.youtube.music-9" project="common" country="common" operator="common" />
+  <!-- DocVault配置realme所有销售印度区域的项目-->
+  <package name="com.os.docvault" path="DocVault" project="common" country="IN" operator="common" />
+  <!-- 即录（视频编辑器） 非欧盟非俄罗斯非土耳其 -->
+  <package name="com.coloros.videoeditor" path="OppoVideoEditor" project="common" country="-EUEX,-RU,-TR" operator="common" lightOS="false" />
+  <!-- 邮件 -->
+  <package name="com.android.email" path="Email" project="common" country="ID,TH,VN,PH,MY,RU,TR" operator="common" lightOS="false" />
+  <!-- realmeLink 非欧盟非俄罗斯 -->
+  <package name="com.realme.link" path="realmeLink" project="common" country="-EUEX,-RU" operator="common" />
+    <!-- realme Pay（金融印度Paysa App） -->
+  <package name="com.realmepay.payments" path="RealmePay" project="common" country="IN" operator="common" />
+  <!-- 小游戏 -->
+  <package name="com.heytap.quickgame" path="HeyFun" project="206A1" country="IN,ID" operator="common" />
+</apk_config>

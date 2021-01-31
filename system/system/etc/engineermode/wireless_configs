@@ -1,0 +1,43 @@
+{
+  "diag_socket_config": {
+    "target_ssid": "TE-NonSignal",
+    "target_security": "",
+    "target_password": "",
+    "target_signal": "-45",
+    "target_auto_connect_delay": "2",
+    "target_off_signal": "-50",
+    "target_auto_disconnect_delay": "3",
+    "target_channel": "11",
+    "target_network_dns": "181.157.1.1",
+    "target_network_gateway": "181.157.1.1",
+    "target_ip_address": "181.157.1.101/24",
+    "target_ip_assignment": "STATIC",
+    "target_diag_socket_ip": "181.157.1.200",
+    "target_diag_socket_port": "2500",
+    "target_brightness": "0.7",
+    "target_timeout": "10",
+    "target_jumpto": "",
+    "target_lcd_on": "0"
+  },
+  "wifi_adb_config": {
+    "target_ssid": "TAXXX_5G",
+    "target_security": "SECURITY_PSK",
+    "target_password": "TS5A3166DR",
+    "target_signal": "-75",
+    "target_auto_connect_delay": "2",
+    "target_off_signal": "-1",
+    "target_channel_5g": "36,40,44,48,52,56,60,64,149,153,157,161,165",
+    "target_channel_2_4g": "1,2,3,6,7,8,11,12,13",
+    "target_channel": "",
+    "target_ip_assignment": "DHCP",
+    "target_brightness": "0.7",
+    "target_timeout": "10",
+    "target_jumpto": "",
+    "target_code_size": "0.8",
+    "target_code_bcolor": "#FFFFFFFF",
+    "target_code_fcolor": "#FF000000",
+    "target_code_y_position": "0",
+    "target_trigger_reconnect": "false"
+  }
+}
+

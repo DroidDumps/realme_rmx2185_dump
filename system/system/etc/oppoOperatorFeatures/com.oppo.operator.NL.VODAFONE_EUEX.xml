@@ -1,0 +1,5 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.contacts.show.sdn.service.number" />
+  <feature name="oppo.phone.show.3G.only" />
+</permissions>

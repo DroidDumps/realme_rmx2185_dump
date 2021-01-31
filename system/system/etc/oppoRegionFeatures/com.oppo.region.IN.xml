@@ -1,0 +1,10 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.keyguard.india.emergency" />
+  <feature name="oppo.phone.hdvoice" />
+  <feature name="oppo.common_center.number.recognition" />
+  <feature name="oppo.wirelesssetting.wifi.show.wfd.menu" />
+  <feature name="oppo.phone.hangup.other.call.before.emergency.call" />
+  <feature name="oppo.comm.smartdrive.support_ride_mode"/>
+  <feature name="oppo.mms.ted.smart.message.support" />
+</permissions>

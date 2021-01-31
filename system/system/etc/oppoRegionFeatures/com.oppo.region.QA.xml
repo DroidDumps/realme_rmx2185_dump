@@ -1,0 +1,5 @@
+<!-- This file is used by Exp Region: QA.  DO NOT MODIFY. -->
+
+<permissions>
+  <feature name="oppo.null.QA" />
+</permissions>

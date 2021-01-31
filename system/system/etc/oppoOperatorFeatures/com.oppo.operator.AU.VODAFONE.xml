@@ -1,0 +1,24 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.settings.hide.networkspeed" />
+  <feature name="oppo.oppo_disaplay_calculate_data_traffic.def.off" />
+  <feature name="oppo.mms.add.multi.image" />
+  <feature name="oppo.oppowirelesssettings.not.editable.apn" />
+  <feature name="oppo.mms.wappush.default.disable" />
+  <feature name="oppo.mms.read.report" />
+  <feature name="oppo.mms.cellbroadcast.hide" />
+  <feature name="oppo.mms.record.sound.amr" />
+  <feature name="oppo.contacts.operator.number" />
+  <feature name="oppo.commcenter.singlecard" />
+  <feature name="oppo.phone.nodisplayrecord" />
+  <feature name="oppo.phone.hide.2G.mode" />
+  <feature name="oppo.phone.answerordelay" />
+  <feature name="oppo.opposimsettings.traffic.not.remind" />
+  <feature name="oppo.phone.hide.call.harass.intercept" />
+  <feature name="oppo.need.hide.sim.switch" />
+  <feature name="oppo.phone.hide.fdn" />
+  <feature name="oppo.stk.change.stklable" />
+  <feature name="oppo.mms.hide.unknow.number" />
+  <feature name="oppo.stk.launcher" />
+  <feature name="oppo.mms.video.record.format.3gp" />
+</permissions>

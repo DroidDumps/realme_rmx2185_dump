@@ -1,0 +1,5 @@
+com.m1.mym1
+deezer.android.app
+sg.gov.mnd.OneService
+com.korvac.liquid
+com.app.m1remit

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>20200213</version>
+    <info_version>3</info_version>
+    <luckymoney_version>1</luckymoney_version>
+    <filter-name>sys_luckymoney_config_list</filter-name>
+    <isOpen>1</isOpen>
+    <switch_mode>1</switch_mode>
+
+    <!-- legacy for default value -->
+    <delayTimeout>60000</delayTimeout>
+    <!-- only for sepcial project, to prevent old version wifi power issue
+         should named with delayTimeout_(info_version's value)-->
+    <delayTimeout_3>60000</delayTimeout_3>
+    <boostTimeout>1500</boostTimeout>
+
+    <MM>
+        <chatView>com.tencent.mm.ui.chatting</chatView>
+        <receiverClass>com.tencent.mm.booter.NotifyReceiver</receiverClass>
+        <openHbActivity>com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyReceiveUI</openHbActivity>
+        <openHbActivity>com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyNotHookReceiveUI</openHbActivity>
+        <versionMap>
+            <entry version="7010" oversea="1560">1580</entry>
+        </versionMap>
+        <MM_version start="0" end="800" defaultmode="1">
+            <Mode id="1" enable="1"></Mode>
+        </MM_version>
+        <MM_version start="800" end="7010" defaultmode="2">
+            <Mode id="2" enable="1">
+                <hb_hash width="65" height="65" >A13FB3458CE407E7A63A373C80B5E2ED</hb_hash>
+                <hb_hash width="72" height="72" >84594F69DD914199C452ED71838D8CB8</hb_hash>
+                <hb_hash width="78" height="78" >1C8BB8C42AB32549EC99C9A84B59B518</hb_hash>
+                <hb_hash width="80" height="80" >EC3CEB91613F2FFD2FD72D7390871DC6</hb_hash>
+                <hb_hash width="81" height="81" >5C3D6C08819BF798F454FCA9396B0302</hb_hash>
+                <hb_hash width="85" height="85" >34D7D6507F95EEDF42BA059BCA1BFD29</hb_hash>
+                <hb_hash width="93" height="93" >99C1DEFF4F1927E605ECC8D92469DF53</hb_hash>
+                <hb_hash width="98" height="98" >ADE94E3603D85F9E9EAB0A2BCE9D5D6C</hb_hash>
+                <hb_hash width="108" height="108" >1E194F60C9C1F51307FCFF53EFFC1F0D</hb_hash>
+                <hb_hash width="117" height="117" >AE13530B413F1E6342F1CDBAB126A939</hb_hash>
+                <hb_hash width="120" height="120" >DA59846F58E0419D8721CDE1800718DD</hb_hash>
+                <hb_hash width="127" height="127" >D905C14B50440BFE43885A4EFFEA0B16</hb_hash>
+                <hb_hash width="131" height="131" >2319B31CFECD903EBCD17D3BAC183809</hb_hash>
+                <hb_hash width="144" height="144" >5E45CF8EDFF2F3C9ABF386FFE87BCEAB</hb_hash>
+                <hb_hash width="160" height="160" >8D41B37E7135980F7915BF0C82C0E909</hb_hash>
+                <hb_hash width="169" height="169" >BF4E904511A75141895CCF8ABE50CC57</hb_hash>
+            </Mode>
+            <Mode id="3" enable="1">
+                <hb_text>微信红包</hb_text>
+                <hb_layout nodes="3,1,1,1,0">
+                    android.widget.LinearLayout,
+                    android.widget.LinearLayout,
+                    android.widget.LinearLayout,
+                    android.widget.RelativeLayout,
+                    android.widget.TextView
+                </hb_layout>
+            </Mode>
+            <Mode id="4" enable="1">
+                <hb_layout nodes="3,1,1">
+                    android.widget.LinearLayout,
+                    android.widget.LinearLayout,
+                    android.widget.LinearLayout
+                </hb_layout>
+            </Mode>
+       </MM_version>
+       <MM_version start="7010" end="10000" defaultmode="2">
+            <Mode id="2" enable="1">
+                <hb_hash width="65" height="65" >A13FB3458CE407E7A63A373C80B5E2ED</hb_hash>
+                <hb_hash width="72" height="72" >84594F69DD914199C452ED71838D8CB8</hb_hash>
+                <hb_hash width="78" height="78" >1C8BB8C42AB32549EC99C9A84B59B518</hb_hash>
+                <hb_hash width="80" height="80" >EC3CEB91613F2FFD2FD72D7390871DC6</hb_hash>
+                <hb_hash width="81" height="81" >5C3D6C08819BF798F454FCA9396B0302</hb_hash>
+                <hb_hash width="85" height="85" >34D7D6507F95EEDF42BA059BCA1BFD29</hb_hash>
+                <hb_hash width="93" height="93" >99C1DEFF4F1927E605ECC8D92469DF53</hb_hash>
+                <hb_hash width="98" height="98" >ADE94E3603D85F9E9EAB0A2BCE9D5D6C</hb_hash>
+                <hb_hash width="108" height="108" >1E194F60C9C1F51307FCFF53EFFC1F0D</hb_hash>
+                <hb_hash width="117" height="117" >AE13530B413F1E6342F1CDBAB126A939</hb_hash>
+                <hb_hash width="120" height="120" >DA59846F58E0419D8721CDE1800718DD</hb_hash>
+                <hb_hash width="127" height="127" >D905C14B50440BFE43885A4EFFEA0B16</hb_hash>
+                <hb_hash width="131" height="131" >2319B31CFECD903EBCD17D3BAC183809</hb_hash>
+                <hb_hash width="144" height="144" >5E45CF8EDFF2F3C9ABF386FFE87BCEAB</hb_hash>
+                <hb_hash width="160" height="160" >8D41B37E7135980F7915BF0C82C0E909</hb_hash>
+                <hb_hash width="169" height="169" >BF4E904511A75141895CCF8ABE50CC57</hb_hash>
+            </Mode>
+            <Mode id="3" enable="1">
+                <hb_text>微信红包</hb_text>
+                <hb_layout nodes="3,1,1,1,2,0">
+                    android.widget.LinearLayout,
+                    android.widget.LinearLayout,
+                    android.widget.FrameLayout,
+                    android.widget.LinearLayout,
+                    android.widget.RelativeLayout,
+                    android.widget.TextView
+                </hb_layout>
+            </Mode>
+            <Mode id="4" enable="1">
+                <hb_layout nodes="3,1,1">
+                    android.widget.LinearLayout,
+                    android.widget.LinearLayout,
+                    android.widget.FrameLayout
+                </hb_layout>
+            </Mode>
+       </MM_version>
+    </MM>
+
+</filter-conf>

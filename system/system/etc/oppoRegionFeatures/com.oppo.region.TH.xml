@@ -1,0 +1,5 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.phone.need.input.asterisk" />
+  <feature name="oppo.comm.smartdrive.support_ride_mode"/>
+</permissions>

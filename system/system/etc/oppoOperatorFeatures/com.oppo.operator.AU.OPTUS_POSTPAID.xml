@@ -1,0 +1,11 @@
+<!-- This file is used by Exp Region: IR.  DO NOT MODIFY. -->
+<permissions>
+  <feature name="oppo.assistantscreen.search.box" />
+  <feature name="oppo.mms.add.multi.image" />
+  <feature name="oppo.oppowirelesssettings.filter.apn" />
+  <feature name="oppo.commcenter.singlecard" />
+  <feature name="oppo.phone.nodisplayrecord" />
+  <feature name="oppo.phone.hide.2G.mode" />
+  <feature name="oppo.phone.forbid.lte.band5_8" />
+  <feature name="oppo.comm.simsettings.hide.smart.5g.switch" />
+</permissions>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<filter-conf>
+    <version>20190603</version>
+    <isOpen>1</isOpen>
+    <LevelConfig>
+        <Level state="low" times="10"/>
+        <Level state="medium" times="50"/>
+        <Level state="high" times="100"/>
+    </LevelConfig>
+    <!-- type="history|status" -->
+    <event id="000000" frequency="low" desc="device info" type="history" need_log="false"/>
+    <event id="000001" frequency="low" desc="version" type="history" need_log="true"/>
+    <event id="000101" frequency="low" desc="root" type="history" need_log="true"/>
+    <event id="000201" frequency="low" desc="imei" type="history" need_log="false"/>
+    <event id="010101" frequency="low" desc="panic info" type="history" need_log="false"/>
+    <event id="010102" frequency="low" desc="system" type="history" need_log="true"/>
+    <event id="010103" frequency="low" desc="ocp" type="history" need_log="false"/>
+    <event id="010104" frequency="low" desc="file system" type="status" need_log="false"/>
+    <event id="010105" frequency="low" desc="emmc" type="status" need_log="true"/>
+    <event id="010201" frequency="low" desc="power key" type="history" need_log="false"/>
+    <event id="020101" frequency="medium" desc="skipframe" type="history" need_log="false"/>
+    <event id="020102" frequency="low" desc="low memory" type="history" need_log="false"/>
+    <event id="020103" frequency="medium" desc="start slow" type="history" need_log="false"/>
+    <event id="020201" frequency="high" desc="crash" type="history" need_log="false"/>
+    <event id="020202" frequency="high" desc="anr" type="history" need_log="false"/>
+    <event id="020203" frequency="high" desc="install package" type="history" need_log="false"/>
+    <event id="020204" frequency="high" desc="uninstall package" type="history" need_log="false"/>
+    <event id="030101" frequency="low" desc="charging record" type="history" need_log="false"/>
+    <event id="030102" frequency="low" desc="charging test" type="status" need_log="false"/>
+    <event id="030103" frequency="low" desc="battery fcc" type="status" need_log="false"/>
+    <event id="040101" frequency="medium" desc="power consumption record" type="history" need_log="true"/>
+    <event id="040201" frequency="medium" desc="temperature record" type="history" need_log="true"/>
+    <event id="050101" frequency="low" desc="network call" type="history" need_log="false"/>
+    <event id="050401" frequency="low" desc="data error" type="history" need_log="false"/>
+    <event id="060101" frequency="low" desc="gnss data" type="history" need_log="false"/>
+    <event id="060201" frequency="low" desc="wifi turn_on failed" type="history" need_log="false"/>
+    <event id="060202" frequency="low" desc="data stall" type="history" need_log="false"/>
+    <event id="060203" frequency="low" desc="third wifi apk" type="history" need_log="false"/>
+    <event id="050201" frequency="low" desc="signalstrength recored" type="history" need_log="false"/>
+    <event id="053000" frequency="low" desc="common kpi" type="history" need_log="false"/>
+    <event id="053100" frequency="low" desc="call kpi" type="history" need_log="false"/>
+    <event id="053200" frequency="low" desc="data kpi" type="history" need_log="false"/>
+</filter-conf>

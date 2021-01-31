@@ -1,0 +1,2 @@
+com.jakarta.baca.lite
+com.msd.JTClient
