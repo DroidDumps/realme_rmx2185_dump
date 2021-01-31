@@ -1,0 +1,9 @@
+# install at "/system/oppoex/" dir
+[system]
+paths = /system/${LIB}/oppoex
+default.shared_libs = %/system/etc/public.libraries.txt%:%/system/etc/llndk.libraries.${VER}.txt%:%/system/oppoex/public.libraries-oppoex.txt%
+vndk.shared_libs = %/system/etc/vndksp.libraries.${VER}.txt%
+sphal.shared_libs = %/vendor/etc/public.libraries.txt%
+
+[vendor]
+# library of oppo extend install at the path which default space of vendor driver can find.

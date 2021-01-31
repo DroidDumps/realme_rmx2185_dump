@@ -1,0 +1,35 @@
+service interfaces.factoryInterface@1.0-service /vendor/bin/hw/interfaces.factoryInterface@1.0-service
+    class late_start
+    user system
+    group system sdcard_rw sdcard_r media_rw
+    seclabel u:r:factory_services:s0
+
+on post-fs-data
+    mkdir /data/vendor/fac_sources/ -p
+    chown system system /data/vendor/fac_sources
+    chmod 0777 /data/vendor/fac_sources
+    start propertyrefresh
+
+service propertyrefresh /system/bin/sh /system/bin/setProperty.sh "set_new_prop"
+    class core
+    user root
+    disabled
+    oneshot
+    seclabel u:r:rutilsdaemon:s0
+ 
+service muxreport.close /vendor/bin/muxreport 3
+    class core
+    user radio
+    group radio cache inet misc
+    disabled
+    oneshot
+    seclabel u:r:muxreport:s0
+
+service muxreport.open /vendor/bin/muxreport 4
+    class core
+    user radio
+    group radio cache inet misc
+    disabled
+    oneshot
+    seclabel u:r:muxreport:s0
+	

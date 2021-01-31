@@ -1,0 +1,50 @@
+{
+  "itemConfig": [
+    {
+      "showName": "FlashLightCali",
+      "action": "com.mmigroup.action.ThreeAppTest",
+      "support": true,
+      "automatic": false,
+      "paramconfig":{
+        "pkg":"com.oppo.engineermode.camera",
+        "cls":"com.oppo.engineermode.camera.manualtest.FlashLightCalibrate",
+        "act":"com.oppo.engineermode.camera.rear.flashlight.calibrate",
+        "auto_exit":true
+      }
+    },
+    {
+      "showName": "DualCameraCali",
+      "action": "com.mmigroup.action.ThreeAppTest",
+      "support": true,
+      "automatic": false,
+      "paramconfig":{
+        "pkg":"com.oppo.engineermode.camera",
+        "cls":"com.wingtech.cameraCalibration.CameraActivity",
+        "extra_info": {
+          "isThirdFactoryAPP": "true"
+        },
+        "extra_int_info": {
+          "dual_camera_verification":0
+        },
+        "auto_exit":true
+      }
+    },
+    {
+      "showName": "DualCameraVerify",
+      "action": "com.mmigroup.action.ThreeAppTest",
+      "support": true,
+      "automatic": false,
+      "paramconfig":{
+        "pkg":"com.oppo.engineermode.camera",
+        "cls":"com.wingtech.cameraCalibration.CameraActivity",
+        "extra_info": {
+          "isThirdFactoryAPP": "true"
+        },
+        "extra_int_info": {
+          "dual_camera_verification":1
+        },
+        "auto_exit":true
+      }
+    }
+  ]
+}
